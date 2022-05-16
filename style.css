@@ -1,0 +1,270 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: RGB(249, 250, 251);
+    margin: 0%;
+    padding: 0%;
+}
+
+
+#header{
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.banner{
+    background-image: url(images/carles-rabada-reZbnolscDo-unsplash.jpg);
+    height: 800px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0%;
+    
+
+}
+
+.banner img{
+    position: relative;
+    align-items: center;
+    margin: auto;
+    margin-top: 300px;
+}
+
+
+#nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+    font-size: larger;
+    text-transform:uppercase;
+    text-decoration:overline solid;
+    text-decoration-color: RGB(249, 115, 22);
+    text-decoration-thickness: 4px;
+    background-color: RGB(181, 187, 199);    
+    position: fixed;
+    padding: 0%;
+    z-index: 100;
+    width: 100%;
+
+}
+
+#top-nav-bar{
+  
+
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+    font-size: larger;
+    text-transform:uppercase;
+    text-decoration:overline solid;
+    text-decoration-color: RGB(249, 115, 22);
+    text-decoration-thickness: 4px;
+    background-color: RGB(181, 187, 199);    
+    top: 0;
+    /*position: sticky;
+    z-index: 100;
+    bottom: 1px;*/
+}
+
+#header-img{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 600px;
+
+}
+
+
+
+#nav-bar a{
+    padding: 0%;
+    margin: 0;
+}
+
+    ul{
+        display:flex;
+        flex-direction: row;
+        padding-right: 10px;
+        padding-top: 3px;
+        padding-left: 10px;
+        margin:0px;
+    }
+    
+    li{
+    list-style: none;
+    padding: 1em;
+    }
+    
+.logo{
+    max-width: 100px;
+    padding-left: 10px;
+    background-color: transparent;
+    position: relative;
+}
+
+.navItems:hover{
+    -webkit-filter: drop-shadow(1px 2px 1px rgb(0, 187, 1710));
+    filter: drop-shadow(1px 2px 1px rgb(249, 115, 22)); 
+}
+
+.logo:hover {
+-webkit-filter: drop-shadow(0px 0px 5px rgb(249, 115, 22));
+  filter: drop-shadow(0px 0px 5px rgb(249, 115, 22));
+}
+
+.mainfooter{
+    background-color: rgb(181, 187, 199);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0%;
+    margin: 0%;
+}
+
+.mainfooter p{
+    position: relative;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+a.nav-link{
+    position: relative;
+    text-decoration: none;
+    color: rgb(249, 115, 22);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+
+a.nav-link:before{
+    display: block;
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 4px;
+    bottom: -5px;
+    left: 0;
+    background-color: rgb(249, 115, 22);
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+a.nav-link:hover:before {
+    visibility: visible;
+    width: 100%;
+  }
+
+  
+input[type=email]:focus{
+    border: none;
+    outline: none;
+}
+
+
+input[type=email]{
+    -webkit-appearance: none;
+    width: 300px;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    border: none;
+    border-bottom: rgb(223, 114, 114) solid 1px;
+    font-size: larger;
+    
+}
+
+
+#form label{
+    color: white;
+    display: flex;
+    padding: 0px;
+    margin: auto;
+}
+
+
+
+#form{
+    padding: 0px;
+    margin-top: 30px;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    position: relative;
+    justify-content: center;
+
+}
+
+
+p.underlinewooshContact{
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+
+p.underlinewooshContact:before{
+    display: block;
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 3.5px;
+    bottom: 0px;
+    left: 0;
+    background-color: rgb(143, 23, 2);
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+p.underlinewooshContact:hover:before {
+    visibility: visible;
+    width: 100%;
+  }
+
+  .videoContainer{
+      display: flex;
+      align-items: center;
+      max-width: 1000px;
+      position: relative;
+    justify-content:flex-start;
+  }
+  .videoContainer iframe{
+      text-align: center;
+      height: 600px; 
+      width:800px;
+  }
+
+  @media only screen and (max-width: 768px){
+    .banner{
+        max-height: 500px;
+
+    }
+
+
+    #header-img{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        max-width: 300px;
+    
+    }
+
+
+    .banner img{
+        position: relative;
+        align-items: center;
+        margin: auto;
+        margin-top: 240px;
+    }
+    
+
+  }
