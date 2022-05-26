@@ -13,7 +13,7 @@ body{
 }
 
 .banner{
-    background-image: url(images/carles-rabada-reZbnolscDo-unsplash.jpg);
+    background-image: url(images/pexels-myhqworkspaces-5444190.jpg);
     height: 800px;
     width: auto;
     background-repeat: no-repeat;
@@ -43,7 +43,7 @@ body{
     text-decoration:overline solid;
     text-decoration-color: RGB(249, 115, 22);
     text-decoration-thickness: 4px;
-    background-color: RGB(181, 187, 199);    
+    background-color: transparent;    
     position: fixed;
     padding: 0%;
     z-index: 100;
@@ -51,12 +51,13 @@ body{
 
 }
 
-#top-nav-bar{
-  
 
+#bot-nav-bar{
+  
     display: flex;
     flex-direction: row;
     justify-content:center;
+    padding: 0%;
     align-items:center;
     font-size: larger;
     text-transform:uppercase;
@@ -64,10 +65,10 @@ body{
     text-decoration-color: RGB(249, 115, 22);
     text-decoration-thickness: 4px;
     background-color: RGB(181, 187, 199);    
-    top: 0;
-    /*position: sticky;
-    z-index: 100;
-    bottom: 1px;*/
+    width: 100%;
+
+    text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
+   
 }
 
 #header-img{
@@ -83,15 +84,15 @@ body{
 #nav-bar a{
     padding: 0%;
     margin: 0;
+    text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
 }
 
     ul{
         display:flex;
         flex-direction: row;
-        padding-right: 10px;
-        padding-top: 3px;
-        padding-left: 10px;
+     padding: 0%;
         margin:0px;
+
     }
     
     li{
@@ -100,11 +101,20 @@ body{
     }
     
 .logo{
-    max-width: 100px;
+    max-width: 130px;
     padding-left: 10px;
     background-color: transparent;
     position: relative;
+    align-items: center;
+    
+
 }
+
+.logo {
+    background-color: transparent;
+
+}
+
 
 .navItems:hover{
     -webkit-filter: drop-shadow(1px 2px 1px rgb(0, 187, 1710));
@@ -141,6 +151,7 @@ a.nav-link{
     color: rgb(249, 115, 22);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
+    
 
 }
 
@@ -155,11 +166,13 @@ a.nav-link:before{
     background-color: rgb(249, 115, 22);
     visibility: hidden;
     transition: all 0.3s ease-in-out;
+    box-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
 }
 
 a.nav-link:hover:before {
     visibility: visible;
     width: 100%;
+  
   }
 
   
@@ -182,6 +195,13 @@ input[type=email]{
 }
 
 
+input[type=submit]{
+    color: rgba(0, 0, 0, 0.651);
+    border: rgb(201, 12, 12) solid 1px;
+    background-color: rgb(255, 255, 255);
+    height: 30px;
+}
+
 #form label{
     color: white;
     display: flex;
@@ -199,7 +219,6 @@ input[type=email]{
     text-align: center;
     position: relative;
     justify-content: center;
-
 }
 
 
@@ -233,15 +252,57 @@ p.underlinewooshContact:hover:before {
   .videoContainer{
       display: flex;
       align-items: center;
-      max-width: 1000px;
-      position: relative;
-    justify-content:flex-start;
-  }
-  .videoContainer iframe{
       text-align: center;
-      height: 600px; 
-      width:800px;
+    
   }
+
+  iframe{
+    margin-bottom: 30px;
+    margin-top: 0px;
+    padding-left: 0px;
+    height: 500px;
+} 
+
+
+.subscribeContent{
+    padding-top: 150px;
+    display: none;
+    flex-direction: column;
+    text-align: center;
+    font-size: larger;
+    color: blue;
+}
+
+.aboutUsContent{
+    display: none;
+   
+    flex-direction: column;
+    text-align: center;
+    font-size: larger;
+    color: blue;
+    margin: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: rgba(34, 189, 45, 0.781);
+}
+
+.navBarAddMarginBot{
+    padding-bottom: 100px;
+    background-color: black;
+    display: block;
+}
+
+
+
+
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: flex;
+}
 
   @media only screen and (max-width: 768px){
     .banner{
