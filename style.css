@@ -3,6 +3,9 @@ body{
     background-color: RGB(249, 250, 251);
     margin: 0%;
     padding: 0%;
+    background-image: url(images/3378467.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 
@@ -87,18 +90,37 @@ body{
     text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
 }
 
-    ul{
-        display:flex;
-        flex-direction: row;
-     padding: 0%;
-        margin:0px;
+#nav-bar ul{
+    display:flex;
+    flex-direction: row;
+    padding: 0%;
+    margin:0px;
 
-    }
-    
-    li{
-    list-style: none;
-    padding: 1em;
-    }
+}
+
+#nav-bar li{
+list-style: none;
+padding: 1em;
+}
+
+#bot-nav-bar a{
+    padding: 0%;
+    margin: 0;
+    text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
+}
+
+#bot-nav-bar ul{
+    display:flex;
+    flex-direction: row;
+    padding: 0%;
+    margin:0px;
+
+}
+
+#bot-nav-bar li{
+list-style: none;
+padding: 1em;
+}
     
 .logo{
     max-width: 130px;
@@ -112,6 +134,7 @@ body{
 
 .logo {
     background-color: transparent;
+    -webkit-filter: drop-shadow(-1px -1px 4px white);
 
 }
 
@@ -266,32 +289,66 @@ p.underlinewooshContact:hover:before {
 
 .subscribeContent{
     padding-top: 150px;
-    display: none;
+    display: flex;
     flex-direction: column;
     text-align: center;
     font-size: larger;
     color: blue;
+    background-image: url(images/3378467.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .aboutUsContent{
-    display: none;
-padding-top: 100px;
+    display: flex;
+    padding-top: 150px;
     flex-direction: column;
     text-align: center;
     font-size: larger;
     color: blue;
     padding-left: 50px;
     padding-right: 50px;
-    background-color: rgba(34, 189, 45, 0.781);
+    background-image: url(images/3378467.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 
-.navBarAddMarginBot{
-    padding-bottom: 100px;
-    background-color: black;
+.menuContents{
     display: block;
+    padding-top: 150px;
+    font-size: larger;
+    color: blue;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-image: url(images/3378467.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
 }
 
+.menuContents li{
+    list-style: none;
+   
+}
 
+.menuContents img{
+    max-width: 200px;
+}
+
+.menuLeftStart{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.image1{
+    padding-top: 10px;
+}
+
+.image2{
+    padding-top: 150px;
+}
 
 
 
@@ -299,9 +356,13 @@ padding-top: 100px;
     display: none;
 }
 
-.show{
-    display: flex;
-}
+
+
+
+
+
+
+
 
   @media only screen and (max-width: 768px){
     .banner{
