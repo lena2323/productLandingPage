@@ -275,12 +275,11 @@ p.underlinewooshContact:hover:before {
 
 .aboutUsContent{
     display: none;
-   
+padding-top: 100px;
     flex-direction: column;
     text-align: center;
     font-size: larger;
     color: blue;
-    margin: auto;
     padding-left: 50px;
     padding-right: 50px;
     background-color: rgba(34, 189, 45, 0.781);
