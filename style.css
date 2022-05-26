@@ -17,7 +17,7 @@ body{
 
 .banner{
     background-image: url(images/pexels-myhqworkspaces-5444190.jpg);
-    height: 800px;
+    height: 600px;
     width: auto;
     background-repeat: no-repeat;
     background-size: cover;
@@ -67,7 +67,7 @@ body{
     text-decoration:overline solid;
     text-decoration-color: RGB(249, 115, 22);
     text-decoration-thickness: 4px;
-    background-color: RGB(181, 187, 199);    
+    background-color: rgba(155, 155, 155, 0.418);    
     width: 100%;
 
     text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
@@ -150,8 +150,8 @@ padding: 1em;
 }
 
 .mainfooter{
-    background-color: rgb(181, 187, 199);
-    color: rgb(0, 0, 0);
+    background-color: rgba(155, 155, 155, 0.418);    
+    color: rgb(255, 255, 255);
     text-align: center;
     display: flex;
     align-items: center;
