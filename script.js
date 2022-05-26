@@ -32,3 +32,4 @@ menu.addEventListener('click',() =>{
   menuContents.classList.remove('hide');
 
 });
+
