@@ -8,7 +8,10 @@ body{
     background-repeat: no-repeat;
 }
 
-
+html {
+    scroll-behavior: smooth;
+  }
+  
 #header{
     
     display: flex;
