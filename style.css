@@ -364,31 +364,12 @@ p.underlinewooshContact:hover:before {
 /***********MAIN DISHES******************/
 
 
-.main-dishes-div{
-    display: flex;
-    flex-direction: column;
-    padding-top: 150px;
-    text-align: center;
-    color: rgb(204, 204, 206);
-    font-size: larger;
-    margin: auto;
-    justify-content: center;
-    padding-bottom: 150px;
-}
-
 .main-dishes-meals{
     display: flex;
     flex-direction: row;
-    height: auto;
-    justify-content: center;
-    margin-left: 300px;    
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-right: 300px;    
-
 }
 
-.main-dishes-meals img{
+.images-for-meals{
     width: 200px;
 }
 
