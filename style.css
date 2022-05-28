@@ -296,7 +296,7 @@ p.underlinewooshContact:hover:before {
     flex-direction: column;
     text-align: center;
     font-size: larger;
-    color: blue;
+    color: rgb(204, 204, 206);
     background-image: url(images/3378467.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -308,7 +308,7 @@ p.underlinewooshContact:hover:before {
     flex-direction: column;
     text-align: center;
     font-size: larger;
-    color: blue;
+    color: rgb(204, 204, 206);
     padding-left: 50px;
     padding-right: 50px;
     background-image: url(images/3378467.jpg);
@@ -318,40 +318,87 @@ p.underlinewooshContact:hover:before {
 }
 
 .menuContents{
-    display: block;
-    padding-top: 150px;
-    font-size: larger;
-    color: blue;
+    display: flex;
+    flex-direction: row;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    color: rgb(204, 204, 206);
     padding-left: 50px;
     padding-right: 50px;
     background-image: url(images/3378467.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    
+    margin: auto;
+    justify-content: center;
 }
 
 .menuContents li{
     list-style: none;
-   
+    justify-content: center;
+    text-align: center;
 }
 
 .menuContents img{
-    max-width: 200px;
+    max-width: 250px;
+    height: 200px;
+    margin-bottom: 30px;
 }
 
-.menuLeftStart{
+.menuInnerContainer{
+    display:grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-row: auto auto auto;
+    grid-column-gap: 200px;
+    grid-row-gap: 100px;
+}
+
+.menuInnerContainer a {
+    font-size: x-large;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(204, 204, 206);
+    
+}
+
+
+/***********MAIN DISHES******************/
+
+
+.main-dishes-div{
+    display: flex;
+    flex-direction: column;
+    padding-top: 150px;
+    text-align: center;
+    color: rgb(204, 204, 206);
+    font-size: larger;
+    margin: auto;
+    justify-content: center;
+    padding-bottom: 150px;
+}
+
+.main-dishes-meals{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    height: auto;
+    justify-content: center;
+    margin-left: 300px;    
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 300px;    
+
 }
 
-.image1{
-    padding-top: 10px;
+.main-dishes-meals img{
+    width: 200px;
 }
 
-.image2{
-    padding-top: 150px;
-}
+/*****************************/
+
+
+
+
+
+
 
 
 
@@ -384,4 +431,18 @@ p.underlinewooshContact:hover:before {
     }
     
 
+
+    .menuInnerContainer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-dishes-meals{
+        flex-direction: column;
+    }
+
+    
+.main-dishes-meals img{
+    width: 200px;
+}
   }

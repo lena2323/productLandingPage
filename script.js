@@ -7,6 +7,10 @@ const menu =  document.getElementById("menu");
 const menuContents = document.getElementById("menuContents");
 
 
+const mainDishesButton =  document.getElementById("main-dishes-button");
+const mainDishes = document.getElementById("main-dishes-div");
+
+
 
 
 subscribe.addEventListener('click',() =>{
@@ -14,7 +18,7 @@ subscribe.addEventListener('click',() =>{
     subscribeContent.classList.remove('hide');
     aboutUsContent.classList.add('hide');
     menuContents.classList.add('hide');
-
+    mainDishes.classList.add('hide');
   });
   
   aboutUs.addEventListener('click',() =>{
@@ -22,7 +26,7 @@ subscribe.addEventListener('click',() =>{
     subscribeContent.classList.add('hide');
     aboutUsContent.classList.remove('hide');
     menuContents.classList.add('hide');
-
+    mainDishes.classList.add('hide');
 });
 
 menu.addEventListener('click',() =>{
@@ -30,6 +34,15 @@ menu.addEventListener('click',() =>{
   subscribeContent.classList.add('hide');
   aboutUsContent.classList.add('hide');
   menuContents.classList.remove('hide');
+  mainDishes.classList.add('hide');
 
+});
+
+mainDishesButton.addEventListener('click',() =>{
+  everythingToHide.classList.add('hide');
+  subscribeContent.classList.add('hide');
+  aboutUsContent.classList.add('hide');
+  menuContents.classList.add('hide');
+  mainDishes.classList.remove('hide');
 });
 
