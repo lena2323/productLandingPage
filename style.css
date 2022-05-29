@@ -362,11 +362,25 @@ p.underlinewooshContact:hover:before {
 
 
 /***********MAIN DISHES******************/
+.main-dishes-div{
+    padding-top: 150px;
+    margin: auto;
+    text-align: center;
+    color: rgb(204, 204, 206);
+}
 
+.main-dishes-div ul{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-row: auto auto auto auto;
+    grid-column-gap: 100px;
+    grid-row-gap: 50px;
+    margin: auto;
+    justify-content: center;
+}
 
-.main-dishes-meals{
-    display: flex;
-    flex-direction: row;
+.main-dishes-div li{
+    list-style: none;
 }
 
 .images-for-meals{
