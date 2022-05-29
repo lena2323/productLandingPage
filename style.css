@@ -363,20 +363,24 @@ p.underlinewooshContact:hover:before {
 
 /***********MAIN DISHES******************/
 .main-dishes-div{
-    padding-top: 150px;
+    padding-top: 200px;
     margin: auto;
     text-align: center;
     color: rgb(204, 204, 206);
+    padding-bottom: 100px;
 }
 
 .main-dishes-div ul{
     display: grid;
-    grid-template-columns: 200px 200px 200px 200px;
-    grid-row: auto auto auto auto;
-    grid-column-gap: 100px;
+    grid-template-columns: auto auto auto auto;
+    grid-row: 200px 200px 200px 200px;
+    grid-column-gap: 70px;
     grid-row-gap: 50px;
     margin: auto;
     justify-content: center;
+    padding: 0%;
+    padding-left: 70px;
+    padding-right: 70px;
 }
 
 .main-dishes-div li{
@@ -384,7 +388,8 @@ p.underlinewooshContact:hover:before {
 }
 
 .images-for-meals{
-    width: 200px;
+    height: 150px;
+    width: auto;
 }
 
 /*****************************/
@@ -436,8 +441,16 @@ p.underlinewooshContact:hover:before {
         flex-direction: column;
     }
 
+    .main-dishes-div ul {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        justify-content: center;
+        padding: 0%;
+    }
+
     
 .main-dishes-meals img{
-    width: 200px;
+    height: 150px;
 }
   }
