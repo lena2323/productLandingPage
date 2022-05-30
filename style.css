@@ -424,7 +424,6 @@ p.underlinewooshContact:hover:before {
     padding-bottom: 10px;
 }
 
-
 /************ACTUAL FORMS*****************/
 
 
@@ -432,9 +431,9 @@ input[type=email]{
     -webkit-appearance: none;
     width: 300px;
     height: 50px;
-    background-color: transparent;
+    background-color: rgba(255, 255, 255, 0.281);
     border: none;
-    border-bottom: rgb(114, 201, 223) solid 1px;
+    border: rgb(114, 201, 223) solid 1px;
 }
 
 input[type=email]:focus{
@@ -447,9 +446,9 @@ input[type=text]{
     width: 300px;
     height: 50px;
     color: black;
-    background-color: transparent;
+    background-color: rgba(255, 255, 255, 0.281);
     border: none;
-    border-bottom: rgb(114, 201, 223) solid 1px;
+    border: rgb(114, 201, 223) solid 1px;
 
 }
 input[type=text]:focus{
@@ -460,14 +459,13 @@ input[type=text]:focus{
 
 textarea{
     -webkit-appearance: none;
-    width: 533px;
+    width: 300px;
     height: 50px;
     color: black;
-    background-color: transparent;
+    background-color: rgba(255, 255, 255, 0.281);
     justify-content: center;
     border: none;
-    border-bottom: rgb(114, 201, 223) solid 1px;
-    margin-bottom: -23px;
+    border: rgb(114, 201, 223) solid 1px;
 }
 
 textarea:focus{
@@ -475,6 +473,61 @@ textarea:focus{
     outline: none;
 }
 
+/***********Dishes in Order NOW******************/
+
+.singleDish{
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 10px;
+  
+
+}
+
+.singleDish img{
+    height: 50px;
+}
+
+.cart{
+    display: flex;
+    flex-direction: column;
+    font-size: larger;
+    border-left: rgb(114, 201, 223) solid 1px;
+    padding-left: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+.containerAllOrders{
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    border: rgb(114, 201, 223) solid 1px;
+    background-color: rgba(255, 255, 255, 0.281);
+    margin-right: 30px;
+    margin-bottom: 150px;
+}
+
+.singleDishContent{
+    padding-right: 10px;
+    text-align: left;
+    justify-content: center;
+}
+
+.actions{
+   text-align: center;
+}
+
+.quantityOrder{
+    width: 50px;
+    height: 23;
+}
+
+.buttonAddToCart{
+    width: 50px;
+    height: 21.1px;
+}
 
 /*****************************/
 
