@@ -429,23 +429,42 @@ p.underlinewooshContact:hover:before {
     display: flex;
     flex-direction: row;
     justify-content: end;
+    justify-content: end;
+
 }
+.personalInformationFormButton button{
+    -webkit-appearance: none;
+    height: 30px;
+    width: 100px;
+    background-color: rgba(255, 255, 255, 0.281);
+    border: rgb(3, 193, 240) solid 1px;
+}
+
+.personalInformationFormButton button:active{
+    background-color: rgba(255, 255, 255, 0.39);
+    border: rgb(114, 170, 223) solid 1px;
+
+}
+
 
 /************ACTUAL FORMS*****************/
 
 
 input[type=email]{
-    -webkit-appearance: none;
     width: 300px;
     height: 50px;
     background-color: rgba(255, 255, 255, 0.281);
     border: none;
     border: rgb(114, 201, 223) solid 1px;
+    color: rgb(204, 204, 206);
+
 }
 
 input[type=email]:focus{
-    border: none;
+    border: rgb(3, 193, 240) solid 1px;
     outline: none;
+    background-color: rgba(255, 255, 255, 0.418);
+
 }
 
 input[type=text]{
@@ -456,11 +475,15 @@ input[type=text]{
     background-color: rgba(255, 255, 255, 0.281);
     border: none;
     border: rgb(114, 201, 223) solid 1px;
+    color: rgb(204, 204, 206);
+
 
 }
 input[type=text]:focus{
-    border: none;
     outline: none;
+    background-color: rgba(255, 255, 255, 0.418);
+    border: rgb(3, 193, 240) solid 1px;
+
     
 }
 
@@ -473,11 +496,15 @@ textarea{
     justify-content: center;
     border: none;
     border: rgb(114, 201, 223) solid 1px;
+    color: rgb(204, 204, 206);
+
 }
 
 textarea:focus{
-    border: none;
     outline: none;
+    background-color: rgba(255, 255, 255, 0.418);
+    border: rgb(3, 193, 240) solid 1px;
+
 }
 
 /***********Dishes in Order NOW******************/
@@ -561,6 +588,12 @@ textarea:focus{
     
 }
 
+.buttonAddToCart:active{
+    background-color: rgba(255, 255, 255, 0.39);
+    border: rgb(114, 170, 223) solid 1px;
+
+}
+
 
 .chooseTypeOfDish{
     display: flex;
@@ -594,6 +627,9 @@ input[type=number]{
 }
 /*****************************/
 
+::placeholder{
+    color: rgb(204, 204, 206);
+}
 
 .hide{
     display: none;
