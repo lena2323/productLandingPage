@@ -478,9 +478,8 @@ textarea:focus{
 .singleDish{
     display: flex;
     flex-direction: row;
-    padding-left: 10px;
+    padding-left: 100px;
     padding-right: 10px;
-    margin-right: 10px;
   
 
 }
@@ -497,27 +496,19 @@ textarea:focus{
     padding-left: 10px;
     text-align: center;
     padding: 10px;
+    margin-right: 100px;
+    margin-left: 100px;
 }
 
 .containerAllOrders{
     display: flex;
-    flex-direction: row;
-    padding-left: 10px;
+    flex-direction: column;
     border: rgb(114, 201, 223) solid 1px;
     background-color: rgba(255, 255, 255, 0.281);
     margin-right: 30px;
     margin-bottom: 150px;
 }
 
-.singleDishContent{
-    padding-right: 10px;
-    text-align: left;
-    justify-content: center;
-}
-
-.actions{
-   text-align: center;
-}
 
 .quantityOrder{
     width: 50px;
@@ -527,6 +518,25 @@ textarea:focus{
 .buttonAddToCart{
     width: 50px;
     height: 21.1px;
+}
+
+
+.chooseTypeOfDish{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    
+}
+
+.chooseTypeOfDish a{
+    background-color: rgba(255, 255, 255, 0.281);
+    border: rgb(114, 201, 223) solid 1px;
+    color: rgb(204, 204, 206);
+    text-decoration: none;
+    font-size: larger;
+    height: 50px;
+    width: 110px;
+    text-align: center;
 }
 
 /*****************************/

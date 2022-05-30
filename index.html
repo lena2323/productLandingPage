@@ -124,9 +124,11 @@
         </ul>
     </div>
 
-    <div id="order" class="orderContainer ">
+    <div id="order" class="orderContainer hide">
         <!------------------------Orders to choose------------------>
+      
         <div class="containerAllOrders">
+           
             <div class="chooseTypeOfDish">
                 <a href="#for-scrolling-to-top" id="mainDishesButtonInOrders">Main Dishes</a>
                 <a href="#for-scrolling-to-top" id="pastaButtonInOrders">Pasta</a>
@@ -135,11 +137,7 @@
                 <a href="#for-scrolling-to-top" id="drinksButtonInOrders">Drinks</a>
                 <a href="#for-scrolling-to-top" id="dessertsButtonInOrders">Desserts</a>
             </div>
-
-
-
             <div class="mainDishesInOrders hide" id="mainDishesInOrders">
-                <h2>Main dishes</h2>
     
                 <div class="singleDish">
                     <img src="images/transparentForMenu/dishes/chicken curry .png">
@@ -185,7 +183,6 @@
 
 
             <div class="pastaInOrders hide" id="pastaInOrders">
-                <h2>Pasta</h2>
     
                 <div class="singleDish">
                     <img src="images/transparentForMenu/pasta/Bucatini all'Amatriciana.png">
@@ -230,7 +227,6 @@
 
 
             <div class="pizzaInOrders hide" id="pizzaInOrders">
-                <h2>Pizza</h2>
     
                 <div class="singleDish">
                     <img src="images/transparentForMenu/pasta/Bucatini all'Amatriciana.png">
@@ -275,7 +271,6 @@
 
 
             <div class="veganInOrders hide" id="veganInOrders">
-                <h2>Vegan dishes</h2>
     
                 <div class="singleDish">
                     <img src="images/transparentForMenu/pasta/Bucatini all'Amatriciana.png">
@@ -319,7 +314,6 @@
 
 
             <div class="drinksInOrders hide" id="drinksInOrders">
-                <h2>Drinks</h2>
     
                 <div class="singleDish">
                     <img src="images/transparentForMenu/pasta/Bucatini all'Amatriciana.png">
@@ -363,7 +357,6 @@
 
 
             <div class="dessertsInOrders hide" id="dessertsInOrders">
-                <h2>Desserts</h2>
     
                 <div class="singleDish">
                     <img src="images/transparentForMenu/pasta/Bucatini all'Amatriciana.png">
@@ -380,15 +373,11 @@
     
                 <div class="singleDish">
                     <img src="images/transparentForMenu/pasta/Bucatini all'Amatriciana.png">                    
-                    <div class="singleDishContent">
                         <h3>Hamburger 100% beef</h3>
                         <p class="price">$20</p>
-                    </div>
-                    <div class="actions">
                         <input type="number" name="quantity" value="0" min="0" class="quantityOrder">
                         <button onclick="addToCart(this)" class="buttonAddToCart">Add
                         </button>
-                    </div>
                 </div>
     
                 <div class="singleDish">
@@ -406,16 +395,16 @@
             </div>
 
 
-            <div class="cart">
-                <h2>Cart</h2>
-                
-                <div class="cart-items"></div>
-    
-                <div class="total"></div>
-            </div>
+           
         </div>
 
+        <div class="cart">
+            <h2>Cart</h2>
+            
+            <div class="cart-items"></div>
 
+            <div class="total"></div>
+        </div>
 
 
        <!----------------------------------------------------------->     
