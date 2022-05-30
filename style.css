@@ -401,9 +401,10 @@ p.underlinewooshContact:hover:before {
     flex-direction: row;
     padding-top: 200px;
     margin: auto;
-    justify-content: left;
-    text-align: left;
     padding-left: 20px;
+    justify-content: space-between;
+    padding-right: 140px;
+    padding-left: 100px;
 }
 
 .orderForm{
@@ -422,6 +423,12 @@ p.underlinewooshContact:hover:before {
     justify-content: left;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.personalInformationFormButton{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
 }
 
 /************ACTUAL FORMS*****************/
@@ -475,12 +482,47 @@ textarea:focus{
 
 /***********Dishes in Order NOW******************/
 
+.containerAllOrders{
+    display: flex;
+    flex-direction: column;
+    border: rgb(114, 201, 223) solid 1px;
+    background-color: rgba(255, 255, 255, 0.281);
+    margin-right: 30px;
+    margin-bottom: 150px;
+}
+
 .singleDish{
     display: flex;
     flex-direction: row;
-    padding-left: 100px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+
+}
+
+.singleDishContents{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.actions{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    
+}
+
+.singleDish h3{
     padding-right: 10px;
-  
+    padding-left: 10px;
+}
+
+.singleDish p {
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: large;
 
 }
 
@@ -493,31 +535,30 @@ textarea:focus{
     flex-direction: column;
     font-size: larger;
     border-left: rgb(114, 201, 223) solid 1px;
-    padding-left: 10px;
     text-align: center;
     padding: 10px;
-    margin-right: 100px;
-    margin-left: 100px;
-}
-
-.containerAllOrders{
-    display: flex;
-    flex-direction: column;
-    border: rgb(114, 201, 223) solid 1px;
-    background-color: rgba(255, 255, 255, 0.281);
-    margin-right: 30px;
-    margin-bottom: 150px;
+    margin-right: 200px;
+    max-height: 300px;
 }
 
 
 .quantityOrder{
-    width: 50px;
-    height: 23;
+    padding-left: 10px;
+    padding-right: 5px;
+    margin-right: 30px;
+    margin-left: 150px;
 }
 
 .buttonAddToCart{
-    width: 50px;
-    height: 21.1px;
+    text-align: center;
+    width: 100px;
+    -webkit-appearance: none;
+    width: 100px;
+    height: 53.5px;
+    background-color: rgba(255, 255, 255, 0.281);
+    border: none;
+    border: rgb(114, 201, 223) solid 1px;
+    
 }
 
 
@@ -525,7 +566,6 @@ textarea:focus{
     display: flex;
     flex-direction: row;
     text-decoration: none;
-    
 }
 
 .chooseTypeOfDish a{
@@ -535,10 +575,23 @@ textarea:focus{
     text-decoration: none;
     font-size: larger;
     height: 50px;
-    width: 110px;
+    width: 120px;
     text-align: center;
 }
 
+input[type=number]{
+    -webkit-appearance: none;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.281);
+    border: none;
+    border: rgb(114, 201, 223) solid 1px;
+}
+
+
+.mainDishesInOrders{
+    max-width: 720px;
+}
 /*****************************/
 
 
@@ -593,5 +646,7 @@ textarea:focus{
 .main-dishes-meals img{
     height: 150px;
 }
+
+
   }
 /*****************************/
