@@ -546,9 +546,8 @@ function addToCart(element){
 
     cartItems.innerHTML += 
     `<div class= "cartItems">  
-      <p><div class= "dishName"><label>${name}</label><input type="hidden" name="product name">
-
-      </div> x <label for="quantity">${quantity}</label><input type="hidden" name="quantity" id="quantity" readonly> <div class="totalNone"> <label for="price">${price}</label><input type="hidden" name="price" id="price" readonly>= $<span><label for="total">${total}</label><input type="hidden" name="product name" id="total" readonly></span></div>
+      <p> <div class= "dishName"><input type="hidden" name="form-name" value="name_of_my_form" />
+      ${name}</div> x ${quantity} <div class="totalNone"> ${price}= $<span>${total}</span></div>
 
       </p>
     <button onclick="removeFromCart(this)">Delete entry</button>
