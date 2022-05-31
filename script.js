@@ -273,6 +273,7 @@ dessertsButtonInOrders.addEventListener('click',() =>{
 
 // ********* SHOPPING CART  **********************
 
+let allTotal = 0;
 
 function addToCart(element){
   let mainEl = element.closest('.singleDish')
@@ -281,19 +282,22 @@ function addToCart(element){
   let quantity =  mainEl.querySelector('input').value;
   let cartItems = document.querySelector('.cartItems');
 
-
-
-
   if (parseInt(quantity) > 0){
     price = price.substring(1);
     price = parseInt(price);
-
     let total = price * parseInt(quantity);
+
+    allTotal += total;
 
     cartItems.innerHTML += 
     `<div class= "cartItems">  
-    <p> ${name} $${price} x ${quantity} = $${total}</p>
+      <p> ${name} x ${quantity} <div class="totalNone"> ${price}= $<span>${total}</span></div>
+
+      </p>
+    <button onclick="removeFromCart(this)">Delete entry</button>
     </div>`;
+
+    document.querySelector('.total').innerText = `Total: $${allTotal}`
 
     element.innerText = 'Added';
     element.setAttribute('disabled', 'true');
@@ -301,9 +305,13 @@ function addToCart(element){
   } else{
     alert('Please specify the quantity');
   }
+}
 
-
-
-
-
+function removeFromCart(element){
+    let mainEl = element.closest('.cartItems');
+    let price = mainEl.querySelector('.totalNone span').innerText;
+    price= parseInt(price);
+    allTotal -= price;
+    document.querySelector('.total').innerText = `Total: $${allTotal}`
+    mainEl.remove();
 }

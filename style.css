@@ -4,7 +4,7 @@ body{
     margin: 0%;
     padding: 0%;
     background-image: url(images/3378467.jpg);
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     color: rgb(204, 204, 206);
 }
@@ -30,6 +30,10 @@ html {
     padding: 0%;
     
 
+}
+
+.totalNone{
+    display: none;
 }
 
 .banner img{
@@ -564,9 +568,12 @@ textarea:focus{
     border: rgb(114, 201, 223) solid 2px;
     padding: 10px;
     margin-right: 20px;
-    max-height: 500px;
+    max-height: auto;
     width: 400px;
     background-color: rgba(255, 255, 255, 0.281);
+    text-align: center;
+    margin-bottom: 50px;
+    position: relative;
 }
 
 
@@ -576,6 +583,24 @@ textarea:focus{
     gap:0px;
 }
 
+.cartItems button{
+    background-color: rgba(255, 255, 255, 0.39);
+    border: rgb(114, 170, 223) solid 1px;
+    margin-bottom: 50px;
+}
+
+.cartItems button:active{
+    background-color: rgba(255, 255, 255, 0.281);
+    border: rgb(3, 193, 240) solid 1px;
+}
+
+.total{
+    position: absolute;
+	font-size: 25px;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+}
 
 .quantityOrder{
     padding-left: 10px;
@@ -593,7 +618,6 @@ textarea:focus{
     background-color: rgba(255, 255, 255, 0.281);
     border: none;
     border: rgb(114, 201, 223) solid 1px;
-    
 }
 
 .buttonAddToCart:active{
@@ -630,7 +654,7 @@ input[type=number]{
 
 
 .allDishesInOrders{
-    height: 500px;
+    max-height: auto;
     overflow: scroll;
     padding-right: 10px;
     overflow-x: hidden;
