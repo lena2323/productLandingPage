@@ -545,12 +545,12 @@ function addToCart(element){
     allTotal += total;
 
     cartItems.innerHTML += 
-    `<form class= "cartItems" name="orderForm" method="POST" data-netlify="true" action="/pages/success">  
-      <p> <div class= "dishName" name="product">${name}</div> x ${quantity} <div class="totalNone"> ${price}= $<span>${total}</span></div>
+    `<div class= "cartItems">  
+      <p> <div class= "dishName"><input type="text" name="product"${name}></div> x ${quantity} <div class="totalNone"> <input type="text" name="price"${price}>= $<span> <input type="text" name="total" ${total}></span></div>
 
       </p>
     <button onclick="removeFromCart(this)">Delete entry</button>
-    </form>`;
+    </div>`;
 
     document.querySelector('.total').innerText = `Total: $${allTotal}`
 
