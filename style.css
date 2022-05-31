@@ -401,32 +401,6 @@ p.underlinewooshContact:hover:before {
 
 
 
-.pasta-dishes-div{
-    padding-top: 200px;
-    margin: auto;
-    text-align: center;
-    color: rgb(204, 204, 206);
-    padding-bottom: 100px;
-}
-
-.pasta-dishes-div ul{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-row: 200px 200px 200px 200px;
-    grid-column-gap: 70px;
-    grid-row-gap: 50px;
-    margin: auto;
-    justify-content: center;
-    padding: 0%;
-    padding-left: 70px;
-    padding-right: 70px;
-}
-
-.pasta-dishes-div li{
-    list-style: none;
-}
-
-
 
 /***********ORDERS************/
 

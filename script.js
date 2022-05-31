@@ -48,6 +48,15 @@ subscribe.addEventListener('click',() =>{
     veganInOrders.classList.add('hide');
     drinksInOrders.classList.add('hide');
     dessertsInOrders.classList.add('hide');
+
+    //menu
+
+  mainDishes.classList.add('hide');
+  pastaDishesInMenu.classList.add('hide');
+  pizzaDishesInMenu.classList.add('hide');
+  veganDishesInMenu.classList.add('hide');
+  drinksInMenu.classList.add('hide');
+  dessertsDishesInMenu.classList.add('hide');
   });
   
   aboutUs.addEventListener('click',() =>{
@@ -65,6 +74,15 @@ subscribe.addEventListener('click',() =>{
     veganInOrders.classList.add('hide');
     drinksInOrders.classList.add('hide');
     dessertsInOrders.classList.add('hide');
+
+    //menu
+
+  mainDishes.classList.add('hide');
+  pastaDishesInMenu.classList.add('hide');
+  pizzaDishesInMenu.classList.add('hide');
+  veganDishesInMenu.classList.add('hide');
+  drinksInMenu.classList.add('hide');
+  dessertsDishesInMenu.classList.add('hide');
 
 });
 
@@ -84,6 +102,15 @@ menu.addEventListener('click',() =>{
   drinksInOrders.classList.add('hide');
   dessertsInOrders.classList.add('hide');
 
+  //menu
+
+  mainDishes.classList.add('hide');
+  pastaDishesInMenu.classList.add('hide');
+  pizzaDishesInMenu.classList.add('hide');
+  veganDishesInMenu.classList.add('hide');
+  drinksInMenu.classList.add('hide');
+  dessertsDishesInMenu.classList.add('hide');
+
 });
 
 
@@ -102,6 +129,15 @@ orderButton.addEventListener('click',() =>{
   veganInOrders.classList.add('hide');
   drinksInOrders.classList.add('hide');
   dessertsInOrders.classList.add('hide');
+
+  //menu
+
+  mainDishes.classList.add('hide');
+  pastaDishesInMenu.classList.add('hide');
+  pizzaDishesInMenu.classList.add('hide');
+  veganDishesInMenu.classList.add('hide');
+  drinksInMenu.classList.add('hide');
+  dessertsDishesInMenu.classList.add('hide');
 });
 
 
@@ -126,7 +162,7 @@ const drinksDishesButton = document.getElementById("drinks-button");
 const drinksInMenu = document.getElementById("drinks-in-menu-div");
 
 const dessertsDishesButton = document.getElementById("desserts-button");
-const dessertsDishesInMenu = document.getElementById("desserts-in-menu-div");
+const dessertsDishesInMenu = document.getElementById("desserts-in-menu-div"); 
 
 
 /******************MENU BUTTONS***************** */
@@ -137,7 +173,6 @@ mainDishesButton.addEventListener('click',() =>{
   subscribeContent.classList.add('hide');
   aboutUsContent.classList.add('hide');
   menuContents.classList.add('hide');
-  mainDishes.classList.remove('hide');
   order.classList.add('hide');
 
   //orders
@@ -148,6 +183,15 @@ mainDishesButton.addEventListener('click',() =>{
   drinksInOrders.classList.add('hide');
   dessertsInOrders.classList.add('hide');
 
+  //menu
+  
+  mainDishes.classList.remove('hide');
+  pastaDishesInMenu.classList.add('hide');
+  pizzaDishesInMenu.classList.add('hide');
+  veganDishesInMenu.classList.add('hide');
+  drinksInMenu.classList.add('hide');
+  dessertsDishesInMenu.classList.add('hide');
+
 });
 
 pastaDishesButton.addEventListener('click',() =>{
@@ -156,10 +200,10 @@ pastaDishesButton.addEventListener('click',() =>{
   aboutUsContent.classList.add('hide');
   menuContents.classList.add('hide');
   order.classList.add('hide');
-  mainDishes.classList.add('hide');
 
 
   //menu
+  mainDishes.classList.add('hide');
   pastaDishesInMenu.classList.remove('hide');
   pizzaDishesInMenu.classList.add('hide');
   veganDishesInMenu.classList.add('hide');
@@ -178,12 +222,113 @@ pastaDishesButton.addEventListener('click',() =>{
 });
 
 
+pizzaDishesButton.addEventListener('click',() =>{
+  everythingToHide.classList.add('hide');
+  subscribeContent.classList.add('hide');
+  aboutUsContent.classList.add('hide');
+  menuContents.classList.add('hide');
+  order.classList.add('hide');
 
 
+  //menu
+  mainDishes.classList.add('hide');
+  pastaDishesInMenu.classList.add('hide');
+  pizzaDishesInMenu.classList.remove('hide');
+  veganDishesInMenu.classList.add('hide');
+  drinksInMenu.classList.add('hide');
+  dessertsDishesInMenu.classList.add('hide');
 
 
+  //orders
+  mainDishesInOrders.classList.add('hide');
+  pastaInOrders.classList.add('hide');
+  pizzaInOrders.classList.add('hide');
+  veganInOrders.classList.add('hide');
+  drinksInOrders.classList.add('hide');
+  dessertsInOrders.classList.add('hide');
+
+});
+
+veganDishesButton.addEventListener('click',() =>{
+  everythingToHide.classList.add('hide');
+  subscribeContent.classList.add('hide');
+  aboutUsContent.classList.add('hide');
+  menuContents.classList.add('hide');
+  order.classList.add('hide');
 
 
+  //menu
+  mainDishes.classList.add('hide');
+  pastaDishesInMenu.classList.add('hide');
+  pizzaDishesInMenu.classList.add('hide');
+  veganDishesInMenu.classList.remove('hide');
+  drinksInMenu.classList.add('hide');
+  dessertsDishesInMenu.classList.add('hide');
+
+
+  //orders
+  mainDishesInOrders.classList.add('hide');
+  pastaInOrders.classList.add('hide');
+  pizzaInOrders.classList.add('hide');
+  veganInOrders.classList.add('hide');
+  drinksInOrders.classList.add('hide');
+  dessertsInOrders.classList.add('hide');
+
+});
+
+drinksDishesButton.addEventListener('click',() =>{
+  everythingToHide.classList.add('hide');
+  subscribeContent.classList.add('hide');
+  aboutUsContent.classList.add('hide');
+  menuContents.classList.add('hide');
+  order.classList.add('hide');
+
+
+  //menu
+  mainDishes.classList.add('hide');
+  pastaDishesInMenu.classList.add('hide');
+  pizzaDishesInMenu.classList.add('hide');
+  veganDishesInMenu.classList.add('hide');
+  drinksInMenu.classList.remove('hide');
+  dessertsDishesInMenu.classList.add('hide');
+
+
+  //orders
+  mainDishesInOrders.classList.add('hide');
+  pastaInOrders.classList.add('hide');
+  pizzaInOrders.classList.add('hide');
+  veganInOrders.classList.add('hide');
+  drinksInOrders.classList.add('hide');
+  dessertsInOrders.classList.add('hide');
+
+});
+
+dessertsDishesButton.addEventListener('click',() =>{
+  everythingToHide.classList.add('hide');
+  subscribeContent.classList.add('hide');
+  aboutUsContent.classList.add('hide');
+  menuContents.classList.add('hide');
+  order.classList.add('hide');
+
+
+  //menu
+  mainDishes.classList.add('hide');
+  pastaDishesInMenu.classList.add('hide');
+  pizzaDishesInMenu.classList.add('hide');
+  veganDishesInMenu.classList.add('hide');
+  drinksInMenu.classList.add('hide');
+  dessertsDishesInMenu.classList.remove('hide');
+
+
+  //orders
+  mainDishesInOrders.classList.add('hide');
+  pastaInOrders.classList.add('hide');
+  pizzaInOrders.classList.add('hide');
+  veganInOrders.classList.add('hide');
+  drinksInOrders.classList.add('hide');
+  dessertsInOrders.classList.add('hide');
+
+});
 
 
 
@@ -209,6 +354,15 @@ mainDishesButtonInOrders.addEventListener('click',() =>{
   veganInOrders.classList.add('hide');
   drinksInOrders.classList.add('hide');
   dessertsInOrders.classList.add('hide');
+
+  //menu
+
+  mainDishes.classList.add('hide');
+  pastaDishesInMenu.classList.add('hide');
+  pizzaDishesInMenu.classList.add('hide');
+  veganDishesInMenu.classList.add('hide');
+  drinksInMenu.classList.add('hide');
+  dessertsDishesInMenu.classList.add('hide');
 });
 
 //***************************ORDERS Pasta****************
@@ -231,6 +385,14 @@ pastaButtonInOrders.addEventListener('click',() =>{
   drinksInOrders.classList.add('hide');
   dessertsInOrders.classList.add('hide');
 
+//menu
+
+mainDishes.classList.add('hide');
+pastaDishesInMenu.classList.add('hide');
+pizzaDishesInMenu.classList.add('hide');
+veganDishesInMenu.classList.add('hide');
+drinksInMenu.classList.add('hide');
+dessertsDishesInMenu.classList.add('hide');
 
 });
 //***************************ORDERS Pizza****************
@@ -254,6 +416,14 @@ pizzaButtonInOrders.addEventListener('click',() =>{
   drinksInOrders.classList.add('hide');
   dessertsInOrders.classList.add('hide');
 
+//menu
+
+mainDishes.classList.add('hide');
+pastaDishesInMenu.classList.add('hide');
+pizzaDishesInMenu.classList.add('hide');
+veganDishesInMenu.classList.add('hide');
+drinksInMenu.classList.add('hide');
+dessertsDishesInMenu.classList.add('hide');
 
 });
 
@@ -278,7 +448,14 @@ veganButtonInOrders.addEventListener('click',() =>{
   drinksInOrders.classList.add('hide');
   dessertsInOrders.classList.add('hide');
 
+//menu
 
+mainDishes.classList.add('hide');
+pastaDishesInMenu.classList.add('hide');
+pizzaDishesInMenu.classList.add('hide');
+veganDishesInMenu.classList.add('hide');
+drinksInMenu.classList.add('hide');
+dessertsDishesInMenu.classList.add('hide');
 });
 
 
@@ -303,7 +480,14 @@ drinksButtonInOrders.addEventListener('click',() =>{
   drinksInOrders.classList.remove('hide');
   dessertsInOrders.classList.add('hide');
 
+//menu
 
+mainDishes.classList.add('hide');
+pastaDishesInMenu.classList.add('hide');
+pizzaDishesInMenu.classList.add('hide');
+veganDishesInMenu.classList.add('hide');
+drinksInMenu.classList.add('hide');
+dessertsDishesInMenu.classList.add('hide');
 });
 
 
@@ -320,13 +504,23 @@ dessertsButtonInOrders.addEventListener('click',() =>{
 
 
 
-
+//orders
   mainDishesInOrders.classList.add('hide');
   pastaInOrders.classList.add('hide');
   pizzaInOrders.classList.add('hide');
   veganInOrders.classList.add('hide');
   drinksInOrders.classList.add('hide');
   dessertsInOrders.classList.remove('hide');
+
+  //menu
+
+  mainDishes.classList.add('hide');
+  pastaDishesInMenu.classList.add('hide');
+  pizzaDishesInMenu.classList.add('hide');
+  veganDishesInMenu.classList.add('hide');
+  drinksInMenu.classList.add('hide');
+  dessertsDishesInMenu.classList.add('hide');
+
 
 
 });
