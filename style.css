@@ -515,7 +515,7 @@ textarea:focus{
     border: rgb(114, 201, 223) solid 1px;
     background-color: rgba(255, 255, 255, 0.281);
     margin-right: 30px;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
 }
 
 .singleDish{
@@ -559,13 +559,21 @@ textarea:focus{
 
 .cart{
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     font-size: larger;
-    border-left: rgb(114, 201, 223) solid 1px;
-    text-align: center;
+    border: rgb(114, 201, 223) solid 2px;
     padding: 10px;
-    margin-right: 200px;
-    max-height: 300px;
+    margin-right: 20px;
+    max-height: 500px;
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.281);
+}
+
+
+.cartItems{
+	display: flex;
+    flex-direction: column;
+    gap:0px;
 }
 
 
@@ -598,7 +606,6 @@ textarea:focus{
 .chooseTypeOfDish{
     display: flex;
     flex-direction: row;
-    text-decoration: none;
 }
 
 .chooseTypeOfDish a{
@@ -622,10 +629,19 @@ input[type=number]{
 }
 
 
-.mainDishesInOrders{
-    max-width: 720px;
+.allDishesInOrders{
+    height: 500px;
+    overflow: scroll;
+    padding-right: 10px;
+    overflow-x: hidden;
 }
 /*****************************/
+
+
+button:disabled:active{
+    background-color: rgba(255, 255, 255, 0.281);
+    border: rgb(114, 201, 223) solid 1px;
+}
 
 ::placeholder{
     color: rgb(204, 204, 206);
@@ -636,7 +652,7 @@ input[type=number]{
 }
 
 /**************RESPONSIVE***************/
-  @media only screen and (max-width: 768px){
+  @media only screen and (max-width: 900px){
     .banner{
         max-height: 500px;
 
@@ -683,6 +699,69 @@ input[type=number]{
     height: 150px;
 }
 
+.orderContainer{
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    padding: 0px;
+    align-items: center;
+}
+
+.containerAllOrders{
+    flex-direction: column;
+    overflow-x: none;
+    width: 500px;
+
+}
+
+.allDishesInOrders{
+    overflow-x: none;
+}
+
+.chooseTypeOfDish{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+}
+
+
+.chooseTypeOfDish a{
+    background-color: rgba(255, 255, 255, 0.281);
+    border: rgb(114, 201, 223) solid 1px;
+    color: rgb(204, 204, 206);
+    text-decoration: none;
+    font-size: larger;
+    height: 50px;
+    width: 300px;
+    text-align: center;
 
   }
+
+.actions input{
+    margin: 0px;
+}
+
+.singleDish{
+    justify-content: center;
+}
+
+.buttonAddToCart{
+    margin-left: 5px;
+    height: 34px;
+    width:60px
+}
+
+
+input[type=number]{
+    height: 30px;
+    width:40px
+}
+
+.cart{
+    padding: 0px;
+    margin: auto;
+}
+
+
+}
 /*****************************/

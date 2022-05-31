@@ -10,32 +10,33 @@ const menuContents = document.getElementById("menuContents");
 const mainDishesButton =  document.getElementById("main-dishes-button");
 const mainDishes = document.getElementById("main-dishes-div");
 
+
+
+
+
+// ORDERS VAR
+
 const orderButton =  document.getElementById("order-button");
 const order = document.getElementById("order");
 
+const mainDishesButtonInOrders = document.getElementById("mainDishesButtonInOrders");
+const mainDishesInOrders = document.getElementById("mainDishesInOrders");
 
+const pastaButtonInOrders = document.getElementById("pastaButtonInOrders");
+const pastaInOrders = document.getElementById("pastaInOrders");
 
+const pizzaButtonInOrders = document.getElementById("pizzaButtonInOrders");
+const pizzaInOrders = document.getElementById("pizzaInOrders");
 
-// ORDERS
+const veganButtonInOrders = document.getElementById("veganButtonInOrders");
+const veganInOrders = document.getElementById("veganInOrders");
 
- const mainDishesButtonInOrders = document.getElementById("mainDishesButtonInOrders");
- const mainDishesInOrders = document.getElementById("mainDishesInOrders");
+const drinksButtonInOrders = document.getElementById("drinksButtonInOrders");
+const drinksInOrders = document.getElementById("drinksInOrders");
 
- const pastaButtonInOrders = document.getElementById("pastaButtonInOrders");
- const pastaInOrders = document.getElementById("pastaInOrders");
-
- const pizzaButtonInOrders = document.getElementById("pizzaButtonInOrders");
- const pizzaInOrders = document.getElementById("pizzaInOrders");
-
- const veganButtonInOrders = document.getElementById("veganButtonInOrders");
- const veganInOrders = document.getElementById("veganInOrders");
-
- const drinksButtonInOrders = document.getElementById("drinksButtonInOrders");
- const drinksInOrders = document.getElementById("drinksInOrders");
-
- const dessertsButtonInOrders = document.getElementById("dessertsButtonInOrders");
- const dessertsInOrders = document.getElementById("dessertsInOrders");
-//******************************************* */
+const dessertsButtonInOrders = document.getElementById("dessertsButtonInOrders");
+const dessertsInOrders = document.getElementById("dessertsInOrders");
+//********************************************/
 
 subscribe.addEventListener('click',() =>{
     everythingToHide.classList.add('hide');
@@ -268,3 +269,41 @@ dessertsButtonInOrders.addEventListener('click',() =>{
 
 
 });
+
+
+// ********* SHOPPING CART  **********************
+
+
+function addToCart(element){
+  let mainEl = element.closest('.singleDish')
+  let price = mainEl.querySelector('.price').innerText;
+  let name = mainEl.querySelector('h3').innerText;
+  let quantity =  mainEl.querySelector('input').value;
+  let cartItems = document.querySelector('.cartItems');
+
+
+
+
+  if (parseInt(quantity) > 0){
+    price = price.substring(1);
+    price = parseInt(price);
+
+    let total = price * parseInt(quantity);
+
+    cartItems.innerHTML += 
+    `<div class= "cartItems">  
+    <p> ${name} $${price} x ${quantity} = $${total}</p>
+    </div>`;
+
+    element.innerText = 'Added';
+    element.setAttribute('disabled', 'true');
+
+  } else{
+    alert('Please specify the quantity');
+  }
+
+
+
+
+
+}
