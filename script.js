@@ -291,7 +291,7 @@ function addToCart(element){
 
     cartItems.innerHTML += 
     `<div class= "cartItems">  
-      <p> ${name} x ${quantity} <div class="totalNone"> ${price}= $<span>${total}</span></div>
+      <p> <div class= "dishName">${name}</div> x ${quantity} <div class="totalNone"> ${price}= $<span>${total}</span></div>
 
       </p>
     <button onclick="removeFromCart(this)">Delete entry</button>
@@ -310,8 +310,24 @@ function addToCart(element){
 function removeFromCart(element){
     let mainEl = element.closest('.cartItems');
     let price = mainEl.querySelector('.totalNone span').innerText;
+    let name = mainEl.querySelector('.dishName').innerText; 
+    let allDishes = document.querySelectorAll('.singleDish');
+
+
     price= parseInt(price);
     allTotal -= price;
     document.querySelector('.total').innerText = `Total: $${allTotal}`
     mainEl.remove();
+
+    console.log(allDishes);
+    
+    allDishes.forEach(function(oneDish){
+      let itemName = oneDish.querySelector('.singleDishContents h3').innerText;
+      if(itemName === name){
+        oneDish.querySelector('.actions input').value = 0
+        oneDish.querySelector('.actions button').removeAttribute('disabled');
+        oneDish.querySelector('.actions button').innerText = 'Add'; 
+      }
+    });
 }
+
