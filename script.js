@@ -548,7 +548,7 @@ function addToCart(element){
     `<div class= "cartItems">  
       <p><div class= "dishName"><label>${name}</label><input type="hidden" name="product name">
 
-      </div> x <label>${quantity}</label><input type="hidden" name="quantity"> <div class="totalNone"> <label>${price}</label><input type="hidden" name="price">= $<span><label>${total}</label><input type="hidden" name="product name"></span></div>
+      </div> x <label for="quantity">${quantity}</label><input type="hidden" name="quantity" id="quantity"> <div class="totalNone"> <label for="price">${price}</label><input type="hidden" name="price" id="price">= $<span><label for="total">${total}</label><input type="hidden" name="product name" id="total"></span></div>
 
       </p>
     <button onclick="removeFromCart(this)">Delete entry</button>
