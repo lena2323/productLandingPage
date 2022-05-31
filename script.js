@@ -573,8 +573,6 @@ function removeFromCart(element){
     allTotal -= price;
     document.querySelector('.total').innerText = `Total: $${allTotal}`
     mainEl.remove();
-
-    console.log(allDishes);
     
     allDishes.forEach(function(oneDish){
       let itemName = oneDish.querySelector('.singleDishContents h3').innerText;
@@ -586,3 +584,43 @@ function removeFromCart(element){
     });
 }
 
+
+function sendMail() {
+  let email = document.getElementById("email");
+  let mainEl = element.closest('.singleDish')
+  let name = mainEl.querySelector('h3').innerText;
+
+  const submit = document.getElementById('submit');
+
+  $.ajax({
+    type: 'POST',
+    url: 'https://mandrillapp.com/api/1.0/messages/send.json',
+    data: {
+      'key': 'JKWs6Mj1aIpkhMfD7uIjjuiDk02l4Aee',
+      'message': {
+        'from_email': 'lena.ivankovic@gmail.com',
+        'to': [
+            {
+              'email': `${email}`,
+              'name': `${name}`,
+              'type': 'to'
+            }
+          ],
+        'autotext': 'true',
+        'subject': 'YOUR ORDER',
+        'html': addToCart.innerText
+      }
+    }
+   }).done(function(response) {
+     console.log(response); // if you're into that sorta thing
+   });
+}
+
+
+
+
+  $('#submit').click(function() {
+    $.ajax({
+      // ...
+    });
+  });
