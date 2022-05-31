@@ -659,7 +659,6 @@ input[type=number]{
 
 .allDishesInOrders{
     max-height: auto;
-    overflow: scroll;
     padding-right: 10px;
     overflow-x: hidden;
 }
