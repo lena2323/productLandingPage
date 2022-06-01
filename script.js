@@ -554,7 +554,7 @@ function addToCart(element){
 
     document.querySelector('.total').innerText = `Total: $${allTotal}`
 
-    document.querySelector('.labelForTesting').innerText = `Total: $${allTotal}`
+    document.querySelector('hidden input').innerText = ` Product: ${name} Total: $${allTotal}`
     
 
     element.innerText = 'Added';
