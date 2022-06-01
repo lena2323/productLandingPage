@@ -554,6 +554,9 @@ function addToCart(element){
 
     document.querySelector('.total').innerText = `Total: $${allTotal}`
 
+    document.querySelector('.labelForTesting').innerText = `Total: $${allTotal}`
+    
+
     element.innerText = 'Added';
     element.setAttribute('disabled', 'true');
 
