@@ -730,8 +730,31 @@ button:disabled:active{
     flex-direction: column;
     justify-content: center;
     margin: auto;
-    padding: 0px;
-    align-items: center;
+    padding: 0%;
+    margin: 0%;
+    padding-top: 150px;
+
+}
+
+.orderForm{
+flex-direction: column;
+}
+.orderInformation{
+    margin: auto;
+
+}
+
+.chooseTypeOfDish{
+    padding-top: 50px;
+    margin: 0px;
+    padding: 0%;
+}
+
+.personalInformationFormButton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 
 .containerAllOrders{
@@ -743,12 +766,16 @@ button:disabled:active{
 
 .allDishesInOrders{
     overflow-x: none;
+    margin: auto;
+    padding: 0%;
+    margin: 0%;
 }
 
 .chooseTypeOfDish{
     display: flex;
     flex-direction: row;
-    width: 500px;
+    width: 400px;
+    margin: auto;
 }
 
 
