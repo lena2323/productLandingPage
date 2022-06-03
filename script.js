@@ -553,8 +553,10 @@ function addToCart(element){
 
     document.querySelector('.total').innerText = `Total: $${allTotal}`
 
-    document.getElementById('hidden input').value += ` Product: ${name} Total: $${allTotal}`
+    document.getElementById('hidden input').value += ` Product: ${name} Quantity: ${quantity}`
     
+    document.getElementById('hidden input for total').value += ` Total: ${allTotal}`
+
 
     element.innerText = 'Added';
     element.setAttribute('disabled', 'true');
