@@ -546,14 +546,14 @@ function addToCart(element){
 
     cartItems.innerHTML += 
     `<div class= "cartItems">  
-      <p> <div class= "dishName">${name}</div> x ${quantity} <div class="totalNone"> ${price}= $<span>${total}</span></div>
+      <p> <input type="hidden" id="hidden input" name="buying" ><label><div class= "dishName">${name}</div> x ${quantity} <div class="totalNone"> ${price}= $<span>${total}</span></div></label>
       </p>
     <button onclick="removeFromCart(this)">Delete entry</button>
     </div>`;
 
     document.querySelector('.total').innerText = `Total: $${allTotal}`
 
-    document.getElementById('hidden input').value = ` Product: ${name},${name},${name},${name},${name} Total: $${allTotal}`
+    document.getElementById('hidden input').value = ` Product: ${name},$Total: $${allTotal}`
     
 
     element.innerText = 'Added';
