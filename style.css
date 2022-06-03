@@ -726,6 +726,8 @@ button:disabled:active{
     height: 150px;
 }
 
+/************orders**********/
+
 .orderContainer{
     flex-direction: column;
     justify-content: center;
@@ -733,7 +735,6 @@ button:disabled:active{
     padding: 0%;
     margin: 0%;
     padding-top: 150px;
-
 }
 
 .orderForm{
@@ -744,11 +745,6 @@ flex-direction: column;
 
 }
 
-.chooseTypeOfDish{
-    padding-top: 50px;
-    margin: 0px;
-    padding: 0%;
-}
 
 .personalInformationFormButton{
     display: flex;
@@ -760,22 +756,24 @@ flex-direction: column;
 .containerAllOrders{
     flex-direction: column;
     overflow-x: none;
-    width: 500px;
+    width: 400px;
+    margin: auto;
+    MARGIN-bottom: 50PX;
 
 }
 
 .allDishesInOrders{
     overflow-x: none;
-    margin: auto;
-    padding: 0%;
-    margin: 0%;
+    margin: 0px;
+    padding-right: 20px;
+    padding-left: 20px;
+
 }
 
 .chooseTypeOfDish{
     display: flex;
     flex-direction: row;
     width: 400px;
-    margin: auto;
 }
 
 
