@@ -756,7 +756,7 @@ flex-direction: column;
 .containerAllOrders{
     flex-direction: column;
     overflow-x: none;
-    width: 400px;
+    width: 300px;
     margin: auto;
     MARGIN-bottom: 50PX;
 
@@ -773,7 +773,8 @@ flex-direction: column;
 .chooseTypeOfDish{
     display: flex;
     flex-direction: row;
-    width: 400px;
+    width: 300px;
+
 }
 
 
@@ -784,8 +785,8 @@ flex-direction: column;
     text-decoration: none;
     font-size: larger;
     height: 50px;
-    width: 300px;
     text-align: center;
+    width: 300px;
 
   }
 
