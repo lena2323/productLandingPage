@@ -756,24 +756,24 @@ flex-direction: column;
 .containerAllOrders{
     flex-direction: column;
     overflow-x: none;
-    width: 300px;
+    width: 400px;
     margin: auto;
-    MARGIN-bottom: 50PX;
+    margin-bottom: 50px;
 
 }
+
 
 .allDishesInOrders{
     overflow-x: none;
     margin: 0px;
-    padding-right: 20px;
-    padding-left: 20px;
-
+    padding-right: 2px;
+    padding-left: 2px;
 }
 
 .chooseTypeOfDish{
     display: flex;
     flex-direction: row;
-    width: 300px;
+    width: 400px;
 
 }
 
@@ -795,11 +795,13 @@ flex-direction: column;
 }
 
 .singleDish{
-    justify-content: center;
+    justify-content: left;
+    flex-direction: column;
 }
 
 .buttonAddToCart{
     margin-left: 5px;
+    margin-right: 5px;
     height: 34px;
     width:60px
 }
@@ -813,6 +815,7 @@ input[type=number]{
 .cart{
     padding: 0px;
     margin: auto;
+    width: 400px;
 }
 
 
