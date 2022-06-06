@@ -63,7 +63,7 @@ html {
 }
 
 
-#bot-nav-bar{
+.bot-nav-bar{
   
     display: flex;
     flex-direction: row;
@@ -111,13 +111,13 @@ list-style: none;
 padding: 1em;
 }
 
-#bot-nav-bar a{
+.bot-nav-bar a{
     padding: 0%;
     margin: 0;
     text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
 }
 
-#bot-nav-bar ul{
+.bot-nav-bar ul{
     display:flex;
     flex-direction: row;
     padding: 0%;
@@ -125,7 +125,7 @@ padding: 1em;
 
 }
 
-#bot-nav-bar li{
+.bot-nav-bar li{
 list-style: none;
 padding: 1em;
 }
@@ -691,46 +691,71 @@ button:disabled:active{
 /**************RESPONSIVE***************/
 /**************RESPONSIVE***************/
   @media only screen and (max-width: 900px){
-    .banner{
-        max-height: 500px;
-
-    }
 
 
-    #header-img{
-        align-items: center;
-        display: flex;
-        justify-content: center;
-        max-width: 300px;
-    
-    }
+/*****************First page******************/
+.banner{
+    max-height: 500px;
+
+}
 
 
-    .banner img{
-        position: relative;
-        align-items: center;
-        margin: auto;
-        margin-top: 240px;
-    }
-    
+#header-img{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    max-width: 300px;
+
+}
 
 
-    .menuInnerContainer{
-        display: flex;
-        flex-direction: column;
-    }
+.banner img{
+    position: relative;
+    align-items: center;
+    margin: auto;
+    margin-top: 240px;
+}
 
-    .main-dishes-meals{
-        flex-direction: column;
-    }
+/*****************Navbar*******************/
 
-    .main-dishes-div ul {
-        display: flex;
-        flex-direction: column;
-        margin: auto;
-        justify-content: center;
-        padding: 0%;
-    }
+
+.bot-nav-bar ul{
+    display: grid;
+    grid-template-columns: repeat(3,150px); 
+    grid-template-rows: repeat(2,50px); 
+    gap: 0px;
+
+  }
+
+.bot-nav-bar li{
+    justify-content: stretch;
+    padding: 0px;
+}
+
+.bot-nav-bar{
+    margin: auto;
+    text-align: center;
+    padding: 0%;
+    padding-top: 30px;
+}
+/******************Menu************************/
+
+.menuInnerContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-dishes-meals{
+    flex-direction: column;
+}
+
+.main-dishes-div ul {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    padding: 0%;
+}
 
     
 .main-dishes-meals img{
@@ -979,6 +1004,7 @@ input[type=number]{
       transform: scale(1);
     }
   }
+
 
   
 }
