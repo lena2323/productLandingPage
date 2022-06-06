@@ -707,7 +707,7 @@ button:disabled:active{
     display: flex;
     justify-content: center;
     max-width: 300px;
-
+    overflow: hidden;
 }
 
 
@@ -723,15 +723,17 @@ button:disabled:active{
 
 .bot-nav-bar ul{
     display: grid;
-    grid-template-columns: repeat(3,150px); 
+    grid-template-columns: repeat(3,130px); 
     grid-template-rows: repeat(2,50px); 
-    gap: 0px;
+    gap: 10px;
+    margin: 0px;
 
   }
 
 .bot-nav-bar li{
     justify-content: stretch;
     padding: 0px;
+    margin: 0px;
 }
 
 .bot-nav-bar{
@@ -739,6 +741,8 @@ button:disabled:active{
     text-align: center;
     padding: 0%;
     padding-top: 30px;
+    margin: 0px;
+
 }
 /******************Menu************************/
 
@@ -865,7 +869,6 @@ input[type=number]{
     width: 100px;
     height: 100px;
     background: transparent;
-    padding-right: 10px;
     display: flex;
     top:0;
     right:0;
