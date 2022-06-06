@@ -1003,7 +1003,10 @@ input[type=number]{
   }
 
 
-
+.videoContainer{
+    flex-direction: column;
+    padding: 20px;
+}
 
 
 
