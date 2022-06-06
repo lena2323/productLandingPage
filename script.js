@@ -593,8 +593,12 @@ function removeFromCart(element){
 const hamburger = document.getElementById("hamburger");
 const hamburgerContainer = document.getElementById("hamburgerContainer");
 
+const navBar = document.getElementById("nav-bar");
+
 
 hamburger.addEventListener('click',() =>{
   hamburger.classList.toggle('notActive');
+  navBar.classList.toggle('show');
 
 });
+

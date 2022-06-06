@@ -44,7 +44,7 @@ html {
 }
 
 
-#nav-bar{
+.nav-bar{
     display: flex;
     flex-direction: row;
     justify-content:center;
@@ -92,13 +92,13 @@ html {
 
 
 
-#nav-bar a{
+.nav-bar a{
     padding: 0%;
     margin: 0;
     text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
 }
 
-#nav-bar ul{
+.nav-bar ul{
     display:flex;
     flex-direction: row;
     padding: 0%;
@@ -106,10 +106,12 @@ html {
 
 }
 
-#nav-bar li{
+.nav-bar li{
 list-style: none;
 padding: 1em;
 }
+
+
 
 .bot-nav-bar a{
     padding: 0%;
@@ -858,11 +860,6 @@ input[type=number]{
 
 /************HAMBURGER*****************/
 
-
-#nav-bar{
-    display: none;
-}
-
 .hamburgerContainer {
     margin: auto;
     width: 100px;
@@ -1006,5 +1003,34 @@ input[type=number]{
   }
 
 
-  
+
+
+
+
+  .logo{
+      display: none;
+  }
+
+.nav-bar{
+    display: none;
+
+}
+
+.nav-bar.show{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    margin-top: 100px;
+    align-items: flex-end;
+    top: 0%;
+    text-decoration: none;
+}
+
+.nav-bar.show ul{
+    justify-content: right;
+    flex-direction: column;
+    text-align: center;
+}
+
+
 }
