@@ -771,10 +771,10 @@ flex-direction: column;
 }
 
 .chooseTypeOfDish{
-    display: flex;
-    flex-direction: row;
-    width: 400px;
-
+   
+    display: grid;
+    grid-template-columns: repeat(3,132px);  
+  grid-template-rows: repeat(2,50px);
 }
 
 
@@ -785,8 +785,9 @@ flex-direction: column;
     text-decoration: none;
     font-size: larger;
     height: 50px;
+    width: 133px;
     text-align: center;
-    width: 300px;
+   
 
   }
 
