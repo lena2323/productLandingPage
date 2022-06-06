@@ -589,3 +589,12 @@ function removeFromCart(element){
 }
 
 
+/**************************HAMBURGER************************ */
+const hamburger = document.getElementById("hamburger");
+const hamburgerContainer = document.getElementById("hamburgerContainer");
+
+
+hamburger.addEventListener('click',() =>{
+  hamburger.classList.toggle('notActive');
+
+});
