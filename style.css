@@ -799,7 +799,7 @@ flex-direction: column;
 .containerAllOrders{
     flex-direction: column;
     overflow-x: none;
-    width: 400px;
+    width: 360px;
     margin: auto;
     margin-bottom: 50px;
 
@@ -816,7 +816,7 @@ flex-direction: column;
 .chooseTypeOfDish{
    
     display: grid;
-    grid-template-columns: repeat(3,132px);  
+    grid-template-columns: repeat(3,120px);  
     grid-template-rows: repeat(2,50px);
 }
 
@@ -828,7 +828,7 @@ flex-direction: column;
     text-decoration: none;
     font-size: larger;
     height: 50px;
-    width: 133px;
+    width: 120px;
     text-align: center;
    
 
@@ -859,7 +859,7 @@ input[type=number]{
 .cart{
     padding: 0px;
     margin: auto;
-    width: 400px;
+    width: 360px;
 }
 
 
