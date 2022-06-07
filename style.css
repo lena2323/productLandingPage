@@ -716,6 +716,7 @@ button:disabled:active{
     align-items: center;
     margin: auto;
     margin-top: 240px;
+    
 }
 
 /*****************Navbar*******************/
@@ -742,7 +743,7 @@ button:disabled:active{
     padding: 0%;
     padding-top: 30px;
     margin: 0px;
-
+    overflow: hidden;
 }
 /******************Menu************************/
 
@@ -871,17 +872,15 @@ input[type=number]{
     background: transparent;
     display: flex;
     position: fixed;
-   justify-content: flex-end;
-   width: 100%;
-
+    top: 0;
+    right: 0;
   }
   
   .hamburger {
     display: flex;
     flex-direction: column;
-    position: absolute;
-    margin-top: 50px;
-    transform: translate(-50%, -50%);
+    justify-content: center;
+   
     width: 80px;
     cursor: pointer;
 
