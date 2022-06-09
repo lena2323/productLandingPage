@@ -769,6 +769,9 @@ button:disabled:active{
     height: 150px;
 }
 
+
+
+
 /************orders**********/
 
 .orderContainer{
@@ -1042,5 +1045,8 @@ input[type=number]{
 
 }
 
+#home{
+display: block;
+}
 
 }
