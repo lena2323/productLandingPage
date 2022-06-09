@@ -57,6 +57,11 @@ subscribe.addEventListener('click',() =>{
   veganDishesInMenu.classList.add('hide');
   drinksInMenu.classList.add('hide');
   dessertsDishesInMenu.classList.add('hide');
+
+  // hamburger
+  navBar.classList.remove('show');
+  hamburger.classList.add('notActive');
+
   });
   
   aboutUs.addEventListener('click',() =>{
@@ -83,6 +88,11 @@ subscribe.addEventListener('click',() =>{
   veganDishesInMenu.classList.add('hide');
   drinksInMenu.classList.add('hide');
   dessertsDishesInMenu.classList.add('hide');
+
+  
+  // hamburger
+  navBar.classList.remove('show');
+  hamburger.classList.add('notActive');
 
 });
 
@@ -111,6 +121,11 @@ menu.addEventListener('click',() =>{
   drinksInMenu.classList.add('hide');
   dessertsDishesInMenu.classList.add('hide');
 
+  
+  // hamburger
+  navBar.classList.remove('show');
+  hamburger.classList.add('notActive');
+
 });
 
 
@@ -138,6 +153,11 @@ orderButton.addEventListener('click',() =>{
   veganDishesInMenu.classList.add('hide');
   drinksInMenu.classList.add('hide');
   dessertsDishesInMenu.classList.add('hide');
+  
+  // hamburger
+  navBar.classList.remove('show');
+  hamburger.classList.add('notActive');
+
 });
 
 

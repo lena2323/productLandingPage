@@ -4,8 +4,8 @@ body{
     margin: 0%;
     padding: 0%;
     background-image: url(images/3378467.jpg);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
+    background-size: 100% ;
+    background-repeat:repeat;
     color: rgb(204, 204, 206);
 }
 
@@ -52,7 +52,7 @@ html {
     font-size: larger;
     text-transform:uppercase;
     text-decoration:overline solid;
-    text-decoration-color: RGB(249, 115, 22);
+    text-decoration-color: rgb(249, 115, 22);
     text-decoration-thickness: 4px;
     background-color: transparent;    
     position: fixed;
@@ -73,7 +73,7 @@ html {
     font-size: larger;
     text-transform:uppercase;
     text-decoration:overline solid;
-    text-decoration-color: RGB(249, 115, 22);
+    text-decoration-color: rgb(249, 115, 22);
     text-decoration-thickness: 4px;
     background-color: rgba(155, 155, 155, 0.418);    
     width: 100%;
