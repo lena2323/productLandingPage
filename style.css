@@ -21,6 +21,12 @@ a{
 html {
     scroll-behavior: smooth;
   }
+
+#home{
+    width: 0.1px;
+    padding: 0%;
+    margin: 0%;
+}
   
 #header{
     
@@ -60,9 +66,6 @@ html {
     align-items:center;
     font-size: larger;
     text-transform:uppercase;
-    text-decoration:overline solid;
-    text-decoration-color: rgb(249, 115, 22);
-    text-decoration-thickness: 4px;
     background-color: transparent;    
     position: fixed;
     padding: 0%;
@@ -81,14 +84,14 @@ html {
     align-items:center;
     font-size: larger;
     text-transform:uppercase;
-    text-decoration:overline solid;
-    text-decoration-color: rgb(249, 115, 22);
-    text-decoration-thickness: 4px;
-    background-color: rgba(155, 155, 155, 0.418);    
     width: 100%;
-
     text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
     padding: 20px;
+    background: rgba(255, 255, 255, 0.233);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.1px);
+    -webkit-backdrop-filter: blur(2.1px);
+    border: 1px solid rgba(255, 255, 255, 0.205);
 }
 
 #header-img{
@@ -160,14 +163,13 @@ padding: 1em;
 
 .navItems:hover{
     -webkit-filter: drop-shadow(1px 2px 1px rgb(0, 187, 1710));
-    filter: drop-shadow(1px 2px 1px rgb(249, 115, 22)); 
+    filter: drop-shadow(1px 2px 1px rgb(89, 91, 94)); 
 }
 
 .logo:hover {
--webkit-filter: drop-shadow(0px 0px 5px rgb(249, 115, 22));
-  filter: drop-shadow(0px 0px 5px rgb(249, 115, 22));
+-webkit-filter: drop-shadow(0px 0px 5px rgb(89, 91, 94));
+  filter: drop-shadow(0px 0px 5px rgb(89, 91, 94));
 }
-
 .mainfooter{
     background-color: rgba(155, 155, 155, 0.418);    
     color: rgb(255, 255, 255);
@@ -190,7 +192,7 @@ padding: 1em;
 a.nav-link{
     position: relative;
     text-decoration: none;
-    color: rgb(249, 115, 22);
+    color: rgb(89, 91, 94);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     
@@ -205,7 +207,7 @@ a.nav-link:before{
     height: 4px;
     bottom: -5px;
     left: 0;
-    background-color: rgb(249, 115, 22);
+    color: rgb(89, 91, 94);
     visibility: hidden;
     transition: all 0.3s ease-in-out;
     box-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
@@ -264,32 +266,6 @@ input[type=submit]{
 }
 
 
-p.underlinewooshContact{
-    position: relative;
-    text-decoration: none;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-
-}
-
-p.underlinewooshContact:before{
-    display: block;
-    content: "";
-    position: absolute;
-    width: 0;
-    height: 3.5px;
-    bottom: 0px;
-    left: 0;
-    background-color: rgb(143, 23, 2);
-    visibility: hidden;
-    transition: all 0.3s ease-in-out;
-}
-
-p.underlinewooshContact:hover:before {
-    visibility: visible;
-    width: 100%;
-  }
 
   .videoContainer{
       display: flex;
@@ -385,7 +361,21 @@ p.underlinewooshContact:hover:before {
     flex-direction: column;
 }
 
+.specifyPastaTypeInMenu{
+    margin-top: 100px;
+    margin-bottom: 50px;
 
+}
+
+.tacoRoadhouseLink{
+    color: rgb(67, 163, 253);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.paragraphsInMenu{
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
 /***********MAIN DISHES******************/
 .main-dishes-div{
@@ -434,17 +424,20 @@ p.underlinewooshContact:hover:before {
     justify-content: space-between;
     padding-right: 140px;
     padding-left: 100px;
+    
 }
 
 .orderForm{
     display: flex;
     flex-direction: row;
+    
 }
 
 
 .orderInformation{
     display: flex;
     flex-direction: column;
+    
 }
 
 .personalInformationForm{
@@ -452,6 +445,7 @@ p.underlinewooshContact:hover:before {
     justify-content: left;
     padding-top: 0px;
     padding-bottom: 20px;
+    
 }
 
 .personalInformationFormButton{
@@ -459,6 +453,7 @@ p.underlinewooshContact:hover:before {
     flex-direction: row;
     justify-content: end;
     justify-content: end;
+    
 
 }
 .personalInformationFormButton button{
