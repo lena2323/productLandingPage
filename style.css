@@ -684,6 +684,14 @@ input[type=number]{
     padding-right: 10px;
     overflow-x: hidden;
 }
+.allDishesInOrders p{
+    padding-left: 15px;
+}
+
+.vanillaOrChocoP{
+    padding-left: 15px;
+
+}
 /*****************************/
 
 
