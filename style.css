@@ -34,29 +34,11 @@ html {
     flex-direction: column;
 }
 
-.banner{
-    background-image: url(images/pexels-myhqworkspaces-5444190.jpg);
-    height: 600px;
-    width: auto;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    margin: 0;
-    padding: 0%;
-    
-
-}
 
 .totalNone{
     display: none;
 }
 
-.banner img{
-    position: relative;
-    align-items: center;
-    margin: auto;
-    margin-top: 300px;
-}
 
 
 .nav-bar{
@@ -722,10 +704,9 @@ button:disabled:active{
 
 
 /*****************First page******************/
-.banner{
-    max-height: 500px;
 
-}
+
+
 
 
 #header-img{
@@ -737,13 +718,6 @@ button:disabled:active{
 }
 
 
-.banner img{
-    position: relative;
-    align-items: center;
-    margin: auto;
-    margin-top: 240px;
-    
-}
 
 /*****************Navbar*******************/
 
