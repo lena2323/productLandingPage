@@ -15,7 +15,7 @@
     align-items: flex-start;
     justify-content: center;
     overflow: hidden;
-    
+
     
 &:before {
     content: '';
@@ -28,6 +28,7 @@
     bottom: 0;
     left: 0;
     z-index: -2;
+   
     }
 
 }
@@ -35,29 +36,34 @@
 .backgroundSpan{
     margin-top: 200px;
     text-align: center;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-user-select: none;      
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
 }
+
+
 
 @media only screen and (max-width: 900px){
 
     .background{ 
         display: none;
-
     }    
 
     .banner{
         background-image: url(images/banner.jpg);
-    
         height: 500px;
         width: auto;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
         margin: 0;
-        padding: 0%;
-        
+        padding: 0%;  
         display: flex;
         align-items: center;
         justify-content: center;
+         
     }
 
     .bannerH1{
