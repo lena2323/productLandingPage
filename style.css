@@ -3,8 +3,7 @@ body{
     background-color: RGB(249, 250, 251);
     margin: 0%;
     padding: 0%;
-    background-image: url(images/3378467.jpg);
-    background-size: 100% ;
+    background-image: url(images/darkwood.png);
     background-repeat:repeat;
     color: rgb(204, 204, 206);
 }
@@ -266,9 +265,8 @@ input[type=submit]{
     text-align: center;
     font-size: larger;
     color: rgb(204, 204, 206);
-    background-image: url(images/3378467.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-image: url(images/darkwood.png);
+    background-repeat: repeat;
 }
 
 .aboutUsContent{
@@ -280,9 +278,8 @@ input[type=submit]{
     color: rgb(204, 204, 206);
     padding-left: 50px;
     padding-right: 50px;
-    background-image: url(images/3378467.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-image: url(images/darkwood.png);
+    background-repeat: repeat;
 
 }
 
@@ -294,9 +291,8 @@ input[type=submit]{
     color: rgb(204, 204, 206);
     padding-left: 50px;
     padding-right: 50px;
-    background-image: url(images/3378467.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-image: url(images/darkwood.png);
+    background-repeat: repeat;
     margin: auto;
     justify-content: center;
 }
