@@ -60,7 +60,6 @@ html {
     align-items:center;
     font-size: larger;
     text-transform:uppercase;
-    width: 100%;
     text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
     padding: 20px;
     background: rgba(255, 255, 255, 0.233);
@@ -190,7 +189,7 @@ padding-top: 10px;
     margin-bottom: 50px;
     text-align: left;
     font-size:xx-large;
-    
+    color: rgba(255, 255, 255, 0.733);
 }
 
 .logoInFooter{
@@ -198,6 +197,54 @@ padding-top: 10px;
     margin-left: 200px;
 
 }
+
+.footerUL a{
+    color: rgb(0, 204, 255);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.footerUL a:hover{
+    color: rgb(134, 199, 236);
+  
+}
+
+a.footerLink{
+    position: relative;
+    text-decoration: none;
+    color: rgb(0, 204, 255);
+    font-family: 'Times New Roman', Times, serif;    
+    font-size: 20px;
+    
+
+}
+
+a.footerLink:before{
+    display: block;
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 1px;
+    bottom: -5px;
+    left: 0;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+    box-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(0, 204, 255), -1px 1px 0 rgb(0, 204, 255), 1px 1px 0 rgb(158, 158, 158);
+}
+
+a.footerLink:hover:before {
+    visibility: visible;
+    width: 100%;
+  
+  }
+
+
+
+
+
+
+
+
 
 
 a.nav-link{
@@ -278,19 +325,7 @@ input[type=submit]{
 
 
 
-  .videoContainer{
-      display: flex;
-      align-items: center;
-      text-align: center;
-    
-  }
-
-  iframe{
-    margin-bottom: 30px;
-    margin-top: 0px;
-    padding-left: 0px;
-    height: 500px;
-} 
+ 
 
 
 .subscribeContent{
@@ -1074,12 +1109,6 @@ input[type=number]{
       transform: scale(1);
     }
   }
-
-
-.videoContainer{
-    flex-direction: column;
-    padding: 20px;
-}
 
 
 

@@ -102,44 +102,41 @@ function ordersInOrders(){
 
 
 
-subscribe.addEventListener('click',() =>{
+function subscribeToFamilyMag(){
   everythingToHideOnLandingPage()
   hideOrders()
   hideMenu()
   hideHamburger()
   subscribeContent.classList.remove('hide');
 
-});
+}
 
-
-aboutUs.addEventListener('click',() =>{    
+function showAboutUs(){
   everythingToHideOnLandingPage()
   hideOrders()
   hideMenu()
   hideHamburger()
   aboutUsContent.classList.remove('hide');
+}
 
-});
 
-menu.addEventListener('click',() =>{
+function showMenu(){
   everythingToHideOnLandingPage()
   hideOrders()
   hideMenu()
   hideHamburger()
   menuContents.classList.remove('hide');
+}
 
-});
 
-
-orderButton.addEventListener('click',() =>{
-  
+function orderNow() {
   everythingToHideOnLandingPage()
   hideOrders()
   hideMenu()
   hideHamburger()
   order.classList.remove('hide');
   mainDishesInOrders.classList.remove('hide');
-});
+}
 
 // MENU VAR
 
