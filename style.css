@@ -238,9 +238,21 @@ a.footerLink:hover:before {
   
   }
 
+/************Landing page***********/
 
+.landingPageGalleryContainer{
+    display: flex;
+    flex-direction: row;
+}
 
+.landingPageGalleryImagesContainer{
+    display: flex;
+    flex-direction: column;
+}
 
+.landingPageGalleryImagesContainer img{
+    max-width: 500px;
+}
 
 
 
