@@ -62,17 +62,17 @@
 
     .bannerH1{
         text-align: center;
-        font-size: 10vh;
+        font-size: 70px;
         color: rgb(253, 255, 231);
     }
 
 
-    .tracking-in-contract {
-        -webkit-animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-                animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-    }
+.tracking-in-contract {
+    -webkit-animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) 1s both;
+            animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) 1s both;
+}
 
-@-webkit-keyframes tracking-in-contract {
+ @-webkit-keyframes tracking-in-contract {
     0% {
       letter-spacing: 1em;
       opacity: 0;
@@ -98,6 +98,7 @@
       opacity: 1;
     }
   }
+  
   
   
 }
