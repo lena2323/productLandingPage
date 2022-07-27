@@ -194,8 +194,7 @@ padding-top: 10px;
 }
 
 .logoInFooter{
-    max-width: 200px;
-    height: auto;
+    max-height: 200px;
     margin-left: 200px;
 
 }
@@ -775,6 +774,25 @@ button:disabled:active{
     margin: 0px;
     overflow: hidden;
 }
+
+
+/***************** Footer ***********************/
+.FooterAllULcontainer{
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.logoInFooter{
+    padding: 0%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.footerUL h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 /******************Menu************************/
 
 .menuInnerContainer{
