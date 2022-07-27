@@ -1,13 +1,12 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:900");
 .background {
-  background-image: url(https://images.unsplash.com/photo-1536264911542-668b0180d5a1?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=a9a32743f06349efc39aeae90f047e9f);
+  background-image: url(images/banner.jpg);
   background-size: cover;
   background-position: 50% 50%;
   -webkit-background-clip: text;
           background-clip: text;
   height: 100vh;
   font-weight: bold;
-  font-size: 13rem;
+  font-size: 17rem;
   -webkit-text-fill-color: transparent;
   position: relative;
   display: flex;
@@ -29,5 +28,6 @@
 }
 
 .backgroundSpan {
-  margin-top: 400px;
+  margin-top: 200px;
+  text-align: center;
 }/*# sourceMappingURL=index.css.map */
