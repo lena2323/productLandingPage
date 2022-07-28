@@ -57,34 +57,56 @@
             
 
             <nav id="bot-nav-bar" class="bot-nav-bar">
-                <ul>
-                    <li><a class="nav-link" href="#video"><b>Weddings</b></a></li>
-                    <li><a class="nav-link" href="#video"><b>Birthdays</b></a></li>
-                    <li><a class="nav-link" href="#video"><b>Casual</b></a></li>
-                    <li><a class="nav-link" href="#video"><b>Services</b></a></li>
-                    <li><a class="nav-link" href="#email"><b>All Events</b></a></li>
-                    <li><a class="nav-link" href="#footer"><b>Contact</b></a></li>
+                <ul class="bot-nav-bar-container">
+                    <li><a class="nav-link et-hero-tab" href="#tab-es6"><b>Weddings</b></a></li>
+                    <li><a class="nav-link et-hero-tab" href="#tab-flexbox"><b>Birthdays</b></a></li>
+                    <li><a class="nav-link et-hero-tab" href="#tab-react"><b>Casual</b></a></li>
+                    <li><a class="nav-link et-hero-tab" href="#tab-angular"><b>Services</b></a></li>
+                    <li><a class="nav-link et-hero-tab" href="#tab-other"><b>All Events</b></a></li>
+                    <li><a class="nav-link et-hero-tab" href="#tab-contact"><b>Contact</b></a></li>
+                    <span class="et-hero-tab-slider"></span>
+
                 </ul>
             </nav>
         </header>
 
-        <div class="landingPageGalleryContainer">
+        <div class="landingPageGalleryContainer et-main">
 
-            <div class="landingPageGalleryImagesContainer">
+            <div class="landingPageGalleryImagesContainer et-slide" id="tab-es6">
                 <img src="images/pexels-andrea-piacquadio-842548.jpg" alt=""> 
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni ad natus, nulla pariatur sunt voluptatum ratione libero placeat non aut! Omnis in esse, dolore quaerat veritatis modi eaque cupiditate accusamus laudantium accusantium aut tempore adipisci ut, sequi laborum, necessitatibus quia consequatur expedita ex! Vero doloremque cupiditate maiores corrupti nam fugit!</p>
             </div>
 
-            <div class="landingPageGalleryImagesContainer">
+            <div class="landingPageGalleryImagesContainer et-slide" id="tab-flexbox">
                 <img src="images/pexels-pixabay-327158.jpg" alt="">
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni ad natus, nulla pariatur sunt voluptatum ratione libero placeat non aut! Omnis in esse, dolore quaerat veritatis modi eaque cupiditate accusamus laudantium accusantium aut tempore adipisci ut, sequi laborum, necessitatibus quia consequatur expedita ex! Vero doloremque cupiditate maiores corrupti nam fugit!</p>
             </div>
 
-            <div class="landingPageGalleryImagesContainer">
+            <div class="landingPageGalleryImagesContainer et-slide" id="tab-react">
                 <img src="images/pexels-ibrahim-boran-903376.jpg" alt="">
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni ad natus, nulla pariatur sunt voluptatum ratione libero placeat non aut! Omnis in esse, dolore quaerat veritatis modi eaque cupiditate accusamus laudantium accusantium aut tempore adipisci ut, sequi laborum, necessitatibus quia consequatur expedita ex! Vero doloremque cupiditate maiores corrupti nam fugit!</p>
             </div>
+
+            <div class="landingPageGalleryImagesContainer et-slide" id="tab-angular">
+                <img src="images/pexels-valeriia-miller-3361170.jpg" alt="">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni ad natus, nulla pariatur sunt voluptatum ratione libero placeat non aut! Omnis in esse, dolore quaerat veritatis modi eaque cupiditate accusamus laudantium accusantium aut tempore adipisci ut, sequi laborum, necessitatibus quia consequatur expedita ex! Vero doloremque cupiditate maiores corrupti nam fugit!</p>
+            </div>
+
+            <div class="landingPageGalleryImagesContainer et-slide" id="tab-other">
+                <img src="images/pexels-polina-tankilevitch-4109111.jpg" alt="">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni ad natus, nulla pariatur sunt voluptatum ratione libero placeat non aut! Omnis in esse, dolore quaerat veritatis modi eaque cupiditate accusamus laudantium accusantium aut tempore adipisci ut, sequi laborum, necessitatibus quia consequatur expedita ex! Vero doloremque cupiditate maiores corrupti nam fugit!</p>
+            </div>
+
+            <div class="landingPageGalleryImagesContainer et-slide" id="tab-contact">
+                <img src="images/pexels-polina-tankilevitch-4109111.jpg" alt="">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni ad natus, nulla pariatur sunt voluptatum ratione libero placeat non aut! Omnis in esse, dolore quaerat veritatis modi eaque cupiditate accusamus laudantium accusantium aut tempore adipisci ut, sequi laborum, necessitatibus quia consequatur expedita ex! Vero doloremque cupiditate maiores corrupti nam fugit!</p>
+            </div>
         </div>
+
+
+
+
+
         <form id="form" action="https://www.freecodecamp.com/email-submit">
             <p>
             <label id="email-label">Email</label>
@@ -109,20 +131,7 @@
             <div style="background-image: url('images/pexels-chevanon-photography-302901.jpg');"></div>
             <div style="background-image: url('images/pexels-valeriia-miller-3361170.jpg');"></div>        
         </div>
-
-
-
-
-
-
-
-
     </div>
-
-
-
-
-
     <!---------------------------------------------------->
 
     <div id="aboutUsContent" class="aboutUsContent hide">
@@ -935,5 +944,7 @@
         $('#book').turn({gradients: true, acceleration: true});
 
      </script>
+
+     <script src="botnavbar.js"></script>
 </body>
 </html>
