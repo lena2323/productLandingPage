@@ -318,7 +318,9 @@ input[type=submit]{
 #book .turn-page{
     -webkit-background-size: 100% 100%;
     background-size: 100% 100%;
+   
 }
+
 
 
 
@@ -778,7 +780,7 @@ button:disabled:active{
 
 
 
-/*****************Bot navbar*******************/
+/*****************Bot Navbar*******************/
 
 
 
