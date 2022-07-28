@@ -104,8 +104,7 @@
   justify-content: center;
 }
 
-.bot-nav-bar,
-.et-slide {
+.bot-nav-bar {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -146,11 +145,6 @@
   transition: all 0.5s ease;
   font-size: 0.8rem;
 }
-.bot-nav-bar:hover {
-  color: white;
-  background: rgba(102, 177, 241, 0.8);
-  transition: all 0.5s ease;
-}
 
 .et-hero-tab-slider {
   position: absolute;
@@ -162,16 +156,26 @@
   padding-left: 1em;
 }
 
-@media (min-width: 800px) {
-  .bot-nav-bar h1,
-.et-slide h1 {
-    font-size: 3rem;
-  }
-  .bot-nav-bar h3,
-.et-slide h3 {
-    font-size: 1rem;
+@media (max-width: 900px) {
+  .bot-nav-bar-container {
+    position: relative;
+    margin-top: 0%;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.411) !important;
+    -webkit-backdrop-filter: blur(1.5px);
+            backdrop-filter: blur(1.5px);
+    background-image: url(images/darkwood.png);
+    font-family: "Times New Roman", Times, serif;
+    padding-left: 0%;
   }
   .bot-nav-bar {
-    font-size: 1rem;
+    padding: 0%;
+    margin: 0%;
+  }
+  .bot-nav-bar a {
+    color: rgb(19, 18, 15);
+  }
+  .et-hero-tab-slider {
+    display: none;
   }
 }/*# sourceMappingURL=index.css.map */
