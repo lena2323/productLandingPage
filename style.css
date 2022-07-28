@@ -44,6 +44,8 @@ html {
     padding: 0%;
     z-index: 100;
     width: 100%;
+    background: rgba(255, 255, 255, 0.527);
+    backdrop-filter: blur( 10.5px );
 
 }
 
@@ -801,6 +803,7 @@ button:disabled:active{
     padding-top: 30px;
     margin: 0px;
     overflow: hidden;
+
 }
 
 
@@ -1122,6 +1125,7 @@ input[type=number]{
     align-items: flex-end;
     text-decoration: none;
     padding: 0%;
+    
 }
 
 .nav-bar.show ul{

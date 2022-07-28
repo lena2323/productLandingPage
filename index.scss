@@ -132,16 +132,7 @@
     position: relative;
     text-align: center;
     padding: 0 2em;
-    h1 {
-        font-size: 2rem;
-        margin: 0;
-        letter-spacing: 1rem;
-    }
-    h3 {
-        font-size: 1rem;
-        letter-spacing: 0.3rem;
-        opacity: 0.6;
-    }
+
 }
 
 .bot-nav-bar-container {
@@ -151,9 +142,11 @@
     bottom: 0;
     width: 100%;
     height: 70px;
-    margin-top: 130px;
+    margin-top: 135px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-    background: #fff;
+    background: rgba(255, 255, 255, 0.527);
+    backdrop-filter: blur( 10.5px );
+    margin-bottom: 0px;
     z-index: 10;
     &--top {
         position: fixed;
@@ -182,9 +175,9 @@
     bottom: 0;
     width: 0;
     height: 6px;
-    background: #66B1F1;
+    background: #5da3db;
     transition: left 0.3s ease;
-    padding-left: 2em;
+    padding-left: 1em;
 }
 
 @media (min-width: 800px) {
