@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="index.css">
 
+   
 
 </head>
 <body>
@@ -67,40 +68,62 @@
             </nav>
         </header>
 
-    <div class="landingPageGalleryContainer">
+        <div class="landingPageGalleryContainer">
 
-        <div class="landingPageGalleryImagesContainer">
-            <img src="images/pexels-andrea-piacquadio-842548.jpg" alt=""> 
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni ad natus, nulla pariatur sunt voluptatum ratione libero placeat non aut! Omnis in esse, dolore quaerat veritatis modi eaque cupiditate accusamus laudantium accusantium aut tempore adipisci ut, sequi laborum, necessitatibus quia consequatur expedita ex! Vero doloremque cupiditate maiores corrupti nam fugit!</p>
-        </div>
+            <div class="landingPageGalleryImagesContainer">
+                <img src="images/pexels-andrea-piacquadio-842548.jpg" alt=""> 
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni ad natus, nulla pariatur sunt voluptatum ratione libero placeat non aut! Omnis in esse, dolore quaerat veritatis modi eaque cupiditate accusamus laudantium accusantium aut tempore adipisci ut, sequi laborum, necessitatibus quia consequatur expedita ex! Vero doloremque cupiditate maiores corrupti nam fugit!</p>
+            </div>
 
-        <div class="landingPageGalleryImagesContainer">
-            <img src="images/pexels-pixabay-327158.jpg" alt="">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni ad natus, nulla pariatur sunt voluptatum ratione libero placeat non aut! Omnis in esse, dolore quaerat veritatis modi eaque cupiditate accusamus laudantium accusantium aut tempore adipisci ut, sequi laborum, necessitatibus quia consequatur expedita ex! Vero doloremque cupiditate maiores corrupti nam fugit!</p>
-        </div>
+            <div class="landingPageGalleryImagesContainer">
+                <img src="images/pexels-pixabay-327158.jpg" alt="">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni ad natus, nulla pariatur sunt voluptatum ratione libero placeat non aut! Omnis in esse, dolore quaerat veritatis modi eaque cupiditate accusamus laudantium accusantium aut tempore adipisci ut, sequi laborum, necessitatibus quia consequatur expedita ex! Vero doloremque cupiditate maiores corrupti nam fugit!</p>
+            </div>
 
-        <div class="landingPageGalleryImagesContainer">
-            <img src="images/pexels-ibrahim-boran-903376.jpg" alt="">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni ad natus, nulla pariatur sunt voluptatum ratione libero placeat non aut! Omnis in esse, dolore quaerat veritatis modi eaque cupiditate accusamus laudantium accusantium aut tempore adipisci ut, sequi laborum, necessitatibus quia consequatur expedita ex! Vero doloremque cupiditate maiores corrupti nam fugit!</p>
+            <div class="landingPageGalleryImagesContainer">
+                <img src="images/pexels-ibrahim-boran-903376.jpg" alt="">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni ad natus, nulla pariatur sunt voluptatum ratione libero placeat non aut! Omnis in esse, dolore quaerat veritatis modi eaque cupiditate accusamus laudantium accusantium aut tempore adipisci ut, sequi laborum, necessitatibus quia consequatur expedita ex! Vero doloremque cupiditate maiores corrupti nam fugit!</p>
+            </div>
         </div>
-     
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <p>
+            <label id="email-label">Email</label>
+            <input type="email" name="email" id="email" placeholder="Make a reservation now!" required>
+            <input type="submit" id="submit" value="Send">
+            </p>
+        </form>
     </div>
 
-    <form id="form" action="https://www.freecodecamp.com/email-submit">
-        <p>
-        <label id="email-label">Email</label>
-        <input type="email" name="email" id="email" placeholder="Make a reservation now!" required>
-        <input type="submit" id="submit" value="Send">
-        </p>
-    </form>
+    
 
-
+    <!-------- Subscribe to our family magazine!  -------->
     <div id="subscribeContent" class="subscribeContent hide" >
         <h2>Get our monthly family magazine!</h2>
         <p>Our magazine has been a tremendeous success! Our customers enjoy testing our recepies in their own kitchens at home!
         Learn to cook like our proffesionalls for only $99.99!    
         </p>
+
+        <div id="book">
+            <div style="background-image: url('images/banner.jpg');"></div>
+            <div style="background-image: url('images/pexels-andrea-piacquadio-842548.jpg');"></div>           
+            <div style="background-image: url('images/pexels-chevanon-photography-302901.jpg');"></div>
+            <div style="background-image: url('images/pexels-valeriia-miller-3361170.jpg');"></div>        
+        </div>
+
+
+
+
+
+
+
+
     </div>
+
+
+
+
+
+    <!---------------------------------------------------->
 
     <div id="aboutUsContent" class="aboutUsContent hide">
         <h2>About us</h2>
@@ -898,7 +921,19 @@
     
 
     <script src="script.js"></script>
-    
+    <script type="text/javascript">
+        $("#flipbook").turn({
+            width: 400,
+            height: 300,
+            autoCenter: true
+        });
+    </script>
 
+     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+     <script src="turn.js"></script>
+     <script>
+        $('#book').turn({gradients: true, acceleration: true});
+
+     </script>
 </body>
 </html>

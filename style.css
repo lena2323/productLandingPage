@@ -335,9 +335,20 @@ input[type=submit]{
     justify-content: center;
 }
 
+/*********Subscribe to our family magazine*************/
+
+#book{
+    margin: 5% auto;
+    width: 800px;
+    height: 400px;
+}
+
+#book .turn-page{
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
 
 
- 
 
 
 .subscribeContent{
@@ -350,7 +361,7 @@ input[type=submit]{
     background-image: url(images/darkwood.png);
     background-repeat: repeat;
 }
-
+/**************************/
 .aboutUsContent{
     display: flex;
     padding-top: 150px;

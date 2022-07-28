@@ -371,3 +371,4 @@ document.addEventListener('scroll', () => {
         background.style.backgroundPosition = '';
     }
 });
+
