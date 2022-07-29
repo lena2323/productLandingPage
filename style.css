@@ -827,7 +827,7 @@ button:disabled:active{
   .bot-nav-bar-container {
    
     flex-flow: row wrap;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
     
   }
   a.bot-nav-link{
@@ -1167,6 +1167,18 @@ input[type=number]{
     text-align: right;
     margin: 0%;
     padding: 0%;
+}
+
+
+/*********Landing page*******/
+
+.images-landing-page img{
+    padding: 10px;
+
+}
+
+.images-landing-page{
+    text-align: center;
 }
 
 }
