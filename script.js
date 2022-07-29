@@ -372,3 +372,7 @@ document.addEventListener('scroll', () => {
     }
 });
 
+
+
+/** Sticky bot nav bar **/
+
