@@ -19,7 +19,7 @@
     
 &:before {
     content: '';
-    background-image: inherit;
+    background-image: url(images/banner.jpg);
     background-size: cover;
     background-position: 50% 50%;
     position: absolute;
@@ -111,6 +111,11 @@
 
 /******* BOT NAVBAR**********/
 
+.bot-nav-bar a{
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(248, 248, 248);
+  text-decoration: none;
+}
 
 
 .bot-nav-bar li{
@@ -132,7 +137,6 @@
     position: relative;
     text-align: center;
     padding: 0 2em;
-
 }
 
 
@@ -160,7 +164,6 @@
     justify-content: center;
     align-items: center;
     flex: 1;
-    color: #000;
     letter-spacing: 0.3rem;
     transition: all 0.5s ease;
     font-size: 19px;
@@ -189,7 +192,6 @@
     background: rgba(255, 255, 255, 0.411) !important;
     backdrop-filter: blur( 1.5px );
     background-image: url(images/darkwood.png);
-    font-family: 'Times New Roman', Times, serif;
     padding-left: 0%;
   }
 
@@ -198,12 +200,15 @@
     margin: 0%;
     letter-spacing: 0.1rem;
     font-size: large;
+    margin-top: -100px;
+    backdrop-filter: blur( 5px );
 
   }
 
   .bot-nav-bar a{
-    color: rgb(19, 18, 15);
+    letter-spacing: 0.2rem;
   }
+
 
     .et-hero-tab-slider{
       display: none;

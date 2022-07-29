@@ -133,6 +133,8 @@ padding: 1em;
     align-items: center;
     text-align: center;
     font-size: 20px;
+    letter-spacing: 0.3rem;
+
 }
 
 
@@ -146,6 +148,8 @@ padding: 1em;
 list-style: none;
 text-align: left;
 padding-top: 10px;
+letter-spacing: 0.1rem;
+
 }
 
 .FooterAllULcontainer{
@@ -162,11 +166,13 @@ padding-top: 10px;
     text-align: left;
     font-size:xx-large;
     color: rgba(255, 255, 255, 0.733);
+    letter-spacing: 0.2rem;
+
 }
 
 .logoInFooter{
     max-height: 200px;
-    margin-left: 200px;
+    margin-left: 70px;
 
 }
 
@@ -174,6 +180,8 @@ padding-top: 10px;
     color: rgb(0, 204, 255);
     cursor: pointer;
     text-decoration: none;
+    letter-spacing: 0.2rem;
+
 }
 
 .footerUL a:hover{
@@ -215,18 +223,33 @@ a.footerLink:hover:before {
 .landingPageGalleryContainer{
     display: flex;
     flex-direction: column;
+    margin: auto;
+    padding-left: 10px;
+
 }
 
 .landingPageGalleryImagesContainer{
     display: flex;
-    flex-direction: column;
+    text-align: left;
+    flex-flow: column wrap;
+    margin: 10px;
+    letter-spacing: 0.2rem;
 }
+
 
 .landingPageGalleryImagesContainer img{
-    max-width: 500px;
+    max-width: 300px;
 }
 
+.images-landing-page{
+    margin: auto;
+    align-items: center;
+}
 
+.images-landing-page img{
+    padding: 50px;
+
+}
 
 
 
@@ -328,12 +351,30 @@ input[type=submit]{
     padding-top: 150px;
     display: flex;
     flex-direction: column;
-    text-align: center;
+    align-items: center;
     font-size: larger;
     color: rgb(204, 204, 206);
     background-image: url(images/darkwood.png);
     background-repeat: repeat;
+    margin: 20px;
+    margin-top: 0%;
+    overflow: hidden;
+    margin-bottom: 0%;
 }
+
+.subscribeContent h2 {
+    margin: 7px;
+    letter-spacing: 0.3rem;
+
+}
+
+.subscribeContent p{
+    padding: 0%;
+    margin: 7px;
+    text-align: left;
+    letter-spacing: 0.2rem;
+}
+
 /**************************/
 .aboutUsContent{
     display: flex;
@@ -789,7 +830,12 @@ button:disabled:active{
     padding-bottom: 50px;
     
   }
+  a.bot-nav-link{
+    font-family: 'Times New Roman', Times, serif;    
+    font-size: 20px;
+    
 
+}
 
 
 /***************** Footer ***********************/
@@ -807,6 +853,7 @@ button:disabled:active{
 .footerUL h3{
     margin-top: 10px;
     margin-bottom: 10px;
+
 }
 
 /******************Menu************************/
