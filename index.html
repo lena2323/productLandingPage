@@ -941,6 +941,12 @@
      <script>
         $('#book').turn({gradients: true, acceleration: true});
 
+        $('#book').turn('size', 1000, 700);
+
+        if ($(window).width() < 960) {
+            $('#book').turn('size', 400, 500);
+        }
+
      </script>
      
 

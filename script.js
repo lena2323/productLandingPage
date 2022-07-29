@@ -372,7 +372,7 @@ document.addEventListener('scroll', () => {
     }
 });
 
+/****Subscribe*/
 
 
-/** Sticky bot nav bar **/
 

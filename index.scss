@@ -161,20 +161,24 @@
     align-items: center;
     flex: 1;
     color: #000;
-    letter-spacing: 0.1rem;
+    letter-spacing: 0.3rem;
     transition: all 0.5s ease;
-    font-size: 0.8rem;
+    font-size: 19px;
+    
 }
+
 
 .et-hero-tab-slider {
     position: absolute;
     bottom: 0;
     width: 0;
-    height: 6px;
-    background: #5da3db;
+    height: 5px;
+    background: #7ed8ff;
     transition: left 0.3s ease;
-    padding-left: 1em;
+    margin-left: 1em;
 }
+
+
 
 @media (max-width: 900px) {
   
@@ -192,11 +196,13 @@
   .bot-nav-bar{
     padding: 0%;
     margin: 0%;
+    letter-spacing: 0.1rem;
+    font-size: large;
+
   }
 
   .bot-nav-bar a{
     color: rgb(19, 18, 15);
-
   }
 
     .et-hero-tab-slider{
