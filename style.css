@@ -6,6 +6,7 @@ body{
     background-image: url(images/darkwood.png);
     background-repeat:repeat;
     color: rgb(204, 204, 206);
+    overflow-x: hidden;
 }
 
 
@@ -1262,6 +1263,7 @@ input[type=number]{
 
 .images-landing-page{
     text-align: center;
+    
 }
 
 /***********Suubscribe******/
