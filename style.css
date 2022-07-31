@@ -135,7 +135,10 @@ padding: 1em;
     text-align: center;
     font-size: 20px;
     letter-spacing: 0.3rem;
-
+    border-top: rgb(0, 204, 255) solid 1px;
+    width: 700px;
+    padding-top: 50px;
+    margin-top: 0%;
 }
 
 
@@ -143,6 +146,9 @@ padding: 1em;
     display: flex;
     flex-direction: column;
     margin-right: 50px;
+    border-right: rgb(0, 204, 255) solid 1px;
+    padding-right: 50px;
+    height: 250px;
 }
 
 .footerUL li{
@@ -157,7 +163,9 @@ letter-spacing: 0.1rem;
     display: flex;
     flex-direction: row;
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
+    align-items: center;
+
 }
 
 .footerUL h3 {
@@ -172,10 +180,8 @@ letter-spacing: 0.1rem;
 }
 
 .logoInFooter{
-    max-height: 200px;
-    margin-left: 70px;
-
-}
+    height: 100px;
+    }
 
 .footerUL a{
     color: rgb(0, 204, 255);
@@ -926,6 +932,7 @@ button:disabled:active{
 .FooterAllULcontainer{
     flex-direction: column;
     margin-bottom: 20px;
+    
 }
 
 .logoInFooter{
@@ -935,9 +942,29 @@ button:disabled:active{
 }
 
 .footerUL h3{
-    margin-top: 10px;
+    margin-top: 30px;
     margin-bottom: 10px;
 
+}
+
+.footerUL{
+border-top: rgb(0, 204, 255) solid 1px;
+margin-bottom: 20px;
+border-right: 0;
+padding-right: 0px;
+margin: auto;
+margin: 0%;
+align-items: left;
+width: 70%;
+}
+
+.mainfooter p {
+    width: 100%;
+    padding-top: 50px;
+}
+
+.bordertopNoneOnFooter{
+    border-top:0;
 }
 
 /******************Menu************************/
