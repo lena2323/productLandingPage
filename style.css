@@ -311,6 +311,7 @@ a.footerLink:hover:before {
     margin: auto;
     align-items: center;
     text-align: center;
+
 }
 
 
@@ -318,37 +319,56 @@ a.footerLink:hover:before {
     align-items: center;
     background: transparent;
     display: flex;
-    width: 800px;
     justify-content: center;
     flex-direction: column;
     padding: 0%;
     margin: 0%;
     position: relative;
-    z-index: 0;
+    width: 1500px;
 }
 
-.slider {
-    overflow: hidden;
-    width: 1800px;
+.slider .slide-track{
+  width: 1000px;
 
-    
 }
+
+
+.slider::before, .slider::after {
+  content: "";
+  height: 100%;
+  position: absolute;
+  width: 100px;
+  z-index: 2;
+}
+
+.slider::after {
+  right: 0;
+  top: 0;
+  -webkit-transform: rotateZ(180deg);
+  transform: rotateZ(180deg);
+}
+
+.slider::before {
+  left: 0;
+  top: 0;
+}
+
 
 .slide-track{
     box-sizing: border-box;
-    width: auto;
+
     
 }
 .slide{
     box-shadow: inset 0 0 10px 10px rgba(12, 111, 141, 0.151);
     display: block;
     border-radius: 10px;
-    transition: 0.4s all ease-in-out;
-    margin-right: 10px;
+    transition: 0.3s all ease-in-out;
+    filter: grayscale(50%);
 }
 
 .slide-track{
-    height: 300px;
+    height: 230px;
     position: relative;
     z-index: 0;
     justify-content: center;
@@ -356,26 +376,39 @@ a.footerLink:hover:before {
     
 }
 
-.slider .slide {
+.sideZ1:hover{
+  z-index: 1;
+}
+
+
+.sideZ2:hover{
+  z-index: 2;
+}
+
+.sideZ3:hover{
+  z-index: 3;
+
+}
+
+
+.slide {
     border: transparent solid 10px;
     height: 200px;
     width: 200px;
 }
 
 .slide:hover{
-    transform: scale(1.3);
+    transform: scale(2);
+    box-shadow: none;
+    filter: grayscale(0%);
 
-}
-
-.slide::after{
-    width: 300px;
 }
 
 
 .slider .slide-track {
     animation: scroll 80s linear infinite;
     display: flex;
-    width: calc(200px * 18);
+    width: calc(250px * 18);
 
 }
 
@@ -389,12 +422,14 @@ a.footerLink:hover:before {
     background-color: yellow;
 }
 
+
 .slide:nth-child(2), .slide:nth-child(11) {
     background-color: coral;
 }
 
 .slide:nth-child(3), .slide:nth-child(12) {
     background-color: blue;
+
 }
 
 .slide:nth-child(4), .slide:nth-child(13) {
@@ -419,6 +454,66 @@ a.footerLink:hover:before {
 
 .slide:nth-child(9), .slide:nth-child(18) {
     background-color: lime;
+}
+
+
+
+
+
+
+
+.slide:nth-child(1):hover, .slide:nth-child(10):hover {
+    background-color: yellow;
+    z-index: 200;
+}
+
+
+.slide:nth-child(2):hover, .slide:nth-child(11):hover {
+    background-color: coral;
+    z-index: 200;
+
+}
+
+.slide:nth-child(3):hover, .slide:nth-child(12):hover {
+    background-color: blue;
+    z-index: 200;
+
+}
+
+.slide:nth-child(4):hover, .slide:nth-child(13):hover {
+    background-color: red;
+    z-index: 200;
+
+}
+
+.slide:nth-child(5):hover, .slide:nth-child(14):hover {
+    background-color: orange;
+    z-index: 200;
+
+}
+
+.slide:nth-child(6):hover, .slide:nth-child(15):hover {
+    background-color: purple;
+    z-index: 200;
+
+}
+
+.slide:nth-child(7):hover, .slide:nth-child(16):hover {
+    background-color: pink;
+    z-index: 200;
+
+}
+
+.slide:nth-child(8):hover, .slide:nth-child(17):hover {
+    background-color: navy;
+    z-index: 200;
+
+}
+
+.slide:nth-child(9):hover, .slide:nth-child(18):hover {
+    background-color: lime;
+    z-index: 200;
+
 
 }
 
