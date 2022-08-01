@@ -416,4 +416,17 @@ window.addEventListener("scroll", () => {
 });
 
 
+window.onscroll = onScrollHandler;
 
+function onScrollHandler() {
+  const header = document.getElementById("nav-bar");
+  const bot = document.getElementById('bot-nav-bar');
+  if (
+    window.pageYOffset > header.offsetTop
+    && window.pageYOffset < bot.offsetTop - header.offsetHeight
+  ) {
+    header.style.position ="fixed";
+  } else {
+    header.style.position ="absolute";
+  }
+}

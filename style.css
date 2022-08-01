@@ -236,20 +236,37 @@ a.footerLink:hover:before {
     flex-direction: column;
     margin: auto;
     padding-left: 10px;
+    padding-right: 10px;
 
 }
 
-.landingPageGalleryImagesContainer{
+.landingPageMarginTop{
+    margin-top: 50px;
+
+}
+
+.landingPageGalleryContentContainer{
     display: flex;
     text-align: left;
     flex-flow: column wrap;
     margin: 10px;
     letter-spacing: 0.2rem;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    max-width: 800px;
+    background-color: rgba(247, 247, 247, 0.61);
+    border-radius: 20px;
 }
 
 
-.landingPageGalleryImagesContainer img{
+.landingPageGalleryContentContainer img{
     max-width: 300px;
+}
+
+.landingPageGalleryContainer img{
+    max-width: 300px;
+
 }
 
 .images-landing-page{
@@ -262,8 +279,14 @@ a.footerLink:hover:before {
 
 }
 
+.landingPageGalleryContentContainer h3{
+    margin-top: 70px;
+}
 
-
+.landingPageGalleryContentContainer p{
+    margin: 20px;
+    text-align: left;
+}
 
 
 /************************/
