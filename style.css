@@ -1348,6 +1348,7 @@ button:disabled:active{
 .slide-track{
   height: 180px;
   width: 400px;
+  overflow: hidden;
 
 }
 
@@ -1357,6 +1358,7 @@ button:disabled:active{
 
 .galery-container{
   width: 400px;
+  overflow: hidden;
 
 }
 
