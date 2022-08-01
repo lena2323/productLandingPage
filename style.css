@@ -69,7 +69,7 @@ html {
 .nav-bar a{
     padding: 0%;
     margin: 0;
-    text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.404), 1px -1px 0 rgba(0, 0, 0, 0.452), -1px 1px 0 rgba(255, 255, 255, 0.479), 1px 1px 0 rgb(255, 255, 255);
 }
 
 .nav-bar ul{
@@ -116,7 +116,7 @@ padding: 1em;
 
 .logo:hover {
     filter: drop-shadow(0px 2px 3px white);
-
+    
 }
 .mainfooter{
     background-color: rgba(155, 155, 155, 0.418);    
@@ -272,10 +272,10 @@ a.footerLink:hover:before {
 a.nav-link{
     position: relative;
     text-decoration: none;
-    color: rgb(89, 91, 94);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    
+    color: rgb(50, 51, 53);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+    letter-spacing: 0.3em;
 
 }
 
@@ -284,13 +284,12 @@ a.nav-link:before{
     content: "";
     position: absolute;
     width: 0;
-    height: 4px;
+    height: 5px;
     bottom: -5px;
     left: 0;
-    color: rgb(89, 91, 94);
     visibility: hidden;
     transition: all 0.3s ease-in-out;
-    box-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
+    box-shadow: 0px 2px 0px rgb(89, 91, 94);
 }
 
 a.nav-link:hover:before {
