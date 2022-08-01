@@ -104,19 +104,19 @@ padding: 1em;
 
 .logo {
     background-color: transparent;
-    -webkit-filter: drop-shadow(-1px -1px 4px white);
+    -webkit-filter: drop-shadow(-1px -1px 4px rgba(168, 170, 170, 0.301));
 
 }
 
 
 .navItems:hover{
     -webkit-filter: drop-shadow(1px 2px 1px rgb(0, 187, 1710));
-    filter: drop-shadow(1px 2px 1px rgb(89, 91, 94)); 
+    filter: drop-shadow(1px 2px 1px white); 
 }
 
 .logo:hover {
--webkit-filter: drop-shadow(0px 0px 5px rgb(89, 91, 94));
-  filter: drop-shadow(0px 0px 5px rgb(89, 91, 94));
+    filter: drop-shadow(0px 2px 3px white);
+
 }
 .mainfooter{
     background-color: rgba(155, 155, 155, 0.418);    
@@ -151,11 +151,10 @@ padding: 1em;
 }
 
 .footerUL li{
-list-style: none;
+list-style:none;
 text-align: left;
 padding-top: 10px;
 letter-spacing: 0.1rem;
-
 }
 
 .FooterAllULcontainer{
@@ -172,8 +171,8 @@ letter-spacing: 0.1rem;
     margin: 0%;
     margin-bottom: 50px;
     text-align: left;
-    font-size:xx-large;
-    color: rgba(255, 255, 255, 0.733);
+    font-size:x-large;
+    color: rgba(255, 255, 255, 0.815);
     letter-spacing: 0.2rem;
 
 }
@@ -181,6 +180,12 @@ letter-spacing: 0.1rem;
 .logoInFooter{
     height: 100px;
     }
+
+
+.logoInFooter:hover{
+    filter: drop-shadow(0px 2px 3px white);
+
+}
 
 .footerUL a{
     color: rgb(0, 204, 255);
@@ -191,7 +196,7 @@ letter-spacing: 0.1rem;
 }
 
 .footerUL a:hover{
-    color: rgb(134, 199, 236);
+    color: rgb(143, 234, 250);
   
 }
 
@@ -200,7 +205,7 @@ a.footerLink{
     text-decoration: none;
     color: rgb(0, 204, 255);
     font-family: 'Times New Roman', Times, serif;    
-    font-size: 20px;
+    font-size: 12px;
     
 
 }
@@ -215,7 +220,7 @@ a.footerLink:before{
     left: 0;
     visibility: hidden;
     transition: all 0.3s ease-in-out;
-    box-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(0, 204, 255), -1px 1px 0 rgb(0, 204, 255), 1px 1px 0 rgb(158, 158, 158);
+    box-shadow: 0px 1px 0px rgb(173, 240, 252);
 }
 
 a.footerLink:hover:before {
