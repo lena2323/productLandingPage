@@ -151,7 +151,7 @@
   flex: 1;
   letter-spacing: 0.3rem;
   transition: all 0.5s ease;
-  font-size: 19px;
+  font-size: calc(15px + 0.390625vw);
 }
 
 .et-hero-tab-slider {
@@ -163,6 +163,19 @@
   transition: left 0.3s ease;
   margin-left: 1em;
   border-radius: 5rem 5rem 0 0;
+}
+
+.nav-links-container-in-bot-nav-bar.show-list {
+  display: none;
+}
+
+.nav-links-container-in-bot-nav-bar {
+  display: block;
+  height: 400px;
+  margin-top: 70px;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.918);
+  right: 0.1px;
 }
 
 @media (max-width: 900px) {
@@ -189,6 +202,9 @@
     letter-spacing: 0.2rem;
   }
   .et-hero-tab-slider {
+    display: none;
+  }
+  .nav-links-container-in-bot-nav-bar {
     display: none;
   }
 }/*# sourceMappingURL=index.css.map */

@@ -173,8 +173,8 @@
     flex: 1;
     letter-spacing: 0.3rem;
     transition: all 0.5s ease;
-    font-size: 19px;
-    
+    font-size: calc(15px + 0.390625vw);
+
 }
 
 
@@ -190,6 +190,19 @@
 }
 
 
+.nav-links-container-in-bot-nav-bar.show-list{
+  display: none;
+
+}
+
+.nav-links-container-in-bot-nav-bar{
+  display: block;
+  height: 400px;
+  margin-top:70px;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.918);
+  right: 0.1px;    
+}
 
 @media (max-width: 900px) {
   
@@ -210,7 +223,6 @@
     font-size: large;
     margin-top: -100px;
     backdrop-filter: blur( 5px );
-
   }
 
   .bot-nav-bar a{
@@ -222,4 +234,12 @@
       display: none;
     }
 
+
+.nav-links-container-in-bot-nav-bar{
+  display: none;
 }
+
+
+}
+
+

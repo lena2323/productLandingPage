@@ -357,7 +357,6 @@ hamburger.addEventListener('click',() =>{
 
 
 
-
 /***************** Banner ****************/
 
 const background = document.querySelector('.background');
@@ -416,17 +415,12 @@ window.addEventListener("scroll", () => {
 });
 
 
-window.onscroll = onScrollHandler;
 
-function onScrollHandler() {
-  const header = document.getElementById("nav-bar");
-  const bot = document.getElementById('bot-nav-bar');
-  if (
-    window.pageYOffset > header.offsetTop
-    && window.pageYOffset < bot.offsetTop - header.offsetHeight
-  ) {
-    header.style.position ="fixed";
-  } else {
-    header.style.position ="absolute";
-  }
+const hamburgerForDesktop = document.getElementById("hamburgerForDesktop");
+const linksInBotNavBar = document.getElementById("nav-links-container-in-bot-nav-bar");
+function showLinksInHamburgerInBotNavBar(){
+
+  linksInBotNavBar.classList.toggle('show-list')
+
+  hamburgerForDesktop.classList.toggle('notActive');
 }
