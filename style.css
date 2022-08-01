@@ -1347,8 +1347,24 @@ button:disabled:active{
 
 .slide-track{
   height: 180px;
+  width: 400px;
 
 }
+
+.slider{
+  width: 400px;
+}
+
+.galery-container{
+  width: 400px;
+
+}
+
+.landingPagActualGalleryContentContainer{
+  width: 400px;
+
+}
+
 
 /*****************Bot Navbar*******************/
 
