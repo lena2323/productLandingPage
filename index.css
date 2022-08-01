@@ -174,8 +174,8 @@
   height: 400px;
   margin-top: 70px;
   position: absolute;
-  background: rgba(255, 255, 255, 0.918);
   right: 0.1px;
+  background: linear-gradient(to bottom, #cfd2d3, #c6ffff, rgba(161, 210, 253, 0.7960784314));
 }
 
 @media (max-width: 900px) {

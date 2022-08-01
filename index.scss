@@ -200,8 +200,9 @@
   height: 400px;
   margin-top:70px;
   position: absolute;
-  background: rgba(255, 255, 255, 0.918);
   right: 0.1px;    
+  background: -webkit-linear-gradient(to bottom, #cfd2d3c9, #c6ffff, #a1d2fdcb);
+    background: linear-gradient(to bottom, #cfd2d3, #c6ffff, #a1d2fdcb);
 }
 
 @media (max-width: 900px) {
