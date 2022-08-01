@@ -1336,6 +1336,8 @@ button:disabled:active{
 .slide{
   width: 150px;
   height: 150px;
+  overflow: hidden;
+
 }
 
 .slide:hover{
@@ -1354,6 +1356,8 @@ button:disabled:active{
 
 .slider{
   width: 400px;
+  overflow: hidden;
+
 }
 
 .galery-container{
