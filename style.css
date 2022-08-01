@@ -1362,7 +1362,7 @@ button:disabled:active{
 
 .landingPagActualGalleryContentContainer{
   width: 400px;
-
+overflow: hidden;
 }
 
 
