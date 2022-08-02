@@ -1605,7 +1605,6 @@ a.nav-link{
     font-size: 23px;
     letter-spacing: 0.3em;
     -webkit-tap-highlight-color: rgba(0,0,0,0);
-    transition: 0.3s all ease-in-out;
 
 }
 
@@ -1639,6 +1638,7 @@ a.nav-link:hover{
     text-align: center;
     margin: 0%;
     padding: 0%;
+
 }
 
 
