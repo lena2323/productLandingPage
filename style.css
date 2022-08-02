@@ -1356,10 +1356,12 @@ button:disabled:active{
 
 .slide-track{
   height: 180px;
-  width: 400px;
+  width: 350px;
   overflow: hidden;
   padding-right: 0%;
   margin-right: 0%;
+  padding-left: 0%;
+  margin-left: 0%;
 }
 
 .slider{
@@ -1368,10 +1370,14 @@ button:disabled:active{
 }
 
 .galery-container{
-  width: 400px;
+  margin: auto;
+  width: 350px;
   overflow: hidden;
   padding-right: 0%;
   margin-right: 0%;
+  padding-left: 0%;
+  margin-left: 0%;
+
 }
 
 .landingPagActualGalleryContentContainer{
@@ -1379,6 +1385,8 @@ button:disabled:active{
   padding-right: 0%;
   margin-right: 0%;
 overflow: hidden;
+padding-left: 0%;
+margin-left: 0%;
 }
 
 
