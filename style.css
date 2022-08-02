@@ -1621,18 +1621,22 @@ a.nav-link:hover{
     display: flex;
     flex-direction: column;
     margin: 0px;
-    align-items: flex-end;
+    align-items: center;
     text-decoration: none;
     padding: 0%;
     background: rgba(255, 255, 255, 0.527);
     backdrop-filter: blur( 10.5px );
-    padding-top: 100px;
+    padding-top: 0px;
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+
 }
 
 .nav-bar.show ul{
-    justify-content: right;
+    justify-content: center;
     flex-direction: column;
-    text-align: right;
+    text-align: center;
     margin: 0%;
     padding: 0%;
 }
