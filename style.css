@@ -985,7 +985,7 @@ button:disabled:active{
     position: relative;
     top: 70px;
     -webkit-tap-highlight-color: rgba(0,0,0,0);
-    z-index: 101;
+    z-index: 10001;
     left: -150px;
     background-color: #cfd2d3ab;
 
