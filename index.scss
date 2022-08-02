@@ -65,7 +65,7 @@
 .bot-nav-bar a:hover{
   color: rgb(236, 236, 236);
   font-size: 25px;
-  letter-spacing: 0.53em;
+  letter-spacing: 0.1em;
 
 }
 
@@ -163,6 +163,8 @@
     position:relative;  
     margin-top: 0%;
     width: 100%;
+    height: auto;    
+
     background: rgba(255, 255, 255, 0.411) !important;
     backdrop-filter: blur( 1.5px );
     background-image: url(images/darkwood.png);
@@ -174,7 +176,7 @@
     margin: 0%;
     letter-spacing: 0.1rem;
     font-size: large;
-    margin-top: -170px;
+    margin-top: -110px;
     backdrop-filter: blur( 5px );
   }
 

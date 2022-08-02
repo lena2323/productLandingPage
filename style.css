@@ -1242,8 +1242,6 @@ button:disabled:active{
   .bot-nav-bar-container {
    
     flex-flow: row wrap;
-    padding-bottom: 100px;
-    
   }
   a.bot-nav-link{
     font-family: 'Times New Roman', Times, serif;    
@@ -1256,6 +1254,10 @@ button:disabled:active{
     display: none;
 }
 
+.hamburgerForDesktop{
+  display: none;
+
+} 
 
 
 .nav-links-container-in-bot-nav-bar{
