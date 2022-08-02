@@ -335,9 +335,9 @@ a.footerLink:hover:before {
 }
 
 .slider .slide-track{
-  animation: scroll 80s linear infinite;
+  animation: scroll 1s linear infinite;
   display: flex;
-  width: calc(250px * 18);
+  width: calc(200px * 18);
 }
 
 
@@ -409,9 +409,9 @@ a.footerLink:hover:before {
 
 
 .slider .slide-track {
-    animation: scroll 80s linear infinite;
+    animation: scroll 10s linear infinite;
     display: flex;
-    width: calc(250px * 18);
+    width: calc(200px * 18);
 
 }
 
@@ -525,7 +525,7 @@ a.footerLink:hover:before {
         transform: translateX(0);
     }
     100% {
-        transform: translateX(calc(250px * 9));
+        transform: translateX(calc(100px * 9));
     }
 }
 
