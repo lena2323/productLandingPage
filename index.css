@@ -149,7 +149,7 @@
     margin-top: 0%;
     width: 100%;
     height: auto;
-    background: rgba(255, 255, 255, 0.411) !important;
+    background: rgba(255, 255, 255, 0.582) !important;
     -webkit-backdrop-filter: blur(1.5px);
             backdrop-filter: blur(1.5px);
     background-image: url(images/darkwood.png);
@@ -160,12 +160,13 @@
     margin: 0%;
     letter-spacing: 0.1rem;
     font-size: large;
-    margin-top: -110px;
+    margin-top: 0px;
     -webkit-backdrop-filter: blur(5px);
             backdrop-filter: blur(5px);
   }
   .bot-nav-bar a {
     letter-spacing: 0.2rem;
+    color: rgba(70, 70, 70, 0.89);
   }
   .banner {
     background-image: url(images/banner.jpg);
