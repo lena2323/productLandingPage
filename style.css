@@ -297,68 +297,54 @@ a.footerLink:hover:before {
 
 
 
-.landingPagActualGalleryContentContainer h3{
-    margin-top: 70px;
-}
-
-.landingPagActualGalleryContentContainer{
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    letter-spacing: 0.2rem;
-    margin: auto;
-    align-items: center;
-    text-align: center;
-    padding: 0;
-    margin: 0;
-
-}
-
-
-.galery-container {
-    align-items: center;
-    background: transparent;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding: 0%;
-    margin: 0%;
-    position: relative;
-}
-
-
-
-.slider {
-  height: 250px;
-  position: relative;
-  
-}
-
-.slider .slide-track{
-  animation: scroll 1s linear infinite;
-  display: flex;
-  width: calc(200px * 18);
-}
-
-
-.slider::before, .slider::after {
-  content: "";
+.swiper {
+  width: 100%;
   height: 100%;
-  position: absolute;
-  width: 100px;
-  z-index: 2;
 }
 
-.slider::after {
-  right: 0;
-  top: 0;
-  -webkit-transform: rotateZ(180deg);
-  transform: rotateZ(180deg);
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background-color: #adc0b8;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
 }
 
-.slider::before {
-  left: 0;
-  top: 0;
+.swiper-slide img {
+  display: block;
+  height: 300px;
+  width: auto;
+  object-fit: cover;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+
+.swiper-wrapper{
+  margin-bottom: 50px;
+}
+
+.swiper-button-prev {
+  color: rgb(239,237,238) !important;
+}
+
+.swiper-button-next {
+  color: rgb(239,237,238) !important; 
+
 }
 
 
@@ -368,15 +354,6 @@ a.footerLink:hover:before {
     border-radius: 10px;
     transition: 0.3s all ease-in-out;
     filter: grayscale(50%);
-}
-
-.slide-track{
-    height: 230px;
-    position: relative;
-    z-index: 0;
-    justify-content: center;
-    align-items: center;
-
 }
 
 .sideZ1:hover{
@@ -396,8 +373,7 @@ a.footerLink:hover:before {
 
 .slide {
     border: transparent solid 10px;
-    height: 200px;
-    width: 200px;
+ 
 }
 
 .slide:hover{
@@ -406,128 +382,6 @@ a.footerLink:hover:before {
     filter: grayscale(0%);
 
 }
-
-
-.slider .slide-track {
-    animation: scroll 20s linear infinite;
-    display: flex;
-    width: calc(200px * 18);
-}
-
-.slide-track:hover {
-    animation-play-state: paused;
-}
-
-
-
-.slide:nth-child(1), .slide:nth-child(10) {
-    background-color: yellow;
-}
-
-
-.slide:nth-child(2), .slide:nth-child(11) {
-    background-color: coral;
-}
-
-.slide:nth-child(3), .slide:nth-child(12) {
-    background-color: blue;
-
-}
-
-.slide:nth-child(4), .slide:nth-child(13) {
-    background-color: red;
-}
-
-.slide:nth-child(5), .slide:nth-child(14) {
-    background-color: orange;
-}
-
-.slide:nth-child(6), .slide:nth-child(15) {
-    background-color: purple;
-}
-
-.slide:nth-child(7), .slide:nth-child(16) {
-    background-color: pink;
-}
-
-.slide:nth-child(8), .slide:nth-child(17) {
-    background-color: navy;
-}
-
-.slide:nth-child(9), .slide:nth-child(18) {
-    background-color: lime;
-}
-
-
-
-
-
-
-
-.slide:nth-child(1):hover, .slide:nth-child(10):hover {
-    background-color: yellow;
-    z-index: 200;
-}
-
-
-.slide:nth-child(2):hover, .slide:nth-child(11):hover {
-    background-color: coral;
-    z-index: 200;
-
-}
-
-.slide:nth-child(3):hover, .slide:nth-child(12):hover {
-    background-color: blue;
-    z-index: 200;
-
-}
-
-.slide:nth-child(4):hover, .slide:nth-child(13):hover {
-    background-color: red;
-    z-index: 200;
-
-}
-
-.slide:nth-child(5):hover, .slide:nth-child(14):hover {
-    background-color: orange;
-    z-index: 200;
-
-}
-
-.slide:nth-child(6):hover, .slide:nth-child(15):hover {
-    background-color: purple;
-    z-index: 200;
-
-}
-
-.slide:nth-child(7):hover, .slide:nth-child(16):hover {
-    background-color: pink;
-    z-index: 200;
-
-}
-
-.slide:nth-child(8):hover, .slide:nth-child(17):hover {
-    background-color: navy;
-    z-index: 200;
-
-}
-
-.slide:nth-child(9):hover, .slide:nth-child(18):hover {
-    background-color: lime;
-    z-index: 200;
-
-
-}
-
-@keyframes scroll {
-    0% {
-        transform: translateX(0);
-    }
-    100% {
-        transform: translateX(calc(100px * 9));
-    }
-}
-
 
 
 
