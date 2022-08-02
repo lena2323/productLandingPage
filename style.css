@@ -1124,7 +1124,9 @@ button:disabled:active{
   }
 
 
-
+  .swiper-in-landing-page-container{
+    background-color: transparent !important;
+  }
 
 
 
@@ -1638,13 +1640,25 @@ a.nav-link:hover{
 /*********Landing page*******/
 
 .images-landing-page img{
-    padding: 10px;
+    padding: 0px;
 
 }
 
 .images-landing-page{
     text-align: center;
     
+}
+
+
+.landingPageGalleryContentContainer{
+  padding: 10px;
+}
+
+.landingPageGalleryContainer{
+  padding-left: 0px;
+  margin-right: 0px;
+  padding-right: 0%;
+  margin-right: 0%;
 }
 
 /***********Suubscribe******/
@@ -1672,5 +1686,6 @@ a.nav-link:hover{
   height: 300px;
   width: auto;
 }
+
 
 }
