@@ -1,4 +1,6 @@
-class StickyNavigation {
+if ($(window).width() > 960) {
+
+  class StickyNavigation {
   
     constructor() {
       this.currentId = null;
@@ -73,5 +75,11 @@ class StickyNavigation {
   }
   
   new StickyNavigation();
+
+
+}
+
+
+
 
 
