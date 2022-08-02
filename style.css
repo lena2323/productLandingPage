@@ -1674,4 +1674,16 @@ a.nav-link:hover{
    text-align: center !important;
 }
 
+
+.swiper-wrapper{
+  padding: 0%;
+  margin: 0%;
+  margin-bottom: 30px;
+}
+
+.swiper-wrapper img {
+  height: 300px;
+  width: auto;
+}
+
 }
