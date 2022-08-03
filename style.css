@@ -48,10 +48,28 @@ html {
     background: rgba(255, 255, 255, 0.527);
     backdrop-filter: blur( 10.5px );
     letter-spacing: 0.2rem;
-    transition: 1s;    
 
 }
 
+a.nav-link{
+  position: relative;
+  text-decoration: none;
+  color: rgb(50, 51, 53);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 23px;
+  letter-spacing: 0.3em;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  transition: 0.3s all ease-in-out;
+}
+
+
+a.nav-link:hover{
+  color: rgb(255, 255, 255);
+  text-shadow: -1px -1px 0 rgb(202, 202, 202), 1px -1px 0 rgba(0, 0, 0, 0.452), -1px 1px 0 rgba(8, 0, 0, 0.699), 1px 1px 0 rgb(12, 10, 10);
+  font-size: 24px;
+  letter-spacing: 0.4em;
+
+}
 .homeButtonToHide{
     display: none;
 }
@@ -68,11 +86,8 @@ html {
 
 
 
-.nav-bar a{
-    padding: 0%;
-    margin: 0;
-    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.404), 1px -1px 0 rgba(0, 0, 0, 0.452), -1px 1px 0 rgba(255, 255, 255, 0.479), 1px 1px 0 rgb(255, 255, 255);
-}
+
+
 
 .nav-bar ul{
     display:flex;
@@ -120,6 +135,8 @@ padding: 1em;
     filter: drop-shadow(0px 2px 3px white);
     
 }
+
+
 .mainfooter{
     background-color: rgba(155, 155, 155, 0.418);    
     color: rgb(255, 255, 255);

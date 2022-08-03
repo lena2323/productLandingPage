@@ -62,7 +62,7 @@
 .bot-nav-bar a:hover {
   color: rgb(236, 236, 236);
   font-size: 25px;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.55em;
 }
 
 .bot-nav-bar li {
@@ -191,5 +191,10 @@
   }
   .nav-links-container-in-bot-nav-bar {
     display: none;
+  }
+  .bot-nav-bar a:hover {
+    color: rgb(236, 236, 236);
+    letter-spacing: 0.2rem;
+    font-size: 20px;
   }
 }/*# sourceMappingURL=index.css.map */
