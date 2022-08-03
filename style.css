@@ -614,6 +614,27 @@ input[type=submit]{
     padding-right: 20px;
 }
 
+.back-button-in-menu{
+  position: fixed;
+  margin-left: 10px;
+
+}
+
+.back-button-in-menu img:active{
+  -webkit-filter: drop-shadow(-1px -1px 4px  rgb(0, 200, 250));
+}
+
+
+.back-button-in-menu:hover{
+  -webkit-filter: drop-shadow(-1px -1px 4px  rgba(0, 204, 255));
+}
+
+
+.back-button-in-menu img{
+  height: 50px;
+
+}
+
 /***********MAIN DISHES******************/
 .main-dishes-div{
     padding-top: 200px;
@@ -1356,7 +1377,9 @@ border-top: rgb(0, 204, 255) solid 1px;
 
 }
 
-
+.back-button-in-menu{
+  position: fixed;
+}
 
 
 /************orders**********/
