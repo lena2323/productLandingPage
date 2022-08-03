@@ -1720,13 +1720,22 @@ a.nav-link:hover{
   width: auto;
 }
 
+.swiper-button-prev:hover {
+  color: rgb(239,237,238) !important;
+}
+
+.swiper-button-next:hover {
+  color: rgb(239,237,238) !important; 
+
+}
 .swiper-button-prev {
-  display: none !important;
+  color: rgba(239, 237, 238, 0.123) !important;
 }
 
 .swiper-button-next {
-  display: none !important;
+  color: rgba(239, 237, 238, 0.123) !important;
 
 }
+
 
 }

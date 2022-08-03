@@ -161,6 +161,8 @@ const dessertsDishesButton = document.getElementById("desserts-button");
 const dessertsDishesInMenu = document.getElementById("desserts-in-menu-div"); 
 
 
+
+
 /******************MENU BUTTONS***************** */
 
 
@@ -356,20 +358,18 @@ hamburger.addEventListener('click',() =>{
 });
 
 
+/***********hamburger for sektop */
 
-/***************** Banner ****************/
+const hamburgerForDesktop = document.getElementById("hamburgerForDesktop");
+const linksInBotNavBar = document.getElementById("nav-links-container-in-bot-nav-bar");
+function showLinksInHamburgerInBotNavBar(){
 
-const background = document.querySelector('.background');
+  linksInBotNavBar.classList.toggle('show-list')
 
-document.addEventListener('scroll', () => {
-    const scrollY = window.scrollY;
-    
-    if(scrollY !== 0) {
-        background.style.backgroundPosition = `calc(50% + ${scrollY}px) calc(50% + ${scrollY}px)`;
-    } else {
-        background.style.backgroundPosition = '';
-    }
-});
+  hamburgerForDesktop.classList.toggle('notActive');
+}
+
+/******************************/
 
 /****On scroll animations*/
 
@@ -413,14 +413,3 @@ const handleScrollAnimation = () => {
 window.addEventListener("scroll", () => { 
   handleScrollAnimation();
 });
-
-
-
-const hamburgerForDesktop = document.getElementById("hamburgerForDesktop");
-const linksInBotNavBar = document.getElementById("nav-links-container-in-bot-nav-bar");
-function showLinksInHamburgerInBotNavBar(){
-
-  linksInBotNavBar.classList.toggle('show-list')
-
-  hamburgerForDesktop.classList.toggle('notActive');
-}
