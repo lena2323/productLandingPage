@@ -294,8 +294,8 @@ a.footerLink:hover:before {
     text-align: center;
     max-width: 800px;
     background: #c0e1ff;
-    background: -webkit-linear-gradient(to bottom, #cfd2d3be, #c6ffffa8, #a1d2fdad);
-    background: linear-gradient(to bottom, #cfd2d3be, #c6ffffa8, #a1d2fdad);
+    background: -webkit-linear-gradient(to bottom, #cfd2d3f1, #a1d2fdd5, #d4ebff);
+    background: linear-gradient(to bottom, #cfd2d3f1, #a1d2fdd5, #d4ebff);
     z-index: 0;
 }
     
