@@ -138,7 +138,7 @@ padding: 1em;
 
 /*****************Footer**********************/
 .mainfooter{
-    background-color: rgba(155, 155, 155, 0.418);    
+    background-color: rgb(112, 112, 112);    
     color: rgb(255, 255, 255);
     text-align: center;
     display: flex;
@@ -262,9 +262,9 @@ a.footerLink:hover:before {
 .footerSVGwave{
   padding: 0%;
   margin: 0%;
-  opacity: 0.418;
-  margin-bottom: -4.5px;
+  margin-bottom: -5px;
   margin-top: -20%;
+
 }
 
 /************Landing page***********/
@@ -296,6 +296,7 @@ a.footerLink:hover:before {
     background: #c0e1ff;
     background: -webkit-linear-gradient(to bottom, #cfd2d3be, #c6ffffa8, #a1d2fdad);
     background: linear-gradient(to bottom, #cfd2d3be, #c6ffffa8, #a1d2fdad);
+    z-index: 10;
 }
     
 
