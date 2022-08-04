@@ -296,7 +296,7 @@ a.footerLink:hover:before {
     background: #c0e1ff;
     background: -webkit-linear-gradient(to bottom, #cfd2d3be, #c6ffffa8, #a1d2fdad);
     background: linear-gradient(to bottom, #cfd2d3be, #c6ffffa8, #a1d2fdad);
-    z-index: 10;
+    z-index: 0;
 }
     
 
@@ -1196,7 +1196,9 @@ button:disabled:active{
 
 
 
-
+.nav-links-container-in-bot-nav-bar{
+  z-index: 100;
+}
 
 
 
@@ -1319,6 +1321,7 @@ button:disabled:active{
 
 .nav-links-container-in-bot-nav-bar{
     display: none;
+    
 }
 /***************** Footer ***********************/
 .FooterAllULcontainer{
@@ -1667,7 +1670,6 @@ a.nav-link{
     font-size: 23px;
     letter-spacing: 0.3em;
     -webkit-tap-highlight-color: rgba(0,0,0,0);
-
 }
 
 a.nav-link:hover{
