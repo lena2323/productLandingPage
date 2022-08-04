@@ -136,7 +136,7 @@ padding: 1em;
     
 }
 
-
+/*****************Footer**********************/
 .mainfooter{
     background-color: rgba(155, 155, 155, 0.418);    
     color: rgb(255, 255, 255);
@@ -169,6 +169,17 @@ padding: 1em;
     height: 250px;
 }
 
+
+
+@media (max-width: 1200px) {
+  .footerUL{
+    margin-right: 10px;
+    padding-right: 10px;
+  }
+
+
+}
+
 .footerUL li{
 list-style:none;
 text-align: left;
@@ -179,7 +190,7 @@ letter-spacing: 0.1rem;
 .FooterAllULcontainer{
     display: flex;
     flex-direction: row;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 30px;
     align-items: center;
 
@@ -243,10 +254,18 @@ a.footerLink:before{
 }
 
 a.footerLink:hover:before {
-    visibility: visible;
-    width: 100%;
-  
-  }
+  visibility: visible;
+  width: 100%;
+
+}
+
+.footerSVGwave{
+  padding: 0%;
+  margin: 0%;
+  opacity: 0.418;
+  margin-bottom: -4.5px;
+  margin-top: -20%;
+}
 
 /************Landing page***********/
 
