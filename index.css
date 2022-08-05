@@ -138,8 +138,8 @@
   position: absolute;
   right: 0.1px;
   background: rgba(255, 255, 255, 0.527);
-  -webkit-backdrop-filter: blur(10.5px) !important;
-          backdrop-filter: blur(10.5px) !important;
+  -webkit-backdrop-filter: blur(10.5px);
+          backdrop-filter: blur(10.5px);
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
