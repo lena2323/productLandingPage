@@ -3,10 +3,10 @@ body{
     background-color: RGB(249, 250, 251);
     margin: 0%;
     padding: 0%;
-    background-image: url(images/darkwood.png);
     background-repeat:repeat;
     color: rgb(204, 204, 206);
     overflow-x: hidden;
+    background-color: rgb(245, 245, 245);
 }
 
 
@@ -264,24 +264,26 @@ a.footerLink:hover:before {
   margin: 0%;
   margin-bottom: -5px;
   margin-top: -20%;
-
+  background-color: #232422;
 }
 
+.content-inner-contact{
+  position: relative;
+  z-index: 10;
+  background: #c0e1ff;
+background: -webkit-linear-gradient(to bottom, #cfd2d3f1, #a1d2fdd5, #d4ebff);
+background: linear-gradient(to bottom, #cfd2d3f1, #a1d2fdd5, #d4ebff);
+}
 /************Landing page***********/
 
 .landingPageGalleryContainer{
     display: flex;
     flex-direction: column;
     margin: auto;
-    padding-left: 10px;
-    padding-right: 10px;
-
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
-.landingPageMarginTop{
-    margin-top: 50px;
-
-}
 
 .landingPageGalleryContentContainer{
     display: flex;
@@ -296,9 +298,20 @@ a.footerLink:hover:before {
     background: #c0e1ff;
     background: -webkit-linear-gradient(to bottom, #cfd2d3f1, #a1d2fdd5, #d4ebff);
     background: linear-gradient(to bottom, #cfd2d3f1, #a1d2fdd5, #d4ebff);
-    z-index: 0;
+    
 }
     
+.contact-on-landing-page{ display: flex;
+text-align: left;
+flex-flow: column wrap;
+margin: 10px;
+letter-spacing: 0.2rem;
+margin: auto;
+align-items: center;
+text-align: center;
+max-width: 800px;
+
+}
 
 
 .landingPageGalleryContentContainer img{
@@ -329,6 +342,26 @@ a.footerLink:hover:before {
     text-align: left;
 }
 
+.container-landing-page-bck-grey{
+  background-color: #dbdbdb;
+  padding: 0%;
+  margin: 0%;
+  padding-top: 50px;
+}
+
+.container-landing-page-bck-white{
+  background-color: #ffffff;
+  padding: 0%;
+  margin: 0%;
+  padding-top: 50px;
+}
+
+.container-landing-page-bck-black{
+  background-color: #232422;
+  padding: 0%;
+  margin: 0%;
+  padding-top: 50px;
+}
 
 /*********Landing Page: Gallery ***************/
 
@@ -505,7 +538,7 @@ input[type=submit]{
     align-items: center;
     font-size: larger;
     color: rgb(204, 204, 206);
-    background-image: url(images/darkwood.png);
+    background-color: rgb(245, 245, 245);
     background-repeat: repeat;
     margin: 20px;
     margin-top: 0%;
@@ -562,7 +595,7 @@ input[type=submit]{
     color: rgb(204, 204, 206);
     padding-left: 50px;
     padding-right: 50px;
-    background-image: url(images/darkwood.png);
+    background-color: rgb(245, 245, 245);
     background-repeat: repeat;
 
 }
@@ -575,7 +608,7 @@ input[type=submit]{
     color: rgb(204, 204, 206);
     padding-left: 50px;
     padding-right: 50px;
-    background-image: url(images/darkwood.png);
+    background-color: rgb(245, 245, 245);
     background-repeat: repeat;
     margin: auto;
     justify-content: center;
