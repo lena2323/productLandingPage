@@ -301,7 +301,8 @@ background: linear-gradient(to bottom, #cfd2d3f1, #a1d2fdd5, #d4ebff);
     
 }
     
-.contact-on-landing-page{ display: flex;
+.contact-on-landing-page{ 
+display: flex;
 text-align: left;
 flex-flow: column wrap;
 margin: 10px;
@@ -310,7 +311,7 @@ margin: auto;
 align-items: center;
 text-align: center;
 max-width: 800px;
-
+margin-bottom: 100px;
 }
 
 
@@ -362,6 +363,7 @@ max-width: 800px;
   margin: 0%;
   padding-top: 50px;
 }
+
 
 /*********Landing Page: Gallery ***************/
 
@@ -481,7 +483,6 @@ input[type=email]{
     color: rgb(255, 255, 255);
     background-color: transparent;
     border: none;
-    border-bottom: rgb(223, 114, 114) solid 1px;
     font-size: larger;
     padding: 0%;
     margin: 0%;
@@ -500,6 +501,7 @@ input[type=submit]{
     display: flex;
     padding: 0px;
     margin: auto;
+    margin-top: -100px;
 }
 
 
@@ -507,11 +509,20 @@ input[type=submit]{
 #form{
     padding: 0px;
     margin-top: 30px;
-    margin: auto;
     display: flex;
     text-align: center;
-    position: relative;
+    position: absolute;
     justify-content: center;
+    margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+text-align: center;
+}
+
+#form p{
+  margin: 0px;
+  
 }
 
 /*********Subscribe to our family magazine*************/
