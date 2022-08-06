@@ -4,7 +4,7 @@ body{
     margin: 0%;
     padding: 0%;
     background-repeat:repeat;
-    color: rgb(204, 204, 206);
+    color: rgb(46, 46, 46);
     overflow-x: hidden;
     background-color: rgb(245, 245, 245);
 }
@@ -267,7 +267,8 @@ a.footerLink:hover:before {
   background-color: transparent !important;
 }
 .svg-container{
-  background-color:#232422;
+  background-color:transparent;
+  margin-top: -10px;
 }
 
 
@@ -484,7 +485,6 @@ input[type=email]{
     -webkit-appearance: none;
     width: 250px;
     height: 50px;
-    color: rgb(255, 255, 255);
     background-color: transparent;
     border: none;
     font-size: larger;
@@ -494,14 +494,14 @@ input[type=email]{
 
 
 input[type=submit]{
-    color: rgba(0, 0, 0, 0.651);
-    border: rgb(201, 12, 12) solid 1px;
+  color: rgb(46, 46, 46);
+  border: rgb(201, 12, 12) solid 1px;
     background-color: rgb(255, 255, 255);
     height: 30px;
 }
 
 #form label{
-    color: white;
+    color: rgb(224, 224, 224);
     display: flex;
     padding: 0px;
     margin: auto;
@@ -552,7 +552,7 @@ text-align: center;
     flex-direction: column;
     align-items: center;
     font-size: larger;
-    color: rgb(204, 204, 206);
+    color: rgb(46, 46, 46);
     background-color: rgb(245, 245, 245);
     background-repeat: repeat;
     margin: 20px;
@@ -561,6 +561,9 @@ text-align: center;
     margin-bottom: 0%;
 }
 
+.bottomPsubscribe{
+  color: rgb(231, 231, 231) ;
+}
 .subscribeContent h2 {
     margin: 7px;
     letter-spacing: 0.3rem;
@@ -572,6 +575,8 @@ text-align: center;
     margin: 7px;
     text-align: left;
     letter-spacing: 0.2rem;
+    z-index: 10;
+
 }
 
 .turn-the-page{
@@ -607,7 +612,7 @@ text-align: center;
     flex-direction: column;
     text-align: center;
     font-size: larger;
-    color: rgb(204, 204, 206);
+    color: rgb(46, 46, 46);
     padding-left: 50px;
     padding-right: 50px;
     background-color: rgb(245, 245, 245);
@@ -663,7 +668,7 @@ text-align: center;
     font-size: x-large;
     text-decoration: none;
     text-align: center;
-    color: rgb(204, 204, 206);
+    color: rgb(46, 46, 46);
     display: flex;
     flex-direction: column;
 }
@@ -710,7 +715,7 @@ text-align: center;
     padding-top: 200px;
     margin: auto;
     text-align: center;
-    color: rgb(204, 204, 206);
+    color: rgb(46, 46, 46);
     padding-bottom: 100px;
 }
 
@@ -765,7 +770,7 @@ text-align: center;
 .orderInformation{
     display: flex;
     flex-direction: column;
-    
+    z-index: 10;
 }
 
 .personalInformationForm{
@@ -976,6 +981,9 @@ textarea:focus{
 
 }
 
+.buttonAddToCart:hover{
+  background-color: rgba(114, 201, 223, 0.616);
+}
 
 .chooseTypeOfDish{
     display: flex;
@@ -985,13 +993,18 @@ textarea:focus{
 .chooseTypeOfDish a{
     background-color: rgba(255, 255, 255, 0.281);
     border: rgb(114, 201, 223) solid 1px;
-    color: rgb(204, 204, 206);
+    color: rgb(46, 46, 46);
     text-decoration: none;
     font-size: larger;
     height: 50px;
     width: 120px;
     text-align: center;
 }
+
+.chooseTypeOfDish a:hover{
+  color: rgb(114, 201, 223);
+}
+
 
 input[type=number]{
     -webkit-appearance: none;
