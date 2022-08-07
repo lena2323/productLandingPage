@@ -305,12 +305,14 @@ background: linear-gradient(to bottom, #cfd2d3f1, #a1d2fdd5, #d4ebff);
     margin: auto;
     align-items: center;
     text-align: center;
-    max-width: 800px;
+    max-width: 1000px;
     background: #c0e1ff;
-    background: -webkit-linear-gradient(to bottom, #cfd2d3f1, #a1d2fdd5, #d4ebff);
-    background: linear-gradient(to bottom, #cfd2d3f1, #a1d2fdd5, #d4ebff);
-    box-shadow: 0 3px 5px rgba(0,0,0,0.05);
+   background-color: aliceblue;
     
+}
+
+.landing-page-text:hover{
+  background-color: #c0e1ff;
 }
     
 .contact-on-landing-page{ 
@@ -328,22 +330,15 @@ margin-bottom: 100px;
 
 
 .landingPageGalleryContentContainer img{
-    max-width: 300px;
+  max-height: 500px;
+  max-width: 500px;
 }
 
-.landingPageGalleryContainer img{
-    max-width: 300px;
 
-}
-
-.images-landing-page{
-    margin: auto;
-    align-items: center;
-}
 
 .images-landing-page img{
-    padding: 50px;
-
+    padding: 0px;  
+  margin: 0%;
 }
 
 .landingPageGalleryContentContainer h3{
@@ -423,6 +418,33 @@ margin-bottom: 100px;
   margin: 0%;
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+
+.landing-page-image{
+  display: flex;
+
+  flex-direction: row;
+}
+
+
+.landing-page-text{
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 1200px) {
+  .landing-page-image{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+  }
+
+  .landing-page-image-smaller{
+    flex-direction: column-reverse;
+  }
+  
 }
 
 /*********Landing Page: Gallery ***************/
@@ -608,12 +630,15 @@ text-align: center;
     align-items: center;
     font-size: larger;
     color: rgb(46, 46, 46);
-    background-color: rgb(245, 245, 245);
+    background-color: white;
     background-repeat: repeat;
     margin: 20px;
     margin-top: 0%;
     overflow: hidden;
     margin-bottom: 0%;
+    background-image: url(images/casualeentsbcg.svg);
+    background-repeat: no-repeat;
+    background-position: top;
 }
 
 .bottomPsubscribe{
