@@ -358,7 +358,6 @@ margin-bottom: 100px;
 
 
 .container-landing-page-bck-weddings{
-  background-color: #fff;
   background-image: url(images/weddingsbck.svg);
   background-repeat: no-repeat;
   background-position: cover 100%;
@@ -381,7 +380,7 @@ margin-bottom: 100px;
 }
 
 .container-landing-page-bck-services{
-  background-color: white;
+  background-color: #3c3c3c;
   background-image: url(images/servicesbcg.svg);
   background-size:  100%  ;
   background-repeat: no-repeat; 
@@ -393,7 +392,7 @@ margin-bottom: 100px;
 }
 
 .container-landing-page-bck-events{
-  background-color: #fff;
+  background-color: #3c3c3c;
   background-image: url(images/casualeentsbcg.svg);
   background-size:  100%  ;
   background-repeat: no-repeat;
