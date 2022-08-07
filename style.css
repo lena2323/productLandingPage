@@ -354,7 +354,12 @@ margin-bottom: 100px;
 }
 
 .container-landing-page-bck-grey{
-  background-color: #dbdbdb;
+  background-color: #fff;
+  background-image: url(images/Untitled2.svg);
+  background-size:  100%  ;
+  background-repeat: no-repeat;
+  background-position: top;
+ 
   padding: 0%;
   margin: 0%;
   padding-top: 50px;
@@ -364,16 +369,24 @@ margin-bottom: 100px;
 
 
 .container-landing-page-bck-white{
-  background-color: #ffffff;
   padding: 0%;
   margin: 0%;
   padding-top: 50px;
   padding-bottom: 50px;
+  background-color: #fff;
+  background-image: url(images/Untitled2.svg);
+  background-size:  100%  ;
+  background-repeat: no-repeat; 
+  background-position: bottom;
 
 }
 
 .container-landing-page-bck-black{
-  background-color: #232422;
+  background-color: transparent;
+  background-image: url(images/Untitled.svg);
+  background-size:  100%  ;
+  background-repeat: no-repeat; 
+  background-position: bottom;
   padding: 0%;
   margin: 0%;
   padding-top: 50px;
@@ -381,6 +394,18 @@ margin-bottom: 100px;
 
 }
 
+
+.container-landing-page-bck-black-last{
+  background-color: transparent;
+  background-image: url(images/test.svg);
+  background-size:   cover  ;
+  background-repeat: no-repeat; 
+  background-position: top;
+  padding: 0%;
+  margin: 0%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 
 /*********Landing Page: Gallery ***************/
 
