@@ -510,7 +510,7 @@ iframe{
 
 @media (max-width: 1200px) {
   iframe{
-   width: 400px;
+   width: 370px;
    height: 400px;
 } 
 
@@ -2134,6 +2134,17 @@ a.nav-link:hover{
 
 }
 
+
+.button-landing-page-casual{
+  -webkit-appearance: none;
+    height: 30px;
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+    border: rgb(3, 193, 240) solid 1px;
+    text-align: right;
+    margin: auto 70% 20px;
+    
+}
 
 /************Contact landing page***************/
 
