@@ -516,6 +516,147 @@ iframe{
 
 
 }
+
+/************Landing page contact**************/
+
+.contact{
+  background-color: rgb(237,237,238);
+  padding: 20px;
+  padding-bottom: 0px;
+  padding-top: 20px;
+  
+  
+}
+
+.formtypes{
+  padding: 10px;
+  
+  
+}
+.prvaDva{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px;
+  padding: 0%;
+  margin: 0%;
+}
+
+.drugaDva{
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  padding: 0%;
+  margin: 0%;
+}
+
+.buttonContact{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  width: 100px;
+  height: 50px;
+  margin-top: 19px;
+  
+}
+
+
+.airplane{
+  padding-left: 20px;        
+  margin-top: 13px;
+  padding: 23px;
+  margin-top: 10px;
+  padding-bottom: 40px;
+  padding-top: 12px;
+  border: none;
+  color: black;
+  background-image: linear-gradient(to right, #adc0b8 0%, rgb(237,237,238) 60%, #adc0b8 100%);
+  flex: 1 1 1;
+  transition: 0.5s;
+  background-size: 160% auto; 
+  width: 100%;
+
+}
+
+button:hover{
+  background-position: right center;
+}
+
+.airplane:active{
+  background-image: linear-gradient(to right, #638174 0%, rgb(237,237,238) 60%, #638174 100%);
+}
+
+input[type=email]{
+  -webkit-appearance: none;
+  width: 300px;
+  height: 50px;
+  background-color: transparent;
+  border: none;
+  border-bottom: rgb(114, 201, 223) solid 1px;
+}
+
+input[type=email]:focus{
+  border: none;
+  outline: none;
+}
+
+input[type=text]{
+  -webkit-appearance: none;
+  width: 300px;
+  height: 50px;
+  color: black;
+  background-color: transparent;
+  border: none;
+  border-bottom: rgb(114, 201, 223) solid 1px;
+
+}
+input[type=text]:focus{
+  border: none;
+  outline: none;
+  
+}
+
+input[type=message]{
+  -webkit-appearance: none;
+  width: 300px;
+  height: 50px;
+  background-color: transparent;
+  border: none;
+}
+
+
+.msg input[type=text] {
+  -webkit-appearance: none;
+  width: 630px;
+  height: 50px;
+  color: black;
+  background-color: transparent;
+  justify-content: center;
+}
+
+.msg{
+  display: flex;
+  justify-content: center;
+}
+
+textarea{
+  -webkit-appearance: none;
+  width: 533px;
+  height: 50px;
+  color: black;
+  background-color: transparent;
+  justify-content: center;
+  border: none;
+  border-bottom: rgb(114, 201, 223) solid 1px;
+  margin-bottom: -23px;
+}
+
+textarea:focus{
+  border: none;
+  outline: none;
+}
+
+
 /*********Landing Page: Gallery ***************/
 
 
