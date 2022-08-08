@@ -2276,7 +2276,6 @@ a.nav-link:hover{
   margin: 0%;
   padding: 0%;
   width: 380px;
-  margin: auto;
 
   }
   
@@ -2286,6 +2285,7 @@ a.nav-link:hover{
   margin: 0%;
   padding-top: 50px;
   padding-bottom: 150px;
+  margin: auto;
 
 
 }
