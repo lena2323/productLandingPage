@@ -419,6 +419,8 @@ margin-bottom: 100px;
   margin: 0%;
   padding-top: 50px;
   padding-bottom: 50px;
+  z-index: 0;
+
 }
 
 
@@ -524,7 +526,6 @@ iframe{
   padding: 20px;
   padding-bottom: 0px;
   padding-top: 20px;
-  
   
 }
 
