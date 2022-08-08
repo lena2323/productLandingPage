@@ -2135,4 +2135,140 @@ a.nav-link:hover{
 }
 
 
+/************Contact landing page***************/
+
+
+
+
+.contact{
+  background-color: rgb(237,237,238);
+  padding: 0px;
+  padding-bottom: 0px;
+  padding-top: 20px;
+  width: 400px;
+  }
+
+  .prvaDva{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  padding: 0%;
+  margin: 0%;
+  overflow: hidden;
+  align-items: center;
+
+  }
+
+  .msg{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+
+  }
+
+  .drugaDva{
+      display: flex;
+      flex-direction:column;
+      justify-content: center;
+      padding: 0%;
+      margin: 0%;
+      overflow: hidden;
+      align-items: center;
+
+  }
+
+  input[type=email]{
+  -webkit-appearance: none;
+  max-width: 300px;
+  height: 50px;
+  background-color: transparent;
+  border: none;
+  border-bottom: rgb(114, 201, 223) solid 1px;
+  }
+
+  input[type=text]{
+      -webkit-appearance: none;
+      max-width: 300px;
+      height: 50px;
+      color: black;
+      background-color: transparent;
+      border: none;
+      border-bottom: rgb(114, 201, 223) solid 1px;
+
+  }
+
+
+  .msg input[type=text] {
+      -webkit-appearance: none;
+      max-width: 300px;
+      height: 50px;
+      color: black;
+      background-color: transparent;
+      justify-content: center;
+  }
+
+
+  textarea{
+      -webkit-appearance: none;
+      max-width: 300px;
+      height: 50px;
+      color: black;
+      background-color: transparent;
+      justify-content: center;
+      border: none;
+      border-bottom: rgb(114, 201, 223) solid 1px;
+  }
+
+
+/*****************************************/
+
+
+  .buttonContact{
+      display: flex;
+      align-content:flex-end;
+      min-width: 765px;
+      max-height: 100px;
+      margin-top: 19px;
+      margin-top: 0px;
+      margin-bottom: 20px;
+      display: flex;
+      flex-direction: row;
+      max-width: 100px;
+      max-height: 50px;
+      margin-top: 19px;
+  }
+
+  .airplane{
+      padding: 10px;
+      margin: auto;
+      border: none;
+      color: black;
+      background-image: linear-gradient(to right, #adc0b8 0%, rgb(237,237,238) 51%, #adc0b8 100%);
+      flex: 1 1 1;
+      transition: 0.5s;
+      background-size: 160% auto; 
+      border-radius: 10px;
+      width: 100px;
+      
+  }
+
+  
+.contact-on-landing-page{ 
+  width: 400px;
+  margin: 0%;
+  padding: 0%;
+  margin: auto;
+  }
+  
+.container-landing-page-bck-black-contact{
+  background-color: white;
+  padding: 0%;
+  margin: 0%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+
+
 }
