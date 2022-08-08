@@ -354,14 +354,14 @@ margin-bottom: 100px;
 
 
 .container-landing-page-bck-weddings{
-  background-image: url(images/swiperbck.svg);
+  background-image: url(images/weddingsbcg.svg);
   background-repeat: no-repeat;
   background-position: top;
   background-size: 100% auto;
   padding: 0%;
   margin: 0%;
   padding-top: 50px;
-  background-color: #ffffff;
+  background-color: #3c3c3c;
 }
 
 .container-landing-page-bck-casual{
@@ -380,7 +380,7 @@ margin-bottom: 100px;
   background-image: url(images/servicesbcg.svg);
   background-size:  100%  ;
   background-repeat: no-repeat; 
-  background-position: bottom;
+  background-position: top;
   padding: 0%;
   margin: 0%;
   padding-top: 50px;
@@ -388,7 +388,7 @@ margin-bottom: 100px;
 }
 
 .container-landing-page-bck-events{
-  background-color: #3c3c3c;
+  background-color: #fff;
   background-image: url(images/casualeentsbcg.svg);
   background-size:  100%  ;
   background-repeat: no-repeat;
@@ -497,9 +497,16 @@ margin-bottom: 100px;
 
 
 /***********Google calendar******/
+.calendar-landing-page{
+  background-color: #ececec00;
+}
+iframe{
+  filter: invert(1%) sepia(50%) saturate(1013%) hue-rotate(173deg) brightness(100%) contrast(100%);
 
 
 
+
+}
 
 @media (max-width: 1200px) {
   iframe{
