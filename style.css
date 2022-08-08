@@ -2266,9 +2266,9 @@ a.nav-link:hover{
 
   
 .contact-on-landing-page{ 
-  width: 400px;
   margin: 0%;
   padding: 0%;
+  width: 380px;
   margin: auto;
   }
   
@@ -2278,6 +2278,7 @@ a.nav-link:hover{
   margin: 0%;
   padding-top: 50px;
   padding-bottom: 50px;
+
 
 }
 
