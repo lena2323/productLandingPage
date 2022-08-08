@@ -502,13 +502,12 @@ margin-bottom: 100px;
 .calendar-landing-page{
   background-color: #ececec00;
 }
-iframe{
-  filter: invert(1%) sepia(50%) saturate(1013%) hue-rotate(173deg) brightness(100%) contrast(100%);
 
 
-
-
+.calendar-landing-page h3{
+  color: white;
 }
+
 
 @media (max-width: 1200px) {
   iframe{
@@ -518,6 +517,13 @@ iframe{
 
 
 }
+
+.margin-gallery{
+  margin-bottom: 100px;
+
+color: #23242200;
+}
+
 
 /************Landing page contact**************/
 
