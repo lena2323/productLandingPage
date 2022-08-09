@@ -2155,7 +2155,7 @@ a.nav-link:hover{
 .contact{
   background-color: rgb(237,237,238);
   padding: 20px;
-  padding-bottom: 0px;
+  padding-bottom: 20px;
   padding-top: 20px;
   }
 
@@ -2250,22 +2250,10 @@ a.nav-link:hover{
   }
 
   
-.contact-on-landing-page{ 
-  margin: 0%;
-  padding: 0%;
-  overflow: hidden;
-  max-width: 380px;
-
-  }
-  
 .container-landing-page-bck-black-contact{
-  background-color: white;
-  padding: 0%;
-  margin: 0%;
+
   padding-top: 50px;
   padding-bottom: 150px;
-  margin: auto;
-
 
 }
 
