@@ -515,7 +515,7 @@ margin-bottom: 100px;
 @media (max-width: 1200px) {
   iframe{
    width: 370px;
-   height: 400px;
+   height: 370px;
    overflow: hidden; 
   } 
 
@@ -524,7 +524,14 @@ margin-bottom: 100px;
   .landingPageGalleryContentContainer-calendar{
     width: 370px;
     margin: auto;
+    overflow: hidden;
   }
+
+  
+.container-landing-page-bck-events{
+  width: 500px;
+}
+
 }
 
 .margin-gallery{
