@@ -491,8 +491,21 @@ margin-bottom: 100px;
 
 
 /***********Google calendar******/
+.landingPageGalleryContentContainer-calendar{
+  
+  display: flex;
+  text-align: left;
+  flex-flow: column wrap;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+  
+}
+
 .calendar-landing-page{
   background-color: #ececec00;
+  margin: 0%;
+  padding: 0%;
 }
 
 
