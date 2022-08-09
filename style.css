@@ -513,7 +513,8 @@ margin-bottom: 100px;
   iframe{
    width: 370px;
    height: 400px;
-} 
+   overflow: hidden; 
+  } 
 
 
 }
@@ -2163,7 +2164,7 @@ a.nav-link:hover{
   padding: 0px;
   padding-bottom: 0px;
   padding-top: 20px;
-  width: 380px;
+  max-width: 380px;
   overflow: hidden;
 
   }
@@ -2277,8 +2278,8 @@ a.nav-link:hover{
 .contact-on-landing-page{ 
   margin: 0%;
   padding: 0%;
-  width: 380px;
   overflow: hidden;
+  max-width: 380px;
 
   }
   
