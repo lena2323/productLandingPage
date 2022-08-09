@@ -298,15 +298,11 @@ a.footerLink:hover:before {
     align-items: center;
     text-align: center;
     max-width: 1200px;
-    background: #c0e1ff;
    background-color: aliceblue;
     
 }
 
 
-.landing-page-text:hover{
-  background-color: rgb(0, 204, 255);
-}
     
 .contact-on-landing-page{ 
 display: flex;
@@ -465,6 +461,7 @@ margin-bottom: 100px;
 }
 
 
+
 .button-landing-page-casual{
   -webkit-appearance: none;
     height: 30px;
@@ -537,7 +534,6 @@ color: #23242200;
   background-color: rgb(237,237,238);
   padding: 20px;
   padding-bottom: 0px;
-  padding-top: 20px;
   position: relative;
   z-index: 10;
   background: #ffffff;
@@ -548,57 +544,19 @@ color: #23242200;
   
   
 }
-.prvaDva{
+
+.formtypes-textarea-and-button{
+  padding: 10px;
+  padding-right: 0%;
+  
+}
+.name-and-email-container{
   display: flex;
   flex-direction: row;
   justify-content: center;
   padding: 10px;
   padding: 0%;
   margin: 0%;
-}
-
-.drugaDva{
-  display: flex;
-  flex-direction:row;
-  justify-content: center;
-  padding: 0%;
-  margin: 0%;
-}
-
-.buttonContact{
-  display: flex;
-  flex-direction: row;
-  justify-content:space-evenly;
-  width: 100px;
-  height: 50px;
-  margin-top: 19px;
-  
-}
-
-
-.airplane{
-  padding-left: 20px;        
-  margin-top: 13px;
-  padding: 23px;
-  margin-top: 10px;
-  padding-bottom: 40px;
-  padding-top: 12px;
-  border: none;
-  color: black;
-  background-image: linear-gradient(to right, #adc0b8 0%, rgb(237,237,238) 60%, #adc0b8 100%);
-  flex: 1 1 1;
-  transition: 0.5s;
-  background-size: 160% auto; 
-  width: 100%;
-
-}
-
-button:hover{
-  background-position: right center;
-}
-
-.airplane:active{
-  background-image: linear-gradient(to right, #638174 0%, rgb(237,237,238) 60%, #638174 100%);
 }
 
 input[type=email]{
@@ -633,7 +591,7 @@ input[type=text]:focus{
 
 input[type=message]{
   -webkit-appearance: none;
-  width: 300px;
+  width: 600px;
   height: 50px;
   background-color: transparent;
   border: none;
@@ -642,7 +600,7 @@ input[type=message]{
 
 .msg input[type=text] {
   -webkit-appearance: none;
-  width: 630px;
+  width: 740px;
   height: 50px;
   color: black;
   background-color: transparent;
@@ -650,20 +608,20 @@ input[type=message]{
 }
 
 .msg{
+  
   display: flex;
   justify-content: center;
 }
 
-textarea{
+.textarea-contact{
   -webkit-appearance: none;
-  width: 533px;
+  width: 633px;
   height: 50px;
   color: black;
   background-color: transparent;
   justify-content: center;
-  border: none;
-  border-bottom: rgb(114, 201, 223) solid 1px;
-  margin-bottom: -23px;
+  border: rgb(114, 201, 223) solid 1px;
+  margin-bottom: -13px;
 }
 
 textarea:focus{
@@ -671,6 +629,24 @@ textarea:focus{
   outline: none;
 }
 
+
+.textareaContainer{
+  display: flex;
+  flex-direction:row;
+  padding: 0%;
+
+}
+
+
+.button-landing-page-contact{
+  -webkit-appearance: none;
+    height: 30px;
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+    border: rgb(3, 193, 240) solid 1px;
+    text-align: right;
+    padding: 0%;
+}
 
 /*********Landing Page: Gallery ***************/
 
@@ -1149,17 +1125,17 @@ input[type=text]:focus{
     
 }
 
-textarea{
+.textarea-orders{
     -webkit-appearance: none;
     width: 360px;
     height: 50px;
     color: black;
-    background-color: rgba(255, 255, 255, 0.281);
+    background-color: rgba(255, 255, 255, 0);
     justify-content: center;
     border: none;
     border: rgb(114, 201, 223) solid 1px;
     color: rgb(204, 204, 206);
-
+  padding: 0%;
 }
 
 textarea:focus{
@@ -1870,6 +1846,12 @@ input[type=number]{
     margin-bottom: 20px;
 }
 
+.textarea-orders{
+  width: 300px;
+  border: none;
+  border-bottom: rgb(114, 201, 223) solid 1px;
+}
+
 
 /************HAMBURGER*****************/
 
@@ -2172,7 +2154,7 @@ a.nav-link:hover{
   padding-top: 20px;
   }
 
-  .prvaDva{
+  .name-and-email-container{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -2191,7 +2173,7 @@ a.nav-link:hover{
 
   }
 
-  .drugaDva{
+  .textareaContainer{
       display: flex;
       flex-direction:column;
       justify-content: center;
@@ -2201,6 +2183,21 @@ a.nav-link:hover{
       align-items: center;
 
   }
+
+  .formtypes-textarea-and-button{
+  display: flex;
+  flex-direction: column;
+  }
+
+  .button-landing-page-contact{
+  margin-top: 20px;  
+  margin-left: 68%;
+}
+
+    .textarea-contact{
+      margin-bottom: 0px;
+    }
+
 
   input[type=email]{
   -webkit-appearance: none;
@@ -2233,7 +2230,7 @@ a.nav-link:hover{
   }
 
 
-  textarea{
+  .textarea-contact{
       -webkit-appearance: none;
       max-width: 300px;
       height: 50px;
