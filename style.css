@@ -2164,6 +2164,8 @@ a.nav-link:hover{
   padding-bottom: 0px;
   padding-top: 20px;
   width: 380px;
+  overflow: hidden;
+
   }
 
   .prvaDva{
@@ -2276,6 +2278,7 @@ a.nav-link:hover{
   margin: 0%;
   padding: 0%;
   width: 380px;
+  overflow: hidden;
 
   }
   
