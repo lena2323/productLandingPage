@@ -435,19 +435,57 @@ margin-bottom: 100px;
   
 }
 
-.button-landing-page{
+/*************Landing page button on calendar***************/
+
+.button-landing-page-calendar{
   -webkit-appearance: none;
-    height: 30px;
-    width: 100px;
+    height: 50px;
+    width: 250px;
     background-color: rgb(255, 255, 255);
     border: rgb(3, 193, 240) solid 1px;
-    text-align: right;
+    text-align: center;
     margin: auto 70% 20px;
+    letter-spacing: 0.1em;
+  font-family: 'Times New Roman', Times, serif;
+  transition: 0.3s all ease-in-out;
+
+}
+
+.button-landing-page-calendar:hover{
+    content: '';
+    position: relative;
+    vertical-align: middle;
+    width: 300px;
+    height: 50px;
+    letter-spacing: 0.3em;
     
+    padding-left: 50px;
+
+}
+
+.button-landing-page-calendar::before{
+  display: block;
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 3.5px;
+  bottom: 50%;
+  left: 10px;
+  background-color: rgb(3, 193, 240);
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+
 }
 
 
 
+.button-landing-page-calendar:hover:before {
+  visibility: visible;
+  width: 12%;
+  
+}
+
+/**********Button casual************/
 .button-landing-page-casual{
   -webkit-appearance: none;
     height: 30px;
@@ -459,20 +497,59 @@ margin-bottom: 100px;
     
 }
 
+
+
+/***********Button on cards landing page*****************/
+
+
+.button-landing-page{
+  -webkit-appearance: none;
+    height: 50px;
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+    border: rgb(3, 193, 240) solid 1px;
+    text-align: center;
+    margin: auto 70% 20px;
+    letter-spacing: 0.1em;
+  font-family: 'Times New Roman', Times, serif;
+  transition: 0.3s all ease-in-out;
+
+}
+
+
 .button-landing-page:hover{
-  background-color: #232422;
+  content: '';
+  position: relative;
+  vertical-align: middle;
+  width: 150px;
+  height: 50px;
+  letter-spacing: 0.3em;
+  
+  padding-left: 50px;
+
+}
+
+.button-landing-page::before{
+display: block;
+content: "";
+position: absolute;
+width: 0;
+height: 3.5px;
+bottom: 50%;
+left: 10px;
+background-color: rgb(3, 193, 240);
+visibility: hidden;
+transition: all 0.3s ease-in-out;
+
 }
 
 
-.button-landing-page-casual:hover{
-  background-color: #232422;
+
+.button-landing-page:hover:before {
+visibility: visible;
+width: 12%;
+
 }
-
-
-
-
-
-
 /***********Google calendar******/
 .landingPageGalleryContentContainer-calendar{
   
@@ -2103,6 +2180,11 @@ a.nav-link:hover{
     text-align: right;
     margin: auto 70% 20px;
     
+}
+
+.button-landing-page-calendar{
+  margin: auto ;
+
 }
 
 /************Contact landing page***************/
