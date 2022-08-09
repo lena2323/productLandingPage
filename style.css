@@ -2152,15 +2152,11 @@ a.nav-link:hover{
 
 
 
-
 .contact{
   background-color: rgb(237,237,238);
-  padding: 0px;
+  padding: 20px;
   padding-bottom: 0px;
   padding-top: 20px;
-  max-width: 380px;
-  overflow: hidden;
-
   }
 
   .prvaDva{
@@ -2239,33 +2235,18 @@ a.nav-link:hover{
 /*****************************************/
 
 
-  .buttonContact{
-      display: flex;
-      align-content:flex-end;
-      min-width: 765px;
-      max-height: 100px;
-      margin-top: 19px;
-      margin-top: 0px;
-      margin-bottom: 20px;
-      display: flex;
-      flex-direction: row;
-      max-width: 100px;
-      max-height: 50px;
-      margin-top: 19px;
-  }
-
   .airplane{
-      padding: 10px;
-      margin: auto;
-      border: none;
-      color: black;
-      background-image: linear-gradient(to right, #adc0b8 0%, rgb(237,237,238) 51%, #adc0b8 100%);
-      flex: 1 1 1;
-      transition: 0.5s;
-      background-size: 160% auto; 
-      border-radius: 10px;
-      width: 100px;
-      
+    padding: 10px;
+    margin: auto;
+    border: none;
+    color: black;
+    background-image: linear-gradient(to right, #adc0b8 0%, rgb(237,237,238) 51%, #adc0b8 100%);
+    flex: 1 1 1;
+    transition: 0.5s;
+    background-size: 160% auto; 
+    width: 100px;
+    height: 200px;
+
   }
 
   
