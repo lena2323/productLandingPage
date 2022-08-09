@@ -496,7 +496,8 @@ margin-bottom: 100px;
   margin: auto;
   align-items: center;
   text-align: center;
-  
+  margin: 0%;
+  padding: 0%;
 }
 
 .calendar-landing-page{
@@ -519,6 +520,11 @@ margin-bottom: 100px;
   } 
 
 
+
+  .landingPageGalleryContentContainer-calendar{
+    width: 370px;
+    margin: auto;
+  }
 }
 
 .margin-gallery{
