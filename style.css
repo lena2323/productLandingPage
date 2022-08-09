@@ -277,14 +277,6 @@ a.footerLink:hover:before {
 
 
 
-
-.content-inner-contact{
-  position: relative;
-  z-index: 10;
-  background: #c0e1ff;
-background: -webkit-linear-gradient(to bottom, #cfd2d3f1, #a1d2fdd5, #d4ebff);
-background: linear-gradient(to bottom, #cfd2d3f1, #a1d2fdd5, #d4ebff);
-}
 /************Landing page***********/
 
 .landingPageGalleryContainer{
@@ -533,7 +525,9 @@ color: #23242200;
   padding: 20px;
   padding-bottom: 0px;
   padding-top: 20px;
-  
+  position: relative;
+  z-index: 10;
+  background: #ffffff;
 }
 
 .formtypes{
@@ -2294,7 +2288,4 @@ a.nav-link:hover{
 
 }
 
-.content-inner-contact{
-  width: 380px;
-}
 }
