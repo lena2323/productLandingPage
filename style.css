@@ -468,8 +468,8 @@ margin-bottom: 100px;
   content: "";
   position: absolute;
   width: 0;
-  height: 3.5px;
-  bottom: 50%;
+  height: 1px;
+  bottom: 45%;
   left: 10px;
   background-color: rgb(3, 193, 240);
   visibility: hidden;
@@ -481,9 +481,12 @@ margin-bottom: 100px;
 
 .button-landing-page-calendar:hover:before {
   visibility: visible;
-  width: 12%;
-  
+  width: 18%;
+  margin-left: -30px;
 }
+
+
+
 
 /**********Button casual************/
 .button-landing-page-casual{
@@ -534,7 +537,7 @@ display: block;
 content: "";
 position: absolute;
 width: 0;
-height: 3.5px;
+height: 1px;
 bottom: 50%;
 left: 10px;
 background-color: rgb(3, 193, 240);
@@ -547,7 +550,8 @@ transition: all 0.3s ease-in-out;
 
 .button-landing-page:hover:before {
 visibility: visible;
-width: 12%;
+width: 30%;
+margin-left: -30px;
 
 }
 /***********Google calendar******/
@@ -635,11 +639,6 @@ textarea::placeholder{
   padding-right: 3px;
 }
 
-input:active label{
-  letter-spacing: 1;
-  opacity: 100%;
-}
-
 .formtypes-textarea-and-button{
   padding: 10px;
   padding-right: 0%;
@@ -701,6 +700,7 @@ input[type=message]{
   background-color: transparent;
   justify-content: center;
 }
+
 
 .msg{
   
