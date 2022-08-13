@@ -1263,7 +1263,6 @@ margin-left: -20px;
     justify-content: space-between;
     padding-right: 140px;
     padding-left: 100px;
-    background-color: #adc0b8;
     background-image: url(images/bckgsmaller.svg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -1281,6 +1280,7 @@ margin-left: -20px;
 
 
 .orderInformation{
+  margin-top: 20px;
     display: flex;
     flex-direction: column;
     z-index: 10;
@@ -1313,6 +1313,11 @@ margin-left: -20px;
 .personalInformationFormButton button:active{
     background-color: rgba(255, 255, 255, 0.39);
     border: rgb(114, 170, 223) solid 1px;
+
+}
+
+.personalInformationFormButton button:hover{
+  background-color:   rgb(114, 201, 223);
 
 }
 
@@ -1391,7 +1396,7 @@ textarea:focus{
     display: flex;
     flex-direction: column;
     border: rgb(114, 201, 223) solid 1px;
-    background-color: rgb(216, 216, 216);
+    background-color: rgb(255, 255, 255);
     margin-right: 30px;
     margin-bottom: 50px;
     z-index: 10;
@@ -1446,7 +1451,7 @@ textarea:focus{
     margin-right: 20px;
     max-height: auto;
     width: 400px;
-    background-color: rgb(216, 216, 216);
+    background-color: rgb(255, 255, 255);
     text-align: center;
     margin-bottom: 50px;
     position: relative;
@@ -1463,11 +1468,21 @@ textarea:focus{
     background-color: rgba(255, 255, 255, 0.39);
     border: rgb(114, 170, 223) solid 1px;
     margin-bottom: 50px;
+    width: 100px;
+    align-self: center;
+}
+
+.cartItems button:hover{
+  background-color:   rgb(114, 201, 223);
 }
 
 .cartItems button:active{
     background-color: rgba(255, 255, 255, 0.281);
-    border: rgb(3, 193, 240) solid 1px;
+    border: rgb(153, 229, 248) solid 1px;
+}
+
+button:disabled:hover{
+  background-color: #1f1f1f00;
 }
 
 .total{
@@ -1503,7 +1518,7 @@ textarea:focus{
 }
 
 .buttonAddToCart:hover{
-  background-color: rgba(114, 201, 223, 0.616);
+  background-color:rgb(114, 201, 223);
 }
 
 .chooseTypeOfDish{
@@ -1523,7 +1538,8 @@ textarea:focus{
 }
 
 .chooseTypeOfDish a:hover{
-  color: rgb(114, 201, 223);
+  color: rgb(255, 255, 255);
+  background-color:rgb(114, 201, 223);
 }
 
 
