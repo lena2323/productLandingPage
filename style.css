@@ -436,10 +436,12 @@ margin-bottom: 100px;
   .landing-page-image{
     display: flex;
     flex-direction: column;
-    margin: auto;
+    margin: 0px;
     align-items: center;
-    width: 400px;
+    text-align: center;    
+    width: 350px;
     padding: 0%;
+    margin: auto;
   }
 
   .landing-page-image-smaller{
