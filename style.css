@@ -444,6 +444,16 @@ margin-bottom: 100px;
     flex-direction: column-reverse;
   }
   
+.landing-page-text{  
+  width: 400px;
+}
+
+.img-zoom:hover{
+  transform:none;
+
+}
+
+
 }
 
 /*************Landing page button on calendar***************/
@@ -2245,6 +2255,23 @@ a.nav-link:hover{
 .button-landing-page-calendar{
   margin: auto ;
 
+}
+
+
+.button-landing-page-casual{
+  margin: auto;
+  width: 200px;
+  height: 50px;
+  margin-bottom: 10px;
+  padding-right: 20px;
+}
+
+.button-landing-page{
+  margin: auto;
+  width: 100px;
+  height: 50px;
+  margin-bottom: 10px;
+  padding-right: 0px;
 }
 
 /************Contact landing page***************/
