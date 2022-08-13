@@ -73,7 +73,7 @@ function showLandingPage(){
     hideOrders()
     hideMenu()
     everythingToHide.classList.remove('hide');
-
+   
 }
 
 
