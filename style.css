@@ -439,18 +439,21 @@ margin-bottom: 100px;
     margin: 0px;
     align-items: center;
     text-align: center;    
-    padding: 0%;
     margin: auto;
 
   }
+  .landing-page-image p{
+    padding: 10px;
+  }
+
 
   .landing-page-image-smaller{
     flex-direction: column-reverse;
   }
   
 .landing-page-text{  
-  width: 400px;
-  
+  width: 350px;
+  margin: 10px;
 }
 
 .img-zoom:hover{
