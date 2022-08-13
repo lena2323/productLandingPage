@@ -445,25 +445,35 @@ const reservationOnCalendar = document.getElementById("reservationOnCalendar");
 
 makeAReservationButton.addEventListener('click',() =>{
   subject.value = "I want to make a reservation";
+  brokenLinksContainer.classList.remove("show")
+
 });
 
 readyToScheduleButton.addEventListener('click',() =>{
   subject.value = "I want to schedule my event";
+  brokenLinksContainer.classList.remove("show")
+
 });
 
 
 bandBontact.addEventListener('click',() =>{
   subject.value = "I want my band to be available for events";
+  brokenLinksContainer.classList.remove("show")
+
 });
 
 
 bookKaty.addEventListener('click',() =>{
   subject.value = "I want to schedule a meeting with Katy Gallagher";
+  brokenLinksContainer.classList.remove("show")
+
 });
 
 
 reservationOnCalendar.addEventListener('click',() =>{
   subject.value = "I want to make a reservation";
+  brokenLinksContainer.classList.remove("show")
+
 });
 
 const brokenLinksContainer = document.getElementById("broken-links-container")
