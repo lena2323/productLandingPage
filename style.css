@@ -439,9 +439,9 @@ margin-bottom: 100px;
     margin: 0px;
     align-items: center;
     text-align: center;    
-    width: 350px;
     padding: 0%;
     margin: auto;
+
   }
 
   .landing-page-image-smaller{
@@ -449,12 +449,16 @@ margin-bottom: 100px;
   }
   
 .landing-page-text{  
-  width: 300px;
+  width: 400px;
+  
 }
 
 .img-zoom:hover{
   transform:none;
 
+}
+.landingPageGalleryContentContainer p{
+  margin: 0;
 }
 
 
