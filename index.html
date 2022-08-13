@@ -97,12 +97,12 @@
                     <div class="landing-page-image">
                         <img src="images/weddings/foodweddings/pexels-lukas-306059.jpg" alt="" class="img-zoom"> 
                         <div class="landing-page-text">
-                            <h3>How to make your spause happy?</h3>
+                            <h3>How to make your spouse happy?</h3>
                             <p>With food of course! <br>
                             <a href="#" class="links">Research</a> shows that 78% of all newlyweds wished they had better food at their weddings, and one of the main reason they listed was that the food served was not diverse enough. <br>
                             We offer diverse food meant to satisfy every taste with just a single bite; look at our menu, tell us if you see something you would like! 
                             </p>
-                            <button class="button-landing-page">MENU</button>
+                            <button class="button-landing-page" onclick="showMenu()">MENU</button>
                         </div>
                     </div>
                     <div class="landing-page-image landing-page-image-smaller">
@@ -113,7 +113,7 @@
                             Even at our busiest we try to provide our advice, and assistance to everyone who is considering us to make YOUR day as perfect as it should be.
                             We encourage you to see our menu, schedule a tasting session, look at our venues, and do not forget to see if the date you set is available!.
                             </p>
-                            <button class="button-landing-page">SCHEDULE</button>
+                            <button class="button-landing-page" id="ready-to-schedule"><a href="#tab-contact" class="links-on-buttons">SCHEDULE</a></button>
                         </div>
                         <img src="images/weddings/creativeweddings/pexels-terje-sollie-313700.jpg" alt="" class="img-zoom">
                     </div>
@@ -126,7 +126,7 @@
                             We are partners with many <a href="#" class="links">hotels</a>, and <a href="#" class="links">private beaches</a>, and they offer massive discounts if you decide to use our catering and their hospitality!
                             See how our weddings looked like in our gallery.
                             </p>
-                            <button class="button-landing-page">Gallery</button>
+                            <button class="button-landing-page"><a href="#tab-Gallery" class="links-on-buttons">GALLERY</a></button>
                         </div>
                     </div>
                 </div>
@@ -140,10 +140,10 @@
 
                         <div class="landing-page-text">
                             <h3>We are also a walk in restaurant</h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni ad natus, nulla pariatur sunt voluptatum ratione libero placeat non aut! Omnis in esse, dolore quaerat veritatis modi eaque cupiditate accusamus laudantium.</p>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni ad natus, nulla pariatur sunt voluptatum ratione libero placeat non aut! Omnis in esse, dolore quaeratnecessitatibus quia consequatur expedita ex! Vero doloremque Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe, facere.  cupiditate maiores corrupti nam fugit!</p>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni ad natus, nulla pariatur sunt voluptatum ratione aut tempore adipisci ut, sequi laborum, necessitatibus quia consequatur expedita ex! Vero doloremque cupiditate maiores corrupti nam fugit!</p>
-                            <button class="button-landing-page-casual"></button>
+                            <p>We provide the entirety of our menu to our guests in our walk-in restaurant! Our kitchen is always open, and our staff is always at your disposal. </p>
+                            <p>We also take reservations, but they are not obligatory; we are confident in our ability to provide our services to  all of our walk-in guests too. </p>
+                            <p>On the weekends in the party lounge you can enjoy live music, and in the "calm-lounge", isolated from the music wwhere you can always concentrate on your work, and the best part is that our calm lounge is always open!</p>
+                            <button class="button-landing-page-casual" id="make-a-reservation-button"> <a href="#tab-contact" class="links-on-buttons">MAKE A RESERVATION</a></button>
                         </div>
                         <img src="images/casual.jpg" alt="" class="img-zoom">
                     </div>
@@ -159,16 +159,22 @@
                         <img src="images/services/pexels-rodnae-productions-7502588.jpg" alt="" class="img-zoom"> 
                         <div class="landing-page-text">
                             <h3>Need a band?</h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni ad natus, nulla pariatur sunt voluptatum ratione libero placeat non aut! Omnis in esse, dolore quaerat veritatis modi eaque cupiditate accusamus laudantium accusantium aut tempore adipisci ut, sequi laborum, necessitatibus quia consequatur expedita ex! Vero doloremque cupiditate maiores corrupti nam fugit!</p>
-                            <button class="button-landing-page"></button>
+                            <p> Fridays, saturdays, and sundays are the days when we let loose!</p>
+                            <p>We are proud to say that we love to nourish our local bands and artists. Not only do we provide their music at our party lounge every weekend, we also love to include it at your wedding.</p>
+                            <p>Look at our scheduled events, and if you don't want to listen to our bands, you can also schedule a karaoke event!</p>
+                            <p>If you are in a band yourself, and want to play in our restaurant, contact us and let's schedule your next gig!</p>
+                            <button class="button-landing-page" id="band-contact"><a href="#tab-contact" class="links-on-buttons">CONTACT</a></button>
                         </div>
                     </div>
                     <div class="landing-page-image landing-page-image-smaller">
 
                         <div class="landing-page-text">
                             <h3>Or a professional photographer?</h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni ad natus, nulla pariatur sunt voluptatum ratione libero placeat non aut! Omnis in esse, dolore quaerat veritatis modi eaque cupiditate accusamus laudantium accusantium aut tempore adipisci ut, sequi laborum, necessitatibus quia consequatur expedita ex! Vero doloremque cupiditate maiores corrupti nam fugit!</p>
-                            <button class="button-landing-page"></button>
+                            <p><a href="#" class="links"> James O'Lear</a>, <a href="#" class="links"> Ally KISS</a>, and <a href="#" class="links"> Lizzy</a> are regularly making our dreams come to reality!</p>
+                            <p>Their attention to detal is amazing, the equipment they use is modern, and the photos they take are high-quality, clean, and guaranteed to make it to your frames in your home!</p>
+                            <p>Check out their portfolios, and we can't wait for you to fall in love with their work, just as much as we have!</p>
+                            
+                            <button class="button-landing-page"><a href="#tab-Gallery" class="links-on-buttons">GALLERY</a></button>
                         </div>
                         <img src="images/services/photohrapher.jpg" alt="" class="img-zoom">
                     </div>
@@ -176,8 +182,10 @@
                         <img src="images/services/planning.jpg" alt="" class="img-zoom"> 
                         <div class="landing-page-text">
                             <h3>Let us plan it all for you!</h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni ad natus, nulla pariatur sunt voluptatum ratione libero placeat non aut! Omnis in esse, dolore quaerat veritatis modi eaque cupiditate accusamus laudantium accusantium aut tempore adipisci ut, sequi laborum, necessitatibus quia consequatur expedita ex! Vero doloremque cupiditate maiores corrupti nam fugit!</p>
-                            <button class="button-landing-page"></button>
+                            <p>If you are looking for an event planner, we also offer <a href="#" class="links">Katy Gallagher's</a> services at a discount price if you choose to book ove of our venues!</p>
+                            <p>Her skills in organizing our events is impressive, and she will always think of everything you are worried abbout, and make those worries go away, leaving you free time to relax before the big day!</p>
+                            <p>You can schedule a meeting with her anytime!</p>
+                            <button class="button-landing-page" id="bookKaty"><a href="#tab-contact" class="links-on-buttons">CONTACT</a></button>
                         </div>
                     </div>
                 </div>
@@ -307,7 +315,7 @@
                                 <div class="formtypes" >
                                   
                                     <label>Subject</label>
-                                    <input type="text" name="subject" placeholder="Subject" >
+                                    <input type="text" name="subject" placeholder="Subject" id="subject">
                                    
                                 </div>
                             </div>

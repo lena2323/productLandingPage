@@ -448,6 +448,7 @@ margin-bottom: 100px;
 
 /*************Landing page button on calendar***************/
 
+
 .button-landing-page-calendar{
   -webkit-appearance: none;
     height: 50px;
@@ -502,16 +503,51 @@ margin-bottom: 100px;
 /**********Button casual************/
 .button-landing-page-casual{
   -webkit-appearance: none;
-    height: 30px;
-    width: 100px;
+    height: 50px;
+    width: 250px;
     background-color: rgb(255, 255, 255);
     border: rgb(3, 193, 240) solid 1px;
-    text-align: right;
-    margin: auto 80% 20px;
-    
+    text-align: center;
+    margin: auto 45% 20px;
+    transition: 0.3s all ease-in-out;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.1em;
+
 }
 
 
+.button-landing-page-casual:hover{
+  position: relative;
+  vertical-align: middle;
+  width: 300px;
+  height: 50px;
+  letter-spacing: 0.3em;
+  
+  padding-left: 50px;
+
+}
+
+.button-landing-page-casual::before{
+display: block;
+content: "";
+position:absolute;
+width: 0;
+height: 1px;
+bottom: 50%;
+left: 10px;
+background-color: rgb(3, 193, 240);
+visibility: hidden;
+transition: all 0.3s ease-in-out;
+
+}
+
+
+
+.button-landing-page-casual:hover:before {
+visibility: visible;
+width: 20%;
+margin-left: -30px;
+}
 
 /***********Button on cards landing page*****************/
 
@@ -537,7 +573,7 @@ margin-bottom: 100px;
   height: 50px;
   letter-spacing: 0.3em;
   
-  padding-left: 50px;
+  padding-left: 30px;
 
 }
 
@@ -675,11 +711,19 @@ input[type=email]:focus{
   outline: none;
 }
 
+input{
+  padding-left: 20px;
+  padding-top: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #232422;
+  font-size: 20px;
+  letter-spacing: 0.1em;
+}
+
 input[type=text]{
   -webkit-appearance: none;
   width: 300px;
   height: 50px;
-  color: black;
   background-color: transparent;
   border: none;
   border-bottom: rgb(114, 201, 223) solid 1px;
@@ -702,9 +746,8 @@ input[type=message]{
 
 .msg input[type=text] {
   -webkit-appearance: none;
-  width: 744px;
+  width: 764px;
   height: 50px;
-  color: black;
   background-color: transparent;
   justify-content: center;
 }
@@ -720,12 +763,16 @@ input[type=message]{
   -webkit-appearance: none;
   width: 630px;
   height: 50px;
-  color: black;
   background-color: transparent;
   justify-content: center;
   border: rgb(114, 201, 223) solid 1px;
   margin-bottom: -13px;
-  padding-left: 0%;
+  padding-left: 20px;
+  padding-top: 20px;
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  color: #232422;
+
 }
 
 textarea:focus{
@@ -1012,6 +1059,13 @@ textarea:focus{
     font-family: 'Times New Roman', Times, serif;
 }
 
+
+.links-on-buttons{
+  text-decoration: none;
+  color: black;
+}
+
+
 .paragraphsInMenu{
     padding-left: 20px;
     padding-right: 20px;
@@ -1141,7 +1195,6 @@ input[type=email]{
     background-color: rgba(255, 255, 255, 0.281);
     border: none;
     border: rgb(114, 201, 223) solid 1px;
-    color: rgb(204, 204, 206);
 
 }
 
@@ -1160,7 +1213,6 @@ input[type=text]{
     background-color: rgba(255, 255, 255, 0.281);
     border: none;
     border: rgb(114, 201, 223) solid 1px;
-    color: rgb(204, 204, 206);
 
 
 }

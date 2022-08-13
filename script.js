@@ -423,4 +423,30 @@ window.addEventListener("scroll", () => {
   handleScrollAnimation();
 });
 
+/***************** Buttons on the landing page *****/
 
+const makeAReservationButton = document.getElementById("make-a-reservation-button");
+const subject = document.getElementById("subject");
+const placeholderContact = document.getElementsByName('messageContact')
+const readyToScheduleButton = document.getElementById("ready-to-schedule");
+const bandBontact = document.getElementById("band-contact");
+const bookKaty = document.getElementById("bookKaty");
+
+
+makeAReservationButton.addEventListener('click',() =>{
+  subject.value = "I want to make a reservation";
+});
+
+readyToScheduleButton.addEventListener('click',() =>{
+  subject.value = "I want to schedule my event";
+});
+
+
+bandBontact.addEventListener('click',() =>{
+  subject.value = "I want my band to be available for events";
+});
+
+
+bookKaty.addEventListener('click',() =>{
+  subject.value = "I want to schedule a meeting with Katy Gallagher";
+});
