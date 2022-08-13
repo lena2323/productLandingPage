@@ -117,6 +117,7 @@ function subscribeToFamilyMag(){
   hideMenu()
   hideHamburger()
   subscribeContent.classList.remove('hide');
+  brokenLinksContainer.classList.remove("show")
 
 }
 
@@ -126,6 +127,8 @@ function showAboutUs(){
   hideMenu()
   hideHamburger()
   aboutUsContent.classList.remove('hide');
+  brokenLinksContainer.classList.remove("show")
+
 }
 
 
@@ -135,6 +138,8 @@ function showMenu(){
   hideMenu()
   hideHamburger()
   menuContents.classList.remove('hide');
+  brokenLinksContainer.classList.remove("show")
+
 }
 
 
@@ -145,6 +150,8 @@ function orderNow() {
   hideHamburger()
   order.classList.remove('hide');
   mainDishesInOrders.classList.remove('hide');
+  brokenLinksContainer.classList.remove("show")
+
 }
 
 // MENU VAR
@@ -183,6 +190,7 @@ mainDishesButton.addEventListener('click',() =>{
   hideOrders()
   menuInMenu()
   mainDishes.classList.remove('hide');
+  
 });
 
 pastaDishesButton.addEventListener('click',() =>{
@@ -431,6 +439,8 @@ const placeholderContact = document.getElementsByName('messageContact')
 const readyToScheduleButton = document.getElementById("ready-to-schedule");
 const bandBontact = document.getElementById("band-contact");
 const bookKaty = document.getElementById("bookKaty");
+const reservationOnCalendar = document.getElementById("reservationOnCalendar");
+
 
 
 makeAReservationButton.addEventListener('click',() =>{
@@ -450,3 +460,21 @@ bandBontact.addEventListener('click',() =>{
 bookKaty.addEventListener('click',() =>{
   subject.value = "I want to schedule a meeting with Katy Gallagher";
 });
+
+
+reservationOnCalendar.addEventListener('click',() =>{
+  subject.value = "I want to make a reservation";
+});
+
+const brokenLinksContainer = document.getElementById("broken-links-container")
+
+function brokenLinks(){
+  everythingToHideOnLandingPage()
+  hideOrders()
+  hideMenu()
+  hideHamburger()
+  menuInMenu()
+  ordersInOrders()
+  brokenLinksContainer.classList.add("show")
+}
+

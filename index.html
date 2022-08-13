@@ -202,7 +202,7 @@
                     <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=2&bgcolor=%233c3c3c&ctz=Europe%2FBelgrade&showTz=0&showTabs=1&showPrint=0&showTitle=0&src=bGVuYWl2YW5rb3ZpYzEyM0BnbWFpbC5jb20&color=%23616161" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
                     <div class="text-in-calendar">
                     <p>Make a reservation now!</p>
-                    <button class="button-landing-page-calendar">Make a reservation now! </button>
+                    <button class="button-landing-page-calendar" id="reservationOnCalendar">  <a href="#tab-contact" class="links-on-buttons">Make a reservation now!</a> </button>
 
                     </div>
                 </div>
@@ -1131,6 +1131,11 @@
 
     </div>
 
+  
+    <div class="broken-links-container" id="broken-links-container">
+        <p> This is a mock website, it is not real! I can not make every link work.... I can not make websites for Katy, or James, or the Taco Roadhouse... please don't make me</p>
+    </div>
+        
    
 <footer class="mainfooter" id="footer">
 
@@ -1149,9 +1154,9 @@
 
         <ul class="footerUL">            
             <h3>Partnerships</h3>
-            <li><a href="#for-scrolling-to-top" class="footerLink" >Hawk Hotel</a></li>
-            <li><a href="#for-scrolling-to-top" class="footerLink">ChopChop Wings</a></li>
-            <li><a href="#for-scrolling-to-top"  class="footerLink">Taco Roadhouse</a></li>
+            <li><a href="#for-scrolling-to-top" class="footerLink" onclick="brokenLinks()">Hawk Hotel</a></li>
+            <li><a href="#for-scrolling-to-top" class="footerLink" onclick="brokenLinks()">ChopChop Wings</a></li>
+            <li><a href="#for-scrolling-to-top"  class="footerLink" onclick="brokenLinks()">Taco Roadhouse</a></li>
         </ul>
 
         <ul class="footerUL">            
@@ -1169,8 +1174,6 @@
 
 
 </footer>
-  
-    
 
     
 
