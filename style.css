@@ -351,7 +351,7 @@ margin-bottom: 100px;
 
 .container-landing-page-bck-services{
   background-color: #3c3c3c;
-  background-image: url(images/servicesbcg.svg);
+  background-image: url(images/servicesbcgnew.svg);
   background-size:  100%  ;
   background-repeat: no-repeat; 
   background-position: top;
@@ -362,15 +362,14 @@ margin-bottom: 100px;
 }
 
 .container-landing-page-bck-events{
-  background-color: #3c3c3c;
+  background-color: white;
   background-image: url(images/casualeentsbcg.svg);
-  background-size:  100%  ;
+  background-size:  cover ;
   background-repeat: no-repeat;
   background-position: center;
   padding: 0%;
   margin: 0%;
-  padding-top: 50px;
-
+  margin-bottom: 0px;
 }
 
 .container-landing-page-bck-swiper{
@@ -382,7 +381,7 @@ margin-bottom: 100px;
   background-repeat: no-repeat; 
   background-position: bottom;
   padding-top: 50px;
-
+  
 }
 
 
@@ -465,6 +464,12 @@ margin-bottom: 100px;
 }
 
 
+
+}
+
+
+.calendarh3{
+  color: white;
 }
 
 /*************Landing page button on calendar***************/
