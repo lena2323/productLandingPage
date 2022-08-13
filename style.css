@@ -482,7 +482,7 @@ margin-bottom: 100px;
     background-color: rgb(255, 255, 255);
     border: rgb(3, 193, 240) solid 1px;
     text-align: center;
-    margin: auto 70% 20px;
+    margin: 30px 70% 20px ;
     letter-spacing: 0.1em;
   font-family: 'Times New Roman', Times, serif;
   transition: 0.3s all ease-in-out;
@@ -2455,7 +2455,7 @@ a.nav-link:hover{
 
 .button-landing-page-calendar{
   margin: auto ;
-
+  margin-top: 20px;
 }
 
 
