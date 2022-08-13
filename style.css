@@ -305,7 +305,7 @@ margin-bottom: 100px;
 
 
 .landingPageGalleryContentContainer img{
-  max-height: 600px;
+  max-height: 700px;
   max-width: 600px;
 }
 
@@ -362,7 +362,7 @@ margin-bottom: 100px;
 }
 
 .container-landing-page-bck-events{
-  background-color: #fff;
+  background-color: #3c3c3c;
   background-image: url(images/casualeentsbcg.svg);
   background-size:  100%  ;
   background-repeat: no-repeat;
