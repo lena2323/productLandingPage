@@ -146,6 +146,8 @@ padding: 1em;
     flex-direction: column;
     padding: 0%;
     margin: 0%;
+    padding-top: 50px;
+
 }
 
 .mainfooter p{
@@ -693,11 +695,6 @@ textarea::placeholder{
   padding-right: 3px;
 }
 
-.formtypes-textarea-and-button{
-  padding: 10px;
-  padding-right: 0%;
-  
-}
 .name-and-email-container{
   display: flex;
   flex-direction: row;
@@ -792,10 +789,15 @@ textarea:focus{
 
 
 .textareaContainer{
-  display: flex;
-  flex-direction:row;
-  padding: 0%;
+  
+  width: 100%;
+}
 
+
+.formtypes-textarea-and-button{
+  display: flex;
+  padding: 10px;
+  
 }
 
 
@@ -805,10 +807,48 @@ textarea:focus{
     width: 100px;
     background-color: rgb(255, 255, 255);
     border: rgb(3, 193, 240) solid 1px;
-    text-align: right;
     padding: 0%;
+    margin: auto;
+    align-items: center;
+    transition: 0.3s all ease-in-out;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.1em;  
+
+} 
+
+
+
+
+.button-landing-page-contact:hover{
+  position: relative;
+  vertical-align: middle;
+  width: 110px;
+  letter-spacing: 0.3em;  
+  padding-left: 10px;
+
 }
 
+.button-landing-page-contact::before{
+display: block;
+content: "";
+position:absolute;
+width: 0;
+height: 1px;
+bottom: 50%;
+left: 10px;
+background-color: rgb(3, 193, 240);
+visibility: hidden;
+transition: all 0.3s ease-in-out;
+
+}
+
+
+
+.button-landing-page-contact:hover:before {
+visibility: visible;
+width: 20%;
+margin-left: -20px;
+}
 /*********Landing Page: Gallery ***************/
 
 
@@ -1804,7 +1844,6 @@ button:disabled:active{
 .FooterAllULcontainer{
     flex-direction: column;
     margin-bottom: 20px;
-    
 }
 
 .logoInFooter{
