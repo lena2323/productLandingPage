@@ -438,6 +438,8 @@ margin-bottom: 100px;
     flex-direction: column;
     margin: auto;
     align-items: center;
+    width: 400px;
+    padding: 0%;
   }
 
   .landing-page-image-smaller{
@@ -445,7 +447,7 @@ margin-bottom: 100px;
   }
   
 .landing-page-text{  
-  width: 300px;
+  width: 400px;
 }
 
 .img-zoom:hover{
