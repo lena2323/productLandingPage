@@ -838,8 +838,8 @@ textarea:focus{
 
 .swiper-slide img {
   display: block;
-  height: 300px;
-  width: auto;
+  height: 500px;
+  width: 100%;
   object-fit: cover;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-user-select: none;
@@ -1067,6 +1067,11 @@ textarea:focus{
 .links{
     color: rgb(67, 163, 253);
     font-family: 'Times New Roman', Times, serif;
+}
+
+.links:hover{
+  color: rgb(0, 173, 173)
+
 }
 
 
