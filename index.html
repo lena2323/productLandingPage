@@ -157,18 +157,19 @@
 
                     <div class="landing-page-image">
                         <img src="images/services/pexels-rodnae-productions-7502588.jpg" alt="" class="img-zoom"> 
-                        <div class="landing-page-text">
+                        <div class="landing-page-text" id="houseBands">
                             <h3>Need a band?</h3>
                             <p> Fridays, saturdays, and sundays are the days when we let loose!</p>
+                            <p>Sticky hats, Insomnia, Free Love, and Filthy Crocs are just some of the house bands that frequent our venues!</p>
                             <p>We are proud to say that we love to nourish our local bands and artists. Not only do we provide their music at our party lounge every weekend, we also love to include it at your wedding.</p>
                             <p>Look at our scheduled events, and if you don't want to listen to our bands, you can also schedule a karaoke event!</p>
                             <p>If you are in a band yourself, and want to play in our restaurant, contact us and let's schedule your next gig!</p>
                             <button class="button-landing-page" id="band-contact"><a href="#tab-contact" class="links-on-buttons">CONTACT</a></button>
                         </div>
                     </div>
+                    
                     <div class="landing-page-image landing-page-image-smaller">
-
-                        <div class="landing-page-text">
+                        <div class="landing-page-text" id="photographersTab">
                             <h3>Or a professional photographer?</h3>
                             <p><a href="#" class="links"> James O'Lear</a>, <a href="#" class="links"> Ally KISS</a>, and <a href="#" class="links"> Lizzy</a> are regularly making our dreams come to reality!</p>
                             <p>Their attention to detal is amazing, the equipment they use is modern, and the photos they take are high-quality, clean, and guaranteed to make it to your frames in your home!</p>
@@ -210,8 +211,8 @@
             <div class="container-landing-page-bck-swiper">
                 <div class=" swiper-in-landing-page-containerlandingPagGalleryContentContainer  et-slide scroll-container" id="tab-Gallery">
                     <div class="margin-gallery"><p>.</p></div>
-                    <div class="swiper mySwiper scroll-element js-scroll fade-in-bottom">
-                        <div class="swiper-wrapper">
+                    <div class="swiper mySwiper scroll-element js-scroll fade-in-bottom" id="galleryWeddingsVenues">
+                        <div class="swiper-wrapper" >
                             <div class="swiper-slide">
                                 <img src="images/weddings/foodweddings/pexels-lukas-306059.jpg">   
                             </div>
@@ -234,7 +235,7 @@
                         <div class="swiper-button-prev"></div>
                 
                         <div class="swiper-pagination"></div>
-                    </div> <div class="swiper mySwiper scroll-element js-scroll fade-in-bottom">
+                    </div> <div class="swiper mySwiper scroll-element js-scroll fade-in-bottom"  id="galleryCalmLoungeWalkIn">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <img src="images/weddings/foodweddings/pexels-lukas-306059.jpg">   
@@ -259,7 +260,7 @@
                 
                         <div class="swiper-pagination"></div>
                     </div>
-                    <div class="swiper mySwiper scroll-element js-scroll fade-in-bottom">
+                    <div class="swiper mySwiper scroll-element js-scroll fade-in-bottom" id="galleryFood">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <img src="images/weddings/foodweddings/pexels-lukas-306059.jpg">   
@@ -1136,15 +1137,14 @@
     <div class="FooterAllULcontainer">
         <ul class="footerUL bordertopNoneOnFooter">
             <h3>Gallery</h3>
-            <li><a href="#tab-Gallery" class="footerLink" onclick="showLandingPage()">Weddings</a></li>
-            <li><a href="#tab-Gallery" class="footerLink" onclick="showLandingPage()">Birthdays</a></li>
-            <li><a href="#tab-Gallery" class="footerLink" onclick="showLandingPage()">Casual</a></li>
+            <li><a href="#galleryWeddingsVenues" class="footerLink" onclick="showLandingPage()">Weddings, venues</a></li>
+            <li><a href="#galleryCalmLoungeWalkIn" class="footerLink" onclick="showLandingPage()">Calm laounge, walk in</a></li>
+            <li><a href="#galleryFood" class="footerLink" onclick="showLandingPage()">Food</a></li>
         </ul>
-
         <ul class="footerUL">            
             <h3>Services</h3>
-            <li><a href="#tab-Services" class="footerLink" onclick="showLandingPage()">Our photographers</a></li>
-            <li><a href="#tab-Services" class="footerLink" onclick="showLandingPage()">House bands</a></li>
+            <li><a href="#photographersTab" class="footerLink" onclick="showLandingPage()">Our photographers</a></li>
+            <li><a href="#houseBands" class="footerLink" onclick="showLandingPage()">House bands</a></li>
         </ul>
 
         <ul class="footerUL">            
