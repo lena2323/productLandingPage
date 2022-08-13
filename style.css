@@ -424,7 +424,6 @@ margin-bottom: 100px;
 .landing-page-text{
   
   padding-left: 0%;
-  position: relative;
   display: flex;
   flex-direction: column;
   width: 600px;
@@ -528,12 +527,10 @@ margin-bottom: 100px;
     letter-spacing: 0.1em;
   font-family: 'Times New Roman', Times, serif;
   transition: 0.3s all ease-in-out;
-
 }
 
 
 .button-landing-page:hover{
-  content: '';
   position: relative;
   vertical-align: middle;
   width: 150px;
@@ -547,7 +544,7 @@ margin-bottom: 100px;
 .button-landing-page::before{
 display: block;
 content: "";
-position: absolute;
+position:absolute;
 width: 0;
 height: 1px;
 bottom: 50%;
@@ -564,7 +561,6 @@ transition: all 0.3s ease-in-out;
 visibility: visible;
 width: 30%;
 margin-left: -30px;
-
 }
 /***********Google calendar******/
 .landingPageGalleryContentContainer-calendar{
@@ -1011,7 +1007,7 @@ textarea:focus{
 
 }
 
-.tacoRoadhouseLink{
+.links{
     color: rgb(67, 163, 253);
     font-family: 'Times New Roman', Times, serif;
 }
