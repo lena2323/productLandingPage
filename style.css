@@ -962,9 +962,41 @@ margin-left: -20px;
 
 }
 
+/*******Scroll up button********/
 
 
+.scroll-up-button-container{
+  display: flex;
+  flex-direction: column;
+  padding: 0%;
+  margin: 0px;
+  margin-right: 20px;
+  text-align: end;
+  background-color: white;
+}
+.scroll-up-button-container a{
+  text-decoration: none;
 
+}
+.scroll-up-button-container img{
+  max-width: 70px;
+
+}
+
+
+.scroll-up-button img:hover{
+ 
+  -webkit-filter: drop-shadow(0px 0px 1px rgb(223, 223, 223));
+  filter: drop-shadow(0px 0px 1px rgb(223, 223, 223)); 
+  
+}
+
+.scroll-up-button img:active{
+ 
+  -webkit-filter:drop-shadow(2px 2px 1px rgb(128, 128, 128)); ;
+  filter: drop-shadow(2px 2px 1px rgb(128, 128, 128)); 
+  
+}
 
 /*********Subscribe to our family magazine*************/
 
