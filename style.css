@@ -63,13 +63,6 @@ a.nav-link{
 }
 
 
-a.nav-link:hover{
-  color: rgb(255, 255, 255);
-  text-shadow: -1px -1px 0 rgb(202, 202, 202), 1px -1px 0 rgba(0, 0, 0, 0.452), -1px 1px 0 rgba(8, 0, 0, 0.699), 1px 1px 0 rgb(12, 10, 10);
-  font-size: 24px;
-  letter-spacing: 0.4em;
-
-}
 .homeButtonToHide{
     display: none;
 }
