@@ -2644,4 +2644,18 @@ a.nav-link:hover{
 
 }
 
+
+
+
+
+.broken-links-container.show{
+  height: 50vh;
+  padding-top: 200px;
+}
+
+.broken-links-container p{ 
+  font-size: 25px;
+  width: 350px;
+  margin: 10px;
+}
 }
