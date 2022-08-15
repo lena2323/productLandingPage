@@ -1323,11 +1323,19 @@ margin-left: -20px;
 
 
 .orderInformation{
-  margin-top: 20px;
     display: flex;
     flex-direction: column;
     z-index: 10;
 }
+
+
+.orderInformation h2{
+  margin-bottom: 50px;
+  margin-top: 0px;
+  
+}
+
+
 
 .personalInformationForm{
     text-align: left;
@@ -1342,9 +1350,8 @@ margin-left: -20px;
     flex-direction: row;
     justify-content: end;
     justify-content: end;
-    
-
 }
+
 .personalInformationFormButton button{
     -webkit-appearance: none;
     height: 30px;
@@ -1353,15 +1360,14 @@ margin-left: -20px;
     border: rgb(3, 193, 240) solid 1px;
 }
 
-.personalInformationFormButton button:active{
-    background-color: rgba(255, 255, 255, 0.39);
-    border: rgb(114, 170, 223) solid 1px;
+.personalInformationFormButton button:active:focus{
+  background-color:rgb(114, 201, 223);
+  border: rgb(114, 170, 223) solid 1px;
 
 }
 
 .personalInformationFormButton button:hover{
-  background-color:   rgb(114, 201, 223);
-
+  background-color:rgba(114, 201, 223, 0.644);
 }
 
 
@@ -1544,24 +1550,24 @@ button:disabled:hover{
 }
 
 .buttonAddToCart{
+
     text-align: center;
     width: 100px;
-    -webkit-appearance: none;
     width: 100px;
     height: 53.5px;
-    background-color: rgba(255, 255, 255, 0.281);
+    background-color: rgba(55, 226, 21, 0);
     border: none;
     border: rgb(114, 201, 223) solid 1px;
 }
 
-.buttonAddToCart:active{
-    background-color: rgba(255, 255, 255, 0.39);
-    border: rgb(114, 170, 223) solid 1px;
+.buttonAddToCart:focus:active{
+  background-color:rgb(114, 201, 223);
 
 }
 
+
 .buttonAddToCart:hover{
-  background-color:rgb(114, 201, 223);
+  background-color:rgba(114, 201, 223, 0.644);
 }
 
 .chooseTypeOfDish{
@@ -2087,6 +2093,15 @@ flex-direction: column;
 .orderInformation{
     margin: auto;
 
+}
+
+
+.orderInformation h2{
+  margin-top: 50px;
+  padding-bottom: 20px;
+  color: white;
+  border-bottom: 1px solid rgb(114, 201, 223);
+  text-align: center;
 }
 
 .textarea-orders{
