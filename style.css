@@ -1468,6 +1468,7 @@ textarea:focus{
     margin-right: 30px;
     margin-bottom: 50px;
     z-index: 10;
+    max-width: 733px;
 
 }
 
@@ -2153,21 +2154,20 @@ flex-direction: column;
 }
 
 .containerAllOrders{
-    flex-direction: column;
-    overflow-x: none;
-    width: 360px;
-    margin: auto;
-    margin-bottom: 50px;
-
+  flex-direction: column;
+  overflow-x: none;
+  width: 360px;
+  margin: auto;
+  margin-bottom: 50px;
 }
 
 
 .allDishesInOrders{
-    overflow-x: none;
-    margin: 0px;
-    padding-right: 2px;
-    padding-left: 2px;
-    
+  overflow-x: none;
+  margin: 0px;
+  padding-right: 2px;
+  padding-left: 2px;
+  
 }
 
 .chooseTypeOfDish{
