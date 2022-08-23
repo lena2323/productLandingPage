@@ -1103,8 +1103,6 @@ margin-left: -20px;
   font-weight:bolder;
   padding-top: 10px;
   text-decoration: none;
-  background-color: rgb(255, 255, 255);
-
 }
 
 .imgceo{
@@ -2680,9 +2678,14 @@ a.nav-link:hover{
   margin: 10px;
 }
 .aboutUsContent{
-  flex-direction: column;
+  flex-direction: column-reverse;
 }
 
+.ceoContainer{
+margin: auto;
+flex-direction: column-reverse;
+
+}
 .imgceo{
   padding: 0%;
   margin: auto;
