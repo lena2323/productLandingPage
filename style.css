@@ -1079,26 +1079,47 @@ margin-left: -20px;
 .aboutUsContent{
     display: flex;
     padding-top: 150px;
-    flex-direction: column;
+    flex-flow:row ;
     text-align: left;
     font-size: larger;
     color: rgb(46, 46, 46);
-   
     background-color: rgb(255, 255, 255);
     background-image: url(images/casualeentsbcg.svg);
     background-repeat: no-repeat;
     background-size: 100%;
     padding-bottom: 20px;
     letter-spacing: 0.1em;
+    margin-left: auto;
+
+}
+.ceoContainer{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-right: auto;
+}
+
+.ceoContainer a{
+  font-weight:bolder;
+  padding-top: 10px;
+  text-decoration: none;
+  background-color: rgb(255, 255, 255);
+
+}
+
+.imgceo{
+  max-width: 300px;
+  height: 200px;
+  padding-left: 10px;
 }
 
 .aboutUsContentInner{
   padding-left: 50px;
-  padding-right: 50px;
   z-index: 10;
   max-width: 800px;
   margin: auto;
   background-color: rgb(255, 255, 255);
+  margin-right: 0%;
 }
 
 .aboutUsContent h2{
@@ -2657,5 +2678,13 @@ a.nav-link:hover{
   font-size: 25px;
   width: 350px;
   margin: 10px;
+}
+.aboutUsContent{
+  flex-direction: column;
+}
+
+.imgceo{
+  padding: 0%;
+  margin: auto;
 }
 }

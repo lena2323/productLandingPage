@@ -444,34 +444,34 @@ const reservationOnCalendar = document.getElementById("reservationOnCalendar");
 
 
 makeAReservationButton.addEventListener('click',() =>{
-  subject.value = "I want to make a reservation";
+  subject.value = "Make a reservation";
   brokenLinksContainer.classList.remove("show")
 
 });
 
 readyToScheduleButton.addEventListener('click',() =>{
-  subject.value = "I want to schedule my event";
+  subject.value = "Schedule my event";
   brokenLinksContainer.classList.remove("show")
 
 });
 
 
 bandBontact.addEventListener('click',() =>{
-  subject.value = "I want my band to be available for events";
+  subject.value = "I offer my band for events";
   brokenLinksContainer.classList.remove("show")
 
 });
 
 
 bookKaty.addEventListener('click',() =>{
-  subject.value = "I want to schedule a meeting with Katy Gallagher";
+  subject.value = "Schedule a meeting with Katy";
   brokenLinksContainer.classList.remove("show")
 
 });
 
 
 reservationOnCalendar.addEventListener('click',() =>{
-  subject.value = "I want to make a reservation";
+  subject.value = "Make a reservation";
   brokenLinksContainer.classList.remove("show")
 
 });
