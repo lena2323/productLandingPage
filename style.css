@@ -31,7 +31,6 @@ a{
           box-sizing: content-box;
 }
 
-
 html {
     scroll-behavior: smooth;
   }
@@ -40,6 +39,20 @@ html {
     
     display: flex;
     flex-direction: column;
+}
+
+button{
+  font-size: unset;
+  line-height: unset;
+  display:unset;
+  padding: unset;
+  word-spacing: normal;
+  align-items: unset;
+  text-rendering: unset;
+  color: unset;
+  font-family: unset;
+  margin: unset;
+  box-sizing: unset;
 }
 
 
@@ -492,6 +505,7 @@ margin-bottom: 100px;
     letter-spacing: 0.1em;
   font-family: 'Times New Roman', Times, serif;
   transition: 0.3s all ease-in-out;
+  box-sizing: border-box;
 
 }
 
@@ -502,8 +516,7 @@ margin-bottom: 100px;
     width: 300px;
     height: 50px;
     letter-spacing: 0.3em;
-    
-    padding-left: 50px;
+    padding-left: 10px;
 
 }
 
@@ -518,15 +531,15 @@ margin-bottom: 100px;
   background-color: rgb(3, 193, 240);
   visibility: hidden;
   transition: all 0.3s ease-in-out;
-
+  box-sizing: border-box;
 }
 
 
 
 .button-landing-page-calendar:hover:before {
   visibility: visible;
-  width: 18%;
-  margin-left: -30px;
+  width: 15%;
+  margin-left: -40px;
 }
 
 
@@ -544,6 +557,8 @@ margin-bottom: 100px;
     transition: 0.3s all ease-in-out;
     font-family: 'Times New Roman', Times, serif;
     letter-spacing: 0.1em;
+    box-sizing: border-box;
+    
 
 }
 
@@ -555,7 +570,7 @@ margin-bottom: 100px;
   height: 50px;
   letter-spacing: 0.3em;
   
-  padding-left: 50px;
+  padding-left: 20px;
 
 }
 
@@ -566,7 +581,7 @@ position:absolute;
 width: 0;
 height: 1px;
 bottom: 50%;
-left: 10px;
+left: 0px;
 background-color: rgb(3, 193, 240);
 visibility: hidden;
 transition: all 0.3s ease-in-out;
@@ -577,7 +592,7 @@ transition: all 0.3s ease-in-out;
 
 .button-landing-page-casual:hover:before {
 visibility: visible;
-width: 20%;
+width: 15%;
 margin-left: -30px;
 }
 
@@ -587,14 +602,23 @@ margin-left: -30px;
 .button-landing-page{
   -webkit-appearance: none;
     height: 50px;
-    width: 100px;
+    width: 120px;
     background-color: rgb(255, 255, 255);
     border: rgb(3, 193, 240) solid 1px;
     text-align: center;
-    margin: auto 70% 20px;
+    margin: auto 70% 40px;
     letter-spacing: 0.1em;
   font-family: 'Times New Roman', Times, serif;
   transition: 0.3s all ease-in-out;
+  box-sizing: border-box;
+}
+
+
+.button-landing-page a{
+  font-size: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+
 }
 
 
@@ -604,9 +628,7 @@ margin-left: -30px;
   width: 150px;
   height: 50px;
   letter-spacing: 0.3em;
-  
-  padding-left: 30px;
-
+  padding-left: 20px;
 }
 
 .button-landing-page::before{
@@ -614,13 +636,12 @@ display: block;
 content: "";
 position:absolute;
 width: 0;
-height: 1px;
+height: 0.5px;
 bottom: 50%;
 left: 10px;
 background-color: rgb(3, 193, 240);
 visibility: hidden;
 transition: all 0.3s ease-in-out;
-
 }
 
 
@@ -666,7 +687,7 @@ margin-left: -30px;
 
 
   .landingPageGalleryContentContainer-calendar{
-    width: 370px;
+    width: 800px;
     margin: auto;
     overflow: hidden;
   }
@@ -1224,11 +1245,15 @@ margin-left: -20px;
 }
 
 
-.links-on-buttons{
+.links-on-buttons {
   text-decoration: none;
   color: black;
+
 }
 
+.links-on-buttons:hover{
+  color: black;
+}
 
 .paragraphsInMenu{
     padding-left: 20px;
@@ -2521,29 +2546,18 @@ a.nav-link:hover{
 }
 
 
-.button-landing-page-casual{
-  -webkit-appearance: none;
-    height: 30px;
-    width: 100px;
-    background-color: rgb(255, 255, 255);
-    border: rgb(3, 193, 240) solid 1px;
-    text-align: right;
-    margin: auto 70% 20px;
-    
-}
 
 .button-landing-page-calendar{
   margin: auto ;
   margin-top: 20px;
-}
+padding: 0%;}
 
 
 .button-landing-page-casual{
   margin: auto;
-  width: 200px;
-  height: 50px;
   margin-bottom: 10px;
   padding-right: 20px;
+  padding-left: 20px;
 }
 
 .button-landing-page{
