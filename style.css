@@ -83,13 +83,18 @@ a.nav-link{
   text-decoration: none;
   color: rgb(50, 51, 53);
   font-family: 'Times New Roman', Times, serif;
-  font-size: 23px;
-  letter-spacing: 0.3em;
+  font-size: 22px;
+  letter-spacing: 0.2em;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
-  transition: 0.3s all ease-in-out;
+  transition: 0.2s all ease-in-out;
 }
 
 
+a.nav-link:hover{
+  font-size: 25px;
+  letter-spacing: 0.4em ;
+
+}
 .homeButtonToHide{
     display: none;
 }
@@ -135,7 +140,6 @@ padding: 1em;
     background-color: transparent;
     position: relative;
     align-items: center;
-    
 
 }
 
@@ -527,7 +531,7 @@ margin-bottom: 100px;
   width: 0;
   height: 1px;
   bottom: 45%;
-  left: 10px;
+  left: 20px;
   background-color: rgb(3, 193, 240);
   visibility: hidden;
   transition: all 0.3s ease-in-out;
@@ -538,8 +542,8 @@ margin-bottom: 100px;
 
 .button-landing-page-calendar:hover:before {
   visibility: visible;
-  width: 15%;
-  margin-left: -40px;
+  width: 13%;
+  margin-left: -48px;
 }
 
 
@@ -1158,7 +1162,16 @@ margin-left: -20px;
 
 .aboutUsContent h2{
   text-align: center;
+  padding-top: 20px;
 }
+
+.aboutUsContent h3{
+  padding-top: 20px;
+  padding-bottom: 10px;
+
+  color: rgb(0, 173, 173)
+}
+
 
 /************MENU  ********/
 .menuContents{
@@ -2439,7 +2452,7 @@ a.nav-link:hover{
     color: rgb(255, 255, 255);
     text-shadow: -1px -1px 0 rgb(202, 202, 202), 1px -1px 0 rgba(0, 0, 0, 0.452), -1px 1px 0 rgba(8, 0, 0, 0.699), 1px 1px 0 rgb(12, 10, 10);
     font-size: 24px;
-    letter-spacing: 0.4em;
+    letter-spacing: 0.4em ;
 
 }
 
