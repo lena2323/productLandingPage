@@ -128,9 +128,12 @@ function showAboutUs(){
   hideHamburger()
   aboutUsContent.classList.remove('hide');
   brokenLinksContainer.classList.remove("show")
-
 }
 
+function hideAboutUs(){
+  aboutUsContent.classList.add('hide');
+
+}
 
 function showMenu(){
   everythingToHideOnLandingPage()

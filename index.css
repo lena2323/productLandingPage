@@ -138,6 +138,29 @@
   background: rgba(228, 228, 228, 0.952);
 }
 
+/****accordion***/
+.accordion {
+  padding-top: 40px;
+  padding-left: 20px;
+  width: 300px;
+  text-align: left;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: rgba(0, 255, 255, 0);
+  border: none;
+  color: rgb(0, 173, 173);
+}
+
+.accordion-button:focus {
+  border: none;
+  box-shadow: none;
+}
+
+.faqh2 {
+  margin-bottom: 10px;
+}
+
 @media (max-width: 1200px) {
   .bot-nav-bar {
     font-size: 15px;
@@ -198,5 +221,10 @@
     color: rgb(236, 236, 236);
     letter-spacing: 0.2rem;
     font-size: 20px;
+  }
+  .accordion {
+    padding-top: 40px;
+    padding-left: 0px;
+    width: 400px;
   }
 }/*# sourceMappingURL=index.css.map */
