@@ -1115,6 +1115,10 @@ margin-left: -20px;
   font-weight:bolder;
   padding-top: 10px;
   text-decoration: none;
+  background-color: #ffffff;
+  max-width: 300px;
+  padding-left: 10px;
+
 }
 
 .imgceo{
