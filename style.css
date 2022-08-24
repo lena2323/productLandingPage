@@ -2679,10 +2679,6 @@ a.nav-link:hover{
 
 }
 
-
-
-
-
 .broken-links-container.show{
   height: 50vh;
   padding-top: 200px;
@@ -2693,17 +2689,31 @@ a.nav-link:hover{
   width: 350px;
   margin: 10px;
 }
+/********About us********/
 .aboutUsContent{
   flex-direction: column;
+
 }
 
 .ceoContainer{
 margin: auto;
 flex-direction: column;
+padding-left: 0%;
+margin: 0%;
 
 }
 .imgceo{
   padding: 0%;
   margin: auto;
+  padding-left: 0%;
+
 }
+.aboutUsContentInner{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.ceoContainer a{
+  max-width: 100%;
+}
+
 }

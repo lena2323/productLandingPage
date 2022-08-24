@@ -225,6 +225,13 @@
   .accordion {
     padding-top: 40px;
     padding-left: 0px;
-    width: 300px;
+    width: 80%;
+    margin: auto;
+  }
+  .accordion-item {
+    margin: auto;
+  }
+  .accordion-button {
+    width: 90%;
   }
 }/*# sourceMappingURL=index.css.map */
