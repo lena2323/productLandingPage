@@ -335,17 +335,6 @@ a.footerLink:hover:before {
   padding-top: 50px;
 }
 
-.container-landing-page-bck-events{
-  background-color: white;
-  background-image: url(images/casualeentsbcg.svg);
-  background-size:  cover ;
-  background-repeat: no-repeat;
-  background-position: center;
-  padding: 0%;
-  margin: 0%;
-  margin-bottom: 0px;
-}
-
 .container-landing-page-bck-swiper{
   padding: 0%;
   margin: 0%;
@@ -578,7 +567,6 @@ a.footerLink:hover:before {
 
 .landingPageGalleryContentContainer-calendar{
   display: flex;
-  text-align: left;
   flex-flow: column wrap;
   margin: auto;
   align-items: center;
@@ -597,6 +585,21 @@ a.footerLink:hover:before {
   color: white;
 }
 
+.container-landing-page-bck-events{
+  background-color: white;
+  background-image: url(images/casualeentsbcg.svg);
+  background-size:  cover ;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 0px;
+  align-items: center;
+  margin-left: 0%;
+  margin-right: 0%;
+  padding-left: 0%;
+  padding-right: 0%;
+  
+}
+
 @media (max-width: 1200px) {
 iframe{
   width: 370px;
@@ -605,8 +608,12 @@ iframe{
 } 
 
 .landingPageGalleryContentContainer-calendar{
-  width: 400px;
+  width: 380px;
   text-align: center;
+  padding: 0%;
+  margin: auto;
+  align-items: center;
+
 }
 }
 
@@ -2004,7 +2011,6 @@ flex-direction: column;
   width: 120px;
   text-align: center;
   color: #1f1f1f;
-  font-weight: 1000;
 }
 
 
