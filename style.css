@@ -1212,19 +1212,16 @@ margin-left: -20px;
 
 .orderContainer{
   display: flex;
-  flex-direction: row;
+  flex-flow: row wrap;  
   padding-top: 200px;
   margin: auto;
-  padding-left: 20px;
-  justify-content: space-between;
-  padding-right: 140px;
-  padding-left: 100px;
   background-image: url(images/bckgsmaller.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position:top;
   background-color: #3c3c3c;
-  letter-spacing: 0.2em;
+  text-align: center;
+  justify-content: center;
 }
 
 .orderForm{
@@ -1243,6 +1240,12 @@ margin-left: -20px;
   margin-top: 0px;
 }
 
+@media only screen and (max-width: 1607px){
+.orderInformation h2{
+  color: white;
+}
+}
+
 .personalInformationForm{
   text-align: left;
   justify-content: left;
@@ -1255,6 +1258,7 @@ margin-left: -20px;
   flex-direction: row;
   justify-content: end;
   justify-content: end;
+  margin-bottom: 20px;
 }
 
 .personalInformationFormButton button{
@@ -1972,18 +1976,15 @@ flex-direction: column;
 
 .containerAllOrders{
   flex-direction: column;
-  overflow-x: none;
   width: 360px;
   margin: auto;
   margin-bottom: 50px;
 }
 
 .allDishesInOrders{
-  overflow-x: none;
   margin: 0px;
   padding-right: 2px;
   padding-left: 2px;
-  
 }
 
 .chooseTypeOfDish{
@@ -2005,25 +2006,42 @@ flex-direction: column;
   font-weight: 1000;
 }
 
-.actions input{
-  margin: 0px;
-}
 
 .singleDish{
   justify-content: left;
   flex-direction: column;
+  border-bottom: solid 1px rgb(114, 201, 223);
 }
+
+.singleDish h3{
+  font-size: 15px;
+  letter-spacing: 0.1em;
+  width: 130px;
+}
+
+.singleDish p{
+  font-size: 15px;
+  letter-spacing: 0.1em;
+}
+
+.singleDish img{
+  height: auto;
+  width: 100px;
+}
+
 
 .buttonAddToCart{
   margin-left: 5px;
   margin-right: 5px;
-  height: 34px;
+  height: 40px;
   width:60px;
 }
 
-input[type=number]{
+.actions input[type=number]{
   height: 30px;
-  width:40px
+  width:40px;
+  margin-left: 0%;
+  margin-right: 10px;
 }
 
 .cart{
@@ -2039,6 +2057,9 @@ input[type=number]{
   border-bottom: rgb(114, 201, 223) solid 1px;
 }
 
+.actions{
+  justify-content: center;
+}
 /************HAMBURGER*****************/
 
 .hamburgerContainer {
