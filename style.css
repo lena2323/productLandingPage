@@ -1277,10 +1277,9 @@ margin-left: -20px;
 /************ACTUAL FORMS*****************/
 
 .personalInformationForm label{
-  background-color: rgba(216, 216, 216, 0);
   border: rgb(114, 201, 223) solid 1px;
   border-bottom: white 1px solid;
-  margin-top: -20px;
+  margin-top: -25px;
   margin-left: 0px;
 }
 
@@ -1304,7 +1303,7 @@ input[type=text]{
   width: 360px;
   height: 50px;
   color: black;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255) ;
   border: none;
   border: rgb(114, 201, 223) solid 1px;
 }
