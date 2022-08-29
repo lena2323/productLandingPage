@@ -1911,7 +1911,8 @@ a.bot-nav-link{
   flex-direction: column;
   margin: auto;
   justify-content: center;
-  padding: 0%;
+  padding-left: 50px;
+  padding-right: 50px;
 }
   
 .main-dishes-meals img{
